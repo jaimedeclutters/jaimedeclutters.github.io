@@ -80,7 +80,6 @@
           <div class="isRight">
             <h5 class="index-headline featured"><span>Supported by</span></h5>
             <footer class="site-footer">
-              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
               <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
               <div class="inner">
                 <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
@@ -105,16 +104,18 @@
         {% endif %}
       </article>
     </main>
-    <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
-        Image
+    {% if site.logo %}
+      <div class="blog-header">
+        <a class="blog-logo bottom" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
       </div>
-      <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="/" class="btn">Back to Overview</a>
-      </div>
+    {% endif %}
+
+    <div class="teaserimage bottom">
+        <div class="teaserimage-image-no-paralax" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
+            Teaser Image
+        </div>
     </div>
+
     {% include javascripts.html %}
   </body>
 </html>

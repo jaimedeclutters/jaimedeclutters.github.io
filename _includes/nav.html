@@ -1,0 +1,24 @@
+<header class="blog-header">
+    {% if site.logo and page.url == '/' %}
+      <a class="blog-logo top" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
+    {% endif %}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
+      <a href="/"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
+      <a href="/about/"{% if page.url == '/about/' %} class="active"{% endif %}>About</a>
+      <a href="/blog/"{% if page.url == '/blog/' %} class="active"{% endif %}>Blog</a>
+      <a href="/consult/"{% if page.url == '/consult/' %} class="active"{% endif %}>Consult</a>
+      <a href="/photos/"{% if page.url == '/photos/' %} class="active"{% endif %}>Photos</a>
+      <a href="/books/"{% if page.url == '/books/' %} class="active"{% endif %}>Books</a>
+      <a href="/contact/"{% if page.url == '/contact/' %} class="active"{% endif %}>Contact</a>
+    </div>
+</header>

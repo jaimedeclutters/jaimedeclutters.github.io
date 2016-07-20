@@ -75,6 +75,16 @@ body
     bottom: 0
     z-index: 1
     text-indent: -9999px
+  .teaserimage-image-no-paralax
+    background-size: cover
+    background-position: center
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 1
+    text-indent: -9999px
 
 .blog-header
   width: 100%
@@ -89,7 +99,6 @@ body
     width: $rs*7.5
     height: $rs*7.5
     position: absolute
-    top: -$rs*5
     right: 40%
     margin-right: -$rs*3.75
     background-size: cover
@@ -101,6 +110,10 @@ body
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     box-shadow: 0 1px 1px rgba(0,0,0,0.3)
+    &.top
+      top: -$rs*5
+    &.bottom
+      bottom: -$rs*6
   .blog-title
     margin: 0
     padding: $rs*5.25 $rs $rs/2
@@ -234,6 +247,7 @@ body
 .site-footer
   margin: 0 auto
   padding: $rs*3 0
+  margin-bottom: $rs*3
   width: 100%
   max-width: 640px
   font-size: $rs/4*3
