@@ -5,6 +5,8 @@
 
 @import 'bourbon/bourbon'
 
+@import 'angling'
+
 .cf
   @include clearfix
 
@@ -59,7 +61,7 @@ body
     background-repeat: no-repeat
 
 .teaserimage
-  height: 450px
+  height: 400px
   position: relative
   overflow: hidden
   background-color: #000
@@ -87,8 +89,8 @@ body
     width: $rs*7.5
     height: $rs*7.5
     position: absolute
-    top: -$rs*3.75
-    right: 50%
+    top: -$rs*5
+    right: 40%
     margin-right: -$rs*3.75
     background-size: cover
     border-radius: 50%
@@ -123,6 +125,8 @@ body
     text-align: center
     color: #ccc
     a
+      padding-left: 10px
+      padding-right: 10px
       text-decoration: none
       color: #999
       &:hover
