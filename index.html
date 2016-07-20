@@ -28,7 +28,7 @@ layout: default
       <a href="/blog/">Blog</a>
       <a href="/consult/">Consult</a>
       <a href="/photos/">Photos</a>
-      <a href="/read/">Read</a>
+      <a href="/books/">Books</a>
       <a href="/contact/">Contact</a>
     </div>
 </header>
@@ -36,6 +36,8 @@ layout: default
 
 <main class="content" role="main">
   <a name="topofpage"></a>
-  {% capture welcome %}{% include welcome.md %}{% endcapture %}
-  {{ welcome | markdownify }}
+  <div class="welcome">
+    {% capture welcome %}{% include welcome.md %}{% endcapture %}
+    {{ welcome | markdownify }}
+  </div>
 </main>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Read
-permalink: /read/
+title: Books
+permalink: /books/
 ---
 
 Book recommendations here
