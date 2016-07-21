@@ -13,7 +13,7 @@
 $rs: 16px
 
 $font-serif: Linux Libertine
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-sans: Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -47,7 +47,7 @@ body
   top: 10px
   width: $rs*3
   height: $rs*3
-  background-color: #000
+  background-color: #8DDBE7
   overflow: hidden
   z-index: 99
   .logo
@@ -88,7 +88,7 @@ body
 
 .blog-header
   width: 100%
-  max-width: 640px
+  max-width: 800px
   margin: 0 auto
   position: relative
   padding: 0
@@ -96,10 +96,10 @@ body
   @include respond-to(800)
     padding: 0 $rs
   .blog-logo
-    width: $rs*7.5
-    height: $rs*7.5
+    width: $rs*10
+    height: $rs*10
     position: absolute
-    right: 40%
+    right: 0
     margin-right: -$rs*3.75
     background-size: cover
     border-radius: 50%
@@ -111,18 +111,18 @@ body
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     &.top
-      top: -$rs*5
+      top: -$rs*7
     &.bottom
-      bottom: -$rs*6
+      bottom: -$rs*7
   .blog-title
     margin: 0
     padding: $rs*5.25 $rs $rs/2
-    font-size: 50px
+    font-size: 72px
     text-align: center
-    font-weight: 700
-    letter-spacing: -2px
+    font-weight: 500
+    letter-spacing: 4px
     outline: 0
-    line-height: 50px
+    line-height: 72px
     word-break: break-word
     color: #333
   .blog-description
@@ -142,6 +142,7 @@ body
       padding-right: 10px
       text-decoration: none
       color: #999
+      letter-spacing: 4px
       &:hover
         color: #333
       &.active
@@ -198,9 +199,12 @@ body
   h1
     font-size: $rs*3
     font-weight: 300
+    letter-spacing: 4px
   p
-    font-size: $rs
-    letter-spacing: 1px
+    color: #333
+    font-size: $rs*1.5
+    letter-spacing: 2px
+    line-height: $rs*3
 
 .index-headline
   border-top: 1px solid #dededc

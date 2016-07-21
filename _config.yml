@@ -10,8 +10,9 @@ title: "Jaime Declutters"
 email: jaimedurheim@gmail.com
 #blog logo
 logo: "/assets/images/jd_logo.jpg"
+logo_normal: "/assets/images/jd_logo_normal.jpg"
 # blog cover
-cover: "/assets/images/ceiling.jpg"
+cover: "/assets/images/site-backdrop.jpg"
 
 name: 'Jaime Durheim'
 author: 'Jaime Durheim'
