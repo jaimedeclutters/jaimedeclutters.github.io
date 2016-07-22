@@ -8,4 +8,6 @@ Is there an area of your home that stresses you out, that easily collects clutte
 
 No judgments here. I will never force you to get rid of something. I'm here's for creative ideas, positive encouragement, and helping you follow-through on your decluttering goals.
 
-$20/hour, 2.5 hour minimum
+<div class="rate-info">
+  $20/hour, 2.5 hour minimum
+</div>
