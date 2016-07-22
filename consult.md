@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Consult...
+title: Declutter...
 permalink: /consult/
 ---
-
-# Declutter #
 
 Is there an area of your home that stresses you out, that easily collects clutter? We can tackle those spaces together, reduce your stress, and create a system to help eliminate new clutter.
 
