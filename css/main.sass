@@ -15,6 +15,7 @@ $rs: 16px
 $font-serif: Linux Libertine
 $font-sans: Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
+$primary-color: #8DDBE7
 
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
@@ -47,7 +48,7 @@ body
   top: 10px
   width: $rs*3
   height: $rs*3
-  background-color: #8DDBE7
+  background-color: $primary-color
   overflow: hidden
   z-index: 99
   .logo
@@ -653,6 +654,52 @@ pre
     padding-left: 0
 
 .rate-info
-  background-color: #8DDBE7
+  background-color: $primary-color
   color: white
   padding: 0.5rem
+
+.page-tabs
+  display: flex
+  .photo-page
+    display: flex
+    flex-direction: column
+    justify-content: center
+    flex: 1
+    padding: 1rem
+    text-align: center
+    a.photo-page-link
+      text-transform: uppercase
+      font-size: 1rem
+      text-decoration: none
+      color: #999
+      &.active
+        color: #333
+        .image-overlay
+          border: 2px solid $primary-color
+      &:hover
+        color: #333
+    .photo-page-image
+      min-height: 200px
+      max-height: 400px
+      width: auto
+      background-size: cover
+      background-position: center
+      position: relative
+      .image-overlay
+        border: 2px solid white
+        position: absolute
+        width: 100%
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        background-color: rgba(256, 256, 256, 0.8)
+        .photo-page-title
+          margin: 0
+
+main
+  .page-content
+    img
+      max-height: 500px
+      display: block
+      margin: 0 auto
