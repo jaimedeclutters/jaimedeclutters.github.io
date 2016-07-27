@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "Photos: Home Tour"
+layout: photo-page
+title: "Photos..."
 permalink: /photos/home-tour/
 images-folder: /assets/images/photo-pages/home-tour/
 ---
