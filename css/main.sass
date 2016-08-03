@@ -11,6 +11,7 @@ $rs: 16px
 
 @import 'angling'
 @import 'post'
+@import 'books'
 
 .cf
   @include clearfix
@@ -131,6 +132,9 @@ body
     line-height: 72px
     word-break: break-word
     color: #333
+    @media(max-width: 700px)
+      font-size: 60px
+      line-height: 60px
   .blog-description
     margin: 0 0 20px
     padding: 0 $rs*2
