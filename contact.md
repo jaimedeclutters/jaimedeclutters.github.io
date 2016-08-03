@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Contact
+title: Email...
 permalink: /contact/
 ---
 
-Contact info here
+I would love to hear from you. If you would like to chat about decluttering, email me below.
+
+{% include contact-form.html %}
