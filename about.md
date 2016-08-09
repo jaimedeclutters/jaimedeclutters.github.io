@@ -2,8 +2,10 @@
 layout: page
 title: Hi...
 permalink: /about/
-image: /assets/images/author.jpg
+circle-photo: /assets/images/author.jpg
 ---
+
+{% include circle-photo.html %}
 
 I'm Jaime – a wife, a mom of 3, and a minimalist. Here is my story.
 
