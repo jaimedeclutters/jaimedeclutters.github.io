@@ -25,5 +25,5 @@ Every home has the potential to be a beautiful space for your life. I would be h
 </span>
 
 <span class="rate-info">
-  $25/hour for time implementing design (moving furniture, painting), 2 hour minimum
+  $25/hour For time implementing design (moving furniture, painting), 2 hour minimum
 </span>
