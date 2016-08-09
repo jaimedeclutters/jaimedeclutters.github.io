@@ -138,9 +138,13 @@ body
     line-height: 72px
     word-break: break-word
     color: #333
-    @media(max-width: 700px)
+    @media (max-width: 700px) and (min-width: 400px)
       font-size: 60px
       line-height: 60px
+    @media(max-width: 400px)
+      font-size: 48px
+      line-height: 48px
+
   .blog-description
     margin: 0 0 20px
     padding: 0 $rs*2
@@ -221,9 +225,16 @@ body
     letter-spacing: 4px
   p, li
     color: #333
-    font-size: $rs*1.5
+    @media(min-width: 700px)
+      font-size: $rs*1.5
+      line-height: $rs*3
+    @media (max-width: 700px) and (min-width: 400px)
+      font-size: $rs*1.4
+      line-height: $rs*2.8
+    @media(max-width: 400px)
+      font-size: $rs*1.2
+      line-height: $rs*2.4
     letter-spacing: 2px
-    line-height: $rs*3
 
 .index-headline
   border-top: 1px solid #dededc
