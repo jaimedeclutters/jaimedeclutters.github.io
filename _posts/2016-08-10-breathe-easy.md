@@ -7,15 +7,15 @@ image: /assets/article_images/2016-08-10-breathe-easy/breathe-easy.jpg
 
 When you look around your home, do you see open space, a place to sit back and relax, a space that is easy to maintain?
 
-Or does your home feel cluttered? Are toys taking over multiple rooms of your home? Are kitchen cabinets packed? Does your home office seem to constantly be a mess? And no matter how many organizing tools you may buy at target, your closets still end up unorganized? Maybe your basement or garage has become cluttered with boxes?
+Or does your home feel cluttered? Are toys taking over multiple rooms of your home? Are kitchen cabinets packed? Does your home office seem to constantly be a mess? And no matter how many organizing tools you may buy at Target, your closets still end up unorganized? Maybe your basement or garage has become cluttered with boxes?
 
 __All of this stuff can create unnecessary stress in our lives:__
 
 When you have to park your car in the driveway due to lack of space, you now have to spend time cleaning ice and snow off your car in the winter.
 
-When your kids toys seem to spread throughout the house and you step on a lego trying not to swear out loud in pain – its happened, right! - and then you battle with your kids to clean up their toys.
+When your kids toys seem to spread throughout the house and you step on a lego trying not to swear out loud in pain – it's happened, right! - and then you battle with your kids to clean up their toys.
 
-You want to get some work done at your desk, but its covered in papers so you move your laptop to the kitchen table to get the space you need.
+You want to get some work done at your desk, but it's covered in papers so you move your laptop to the kitchen table to get the space you need.
 
 You find yourself lacking in storage space in your kitchen and spend a bunch of money adding cabinetry, only to find that you still don't have enough storage.
 
