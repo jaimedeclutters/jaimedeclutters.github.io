@@ -761,6 +761,11 @@ main
         margin-bottom: 2rem
       .image-pair
         display: flex
+        flex-direction: row
+        &.horizontal
+          flex-direction: column
+          figure
+            max-width: 100%
         figure
           flex: 1
           max-width: 48%
@@ -771,7 +776,6 @@ main
             text-transform: uppercase
             color: #999
             letter-spacing: 4px
-
 
 .clear
   clear: both
