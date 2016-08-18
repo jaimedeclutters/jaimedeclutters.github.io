@@ -18,7 +18,7 @@ permalink: /blog/
               <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+              <p>{{ post.content | strip_html }}</p>
               <p><a href="{{ post.url }}">Read more</a></p>
             </section>
             <div class="post-meta">
@@ -46,7 +46,7 @@ permalink: /blog/
 <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.excerpt | strip_html | truncatewords: 50 }} <a href="{{ post.url }}">(Read more...)</a></p>
+              <p>{{ post.excerpt | strip_html }} <a href="{{ post.url }}">(Read more...)</a></p>
             </section>
 
           </div>
