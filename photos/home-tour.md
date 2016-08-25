@@ -7,45 +7,32 @@ images-folder: /assets/images/photo-pages/home-tour/
 
 {% include photo-pages.html %}
 
-![Photo of kids at kitchen table with chalkboard message "Create Margin"][kitchen-table]
+![Photo of kids at kitchen table with chalkboard message "Create Margin"]({{page.images-folder}}kitchen-table.jpg)
 
-![Photo of upper portion of built-in bench and cubbies; backpacks hanging on hooks][bench-high]
+![Photo of upper portion of built-in bench and cubbies; backpacks hanging on hooks]({{page.images-folder}}bench-high.jpg)
 
-![Photo of lower portion of built-in bench with shoes and sandals neatly lined up][bench-low]
+![Photo of lower portion of built-in bench with shoes and sandals neatly lined up]({{page.images-folder}}bench-low.jpg)
 
-![Photo of a wire basket with kids toys and games next to couch][basket]
+![Photo of a wire basket with kids toys and games next to couch]({{page.images-folder}}basket.jpg)
 
-![Photo of couch in front of window][couch]
+![Photo of couch in front of window]({{page.images-folder}}couch.jpg)
 
-![Photo of television on table with basket of toys underneath][television]
+![Photo of television on table with basket of toys underneath]({{page.images-folder}}television.jpg)
 
-![Photo of white woodwork kitchen with clean, uncluttered countertops][kitchen]
+![Photo of white woodwork kitchen with clean, uncluttered countertops]({{page.images-folder}}kitchen.jpg)
 
-![Photo of stairs with wooden gate][stairs]
+![Photo of stairs with wooden gate]({{page.images-folder}}stairs.jpg)
 
-![Photo of clean linen closet with a few items on shelves][linen-closet]
+![Photo of clean linen closet with a few items on shelves]({{page.images-folder}}linen-closet.jpg)
 
-![Photo of bed with pictures above, hat and pajamas hanging on corners of headboard][bed]
+![Photo of bed with pictures above, hat and pajamas hanging on corners of headboard]({{page.images-folder}}bed.jpg)
 
-![Photo of minimal desk with picture frame and laptop][desk]
+![Photo of minimal desk with picture frame and laptop]({{page.images-folder}}desk.jpg)
 
-![Photo of clean, organized kids closet][kids-closet]
+![Photo of girls bedroom]({{page.images-folder}}girls-room-beds.jpg)
 
-[kitchen-table]: {{page.images-folder}}kitchen-table.jpg
+![Photo of vertically stacked letters on wall in kids bedroom]({{page.images-folder}}girls-room-letters.jpg)
 
-[bench-high]: {{page.images-folder}}bench-high.jpg
-[bench-low]: {{page.images-folder}}bench-low.jpg
+![Photo of steel sign and book shelf in kids bedroom]({{page.images-folder}}girls-room-sign-and-books.jpg)
 
-[basket]: {{page.images-folder}}basket.jpg
-[couch]: {{page.images-folder}}couch.jpg
-[television]: {{page.images-folder}}television.jpg
-
-[kitchen]: {{page.images-folder}}kitchen.jpg
-[stairs]: {{page.images-folder}}stairs.jpg
-
-[linen-closet]: {{page.images-folder}}linen-closet.jpg
-
-[bed]: {{page.images-folder}}bed.jpg
-[desk]: {{page.images-folder}}desk.jpg
-
-[kids-closet]: {{page.images-folder}}kids-closet.jpg
+![Photo of clean, organized kids closet]({{page.images-folder}}kids-closet.jpg)
