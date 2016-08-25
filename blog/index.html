@@ -15,7 +15,7 @@ permalink: /blog/
           <div class="article-item">
             <header class="post-header">
               {% if page.image %}<div class="title-image"><a href="{{ post.url }}" itemprop="url"><img src="{{ page.image }}"></img></a></div>{% endif %}
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}{% if post.subtitle %}<br>{{ post.subtitle }}{% endif %}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
               <p>{{ post.content | strip_html }}</p>
@@ -23,7 +23,6 @@ permalink: /blog/
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-  <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
           </div>
         </article>
@@ -39,11 +38,10 @@ permalink: /blog/
           <div class="article-item">
             <header class="post-header">
               {% if post.image %}<div class="title-image"><a href="{{ post.url }}" itemprop="url"><img src="{{ post.image }}"></img></a></div>{% endif %}
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}{% if post.subtitle %}<br>{{ post.subtitle }}{% endif %}</a></h2>
             </header>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
             <section class="post-excerpt" itemprop="description">
               <p>{{ post.excerpt | strip_html }} <a href="{{ post.url }}">(Read more...)</a></p>
@@ -67,9 +65,5 @@ permalink: /blog/
         {% endif %}
       {% endif %}
     </nav>
-
-
-    <!-- {{!! After all the posts, we have the previous/next pagination links }}
-    {{pagination}} -->
 
 </main>

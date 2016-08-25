@@ -25,7 +25,7 @@ permalink: /blog/:categories/:year/:month/:day/:slug/
 paginate:	5
 paginate_path: "/blog/page:num/"
 
-url: "https://jaimedeclutters.github.io" # the base hostname & protocol for your site
+url: "http://www.jaimedeclutters.com" # the base hostname & protocol for your site
 baseurl: ""
 
 #fill in disqus shortname to use disqus

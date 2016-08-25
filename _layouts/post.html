@@ -8,7 +8,7 @@ layout: default
   <article class="post">
     <section class="post-content">
       {% if page.image %}<div class="title-image"><img src="{{ page.image }}"></img></div>{% endif %}
-      {% if page.title %}<h1 class="post-title">{{ page.title }}</h1>{% endif %}
+      {% if page.title %}<h1 class="post-title">{{ page.title }}{% if page.subtitle %}<br>{{ page.subtitle }}{% endif %}</h1>{% endif %}
       {{ content }}
     </section>
     <footer class="post-footer">
@@ -34,13 +34,13 @@ layout: default
           <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
         </section>
       </div>
-      {{/post}}
+      {{post}}
       <div class="isRight">
         <h5 class="index-headline featured"><span>Supported by</span></h5>
         <footer class="site-footer">
           <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
           <div class="inner">
-            <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
+            <section class="copyright">All content copyright <a href="{{blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
           </div>
         </footer>
       </div>
