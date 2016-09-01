@@ -470,8 +470,10 @@ body
         line-height: $rs*2.4
       letter-spacing: 2px
     a
-      color: #333
-      text-decoration: underline
+      color: $primary-color
+      text-decoration: none
+      &:hover
+        text-decoration: underline
     img
       max-width: 100%
       margin: 0 auto
@@ -509,7 +511,7 @@ body
         font-weight: 400
         padding-bottom: 3px
     ul, ol
-      padding: 0 0 0 0
+      padding: 0 0 0 $rs
       margin: 0
     li
       padding: 0
