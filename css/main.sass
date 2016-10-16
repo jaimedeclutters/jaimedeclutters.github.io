@@ -2,6 +2,8 @@
 ---
 
 $primary-color: #8DDBE7
+$us-color: #38761D
+$meta-color: #999
 
 $rs: 16px
 
@@ -436,28 +438,34 @@ body
     font-family: $font-sans
     color: #333
     h1
-      font-size: $rs*3
+      font-size: $rs*3.0
       font-weight: 300
       letter-spacing: 4px
     h2
-      font-size: $rs*2.8
-      font-weight: 300
+      font-size: $rs*2.0
+      font-weight: 200
       letter-spacing: 4px
+      text-transform: uppercase
     h3
-      font-size: $rs*2.6
-      font-weight: 300
+      font-size: $rs*1.8
+      font-weight: 200
       letter-spacing: 4px
+      color: $meta-color
+      text-transform: uppercase
     h4
-      font-size: $rs*2.4
-      font-weight: 300
+      font-size: $rs*1.6
+      font-weight: 200
       letter-spacing: 3px
+      color: $us-color
+      text-transform: uppercase
+      text-align: center
     h5
-      font-size: $rs*2.2
-      font-weight: 300
+      font-size: $rs*1.4
+      font-weight: 200
       letter-spacing: 3px
     h6
-      font-size: $rs*2.0
-      font-weight: 300
+      font-size: $rs*1.2
+      font-weight: 200
       letter-spacing: 3px
     p, li
       color: #333
@@ -471,6 +479,11 @@ body
         font-size: $rs*1.2
         line-height: $rs*2.4
       letter-spacing: 2px
+      .us-text
+        font-weight: 100
+        color: $us-color
+        text-transform: uppercase
+        font-size: $rs
     a
       color: $primary-color
       text-decoration: none
@@ -525,7 +538,7 @@ body
       padding-top: 2px
       p
         padding: 0 0 golden-ratio(1rem,  1)
-    ol li
+    ol > li
       list-style-type: decimal
   .bottom-teaser
     padding: 50px 0
