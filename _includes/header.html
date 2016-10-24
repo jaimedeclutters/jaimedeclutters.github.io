@@ -1,5 +1,11 @@
-<!-- header start -->
-
-<a href="{{ site.url }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo_normal }})"></span></a>
-
-<!-- header end -->
+<header class="site-header">
+  <nav class="navbar">
+    <ul class="navbar-list navbar-list--logo">
+      <li class="navbar-list__item navbar-list__item--current"><a href="/" data-hover="Jaime Declutters">Jaime Declutters</a></li>
+    </ul>
+    <ul class="navbar-list">
+      <li class="navbar-list__item {% if page.url == "/about/" %}navbar-list__item--current{% endif %}"><a href="/resources/" data-hover="Resources">Resources</a></li>
+      <li class="navbar-list__item {% if page.url == "/archive/" %}navbar-list__item--current{% endif %}"><a href="/madison-wi/" data-hover="Madison, WI">Madison, WI</a></li>
+    </ul>
+  </nav>
+</header>

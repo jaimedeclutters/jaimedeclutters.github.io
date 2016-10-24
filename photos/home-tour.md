@@ -5,8 +5,6 @@ permalink: /photos/home-tour/
 images-folder: /assets/images/photo-pages/home-tour/
 ---
 
-{% include photo-pages.html %}
-
 ![Photo of kids at kitchen table with chalkboard message "Create Margin"]({{page.images-folder}}kitchen-table.jpg)
 
 ![Photo of upper portion of built-in bench and cubbies; backpacks hanging on hooks]({{page.images-folder}}bench-high.jpg)

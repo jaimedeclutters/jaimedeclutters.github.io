@@ -1,37 +1,36 @@
 ---
 layout: default
 ---
-{% if page.url == '/' %}
-<div class="teaserimage top">
-    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
-        Teaser Image
-    </div>
+
+<div class="col-three-quarters">
+  <article class="post">
+    <header class="post__header">
+      <div class="post__title">
+        <h1 class="post__title--main">{{ page.title }}</h1>
+        {% if page.subtitle %}<h2 class="post__title--subtitle">{{ page.subtitle }}</h2>{% endif %}
+      </div>
+      {% if page.image %}
+      <img src="{{ page.image }}" class="post__header__image" alt="" />
+      {% endif %}
+    </header>
+
+    <main class="post__body">
+      {% include affiliate.html %}
+      {{ content }}
+    </main>
+
+    <fooder class="post__footer">
+      <hr>
+      {% if page.comments %}
+        <hr>
+        {% include comments.html %}
+      {% endif %}
+    </footer>
+  </article>
 </div>
-{% endif %}
 
-{% include nav.html %}
-
-<main class="content" role="main">
-  <a name="topofpage"></a>
-  <div class="page-content">
-    {% if page.image %}<div class="title-image"><img src="{{ page.image }}"></img></div>{% endif %}
-    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-    {{ content }}
+<div class="side-column col">
+  <div class="side-column__content">
+    {% include about.html %}
   </div>
-</main>
-
-{% include footer.html %}
-
-{% if page.url != '/' %}
-  {% if site.logo %}
-    <div class="blog-header">
-      <a class="blog-logo bottom" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
-    </div>
-  {% endif %}
-
-<div class="teaserimage bottom">
-    <div class="teaserimage-image-no-paralax" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
-        Teaser Image
-    </div>
 </div>
-{% endif %}

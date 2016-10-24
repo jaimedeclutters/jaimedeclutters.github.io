@@ -5,8 +5,6 @@ permalink: /about/
 circle-photo: /assets/images/author.jpg
 ---
 
-{% include circle-photo.html %}
-
 I'm Jaime – a wife, a mom of 3, and a minimalist. Here is my story.
 
 Walking through my home a few years ago this is what you would notice:
