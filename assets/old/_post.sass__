@@ -1,0 +1,27 @@
+article.post
+  .post-content
+    em
+      color: $meta-color
+    blockquote
+      font-style: normal
+      color: #333
+      border-left: 1px solid $primary-color
+      border-right: 1px solid $primary-color
+      margin-left: -26px
+      margin-right: -26px
+
+.title-image
+  margin-bottom: 3rem
+  img
+    display: block
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 2rem
+    @media(min-width: 700px)
+      width: $rs*20
+      height: $rs*20
+    @media(max-width: 700px)
+      width: $rs*12
+      height: $rs*12
+    border-radius: 50%
+    border: 3px solid $primary-color
