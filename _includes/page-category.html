@@ -1,0 +1,8 @@
+{% if page.category %}
+  <span class="tags">
+  <i class="fa fa-tags"></i>
+  {% for category in page.categories %}
+    <a class="tags__tag" href="/blog#{{ category | handleize | replace: ' ', '-'}}"><span>{{ category | capitalize }}</span></a>{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  </span>
+{% endif %}

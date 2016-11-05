@@ -13,10 +13,6 @@ comments: true
         <h1 class="post__title--main" itemprop="name headline">{{ page.title }}</h1>
         {% if page.subtitle %}<h2 class="post__title--subtitle">{{ page.subtitle }}</h2>{% endif %}
       </div>
-      <div class="post__meta">
-        {% include page-tags.html %}
-        {% include reading-time.html %}
-      </div>
       {% if page.image %}
       <img src="{{ page.image }}" class="post__header__image" itemprop="image" alt="" />
       {% endif %}
@@ -39,5 +35,8 @@ comments: true
 <div class="side-column col">
   <div class="side-column__content">
     {% include about.html %}
+  </div>
+  <div class="side-column__content">
+    {% include supporting.html %}
   </div>
 </div>

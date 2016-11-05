@@ -3,6 +3,7 @@ layout: post
 title:  "Declutter Before Christmas"
 date:   2016-10-09
 image: /assets/article_images/2016-10-09-declutter-before-christmas/christmas-lights.jpg
+category: Decluttering
 ---
 
 Christmas is a wonderful time of year. A time of joy and wonder. A time for family to gather and celebrate. A time of year when houses light up at night and evergreen trees are decorated.

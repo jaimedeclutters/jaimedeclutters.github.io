@@ -3,6 +3,7 @@ layout: post
 title:  "Enjoy the Outdoors"
 date:   2016-10-23
 image: /assets/article_images/2016-10-23-enjoy-the-outdoors/hiking.jpg
+category: Inspiration
 ---
 
 When I get out doors I end up feeling refreshed. I experience a slower pace of life and enjoy the scenery and fresh air. This seems to fill my soul. I feel happy and relaxed. As a bonus, I find myself naturally more active.

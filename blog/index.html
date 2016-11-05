@@ -1,82 +1,23 @@
 ---
 layout: page
-title: Thoughts...
+title: Blog Archive
 ---
 
-<main class="content" role="main">
-
-    {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Featured</span></h5>
-
-    <div class="container featured">
-      {% for post in site.tags.featured %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              {% if page.image %}<div class="title-image"><a href="{{ post.url }}" itemprop="url"><img src="{{ page.image }}"></img></a></div>{% endif %}
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}{% if post.subtitle %}<br>{{ post.subtitle }}{% endif %}</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html }}</p>
-              <p><a href="{{ post.url }}">Read more</a></p>
-            </section>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-            </div>
-          </div>
-        </article>
-      {% endfor %}
+<ul class="described-image-list">
+  {% for category in site.categories %}
+  {% assign title = category[0] %}
+  {% assign image = site.data.categories[title].image %}
+  <li class="described-image-list__item">
+    <a name="{{ title | handleize | replace: ' ', '-' }}"></a>
+    <div class="described-image-list__item__image">
+      <img src="{{ image }}" alt=""/>
     </div>
-
-    <h5 class="index-headline normal"><span>Regular</span></h5>
-    {% endif %}
-
-    <div class="cf frame">
-      {% for post in paginator.posts %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              {% if post.image %}<div class="title-image"><a href="{{ post.url }}" itemprop="url"><img src="{{ post.image }}"></img></a></div>{% endif %}
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}{% if post.subtitle %}<br>{{ post.subtitle }}{% endif %}</a></h2>
-            </header>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-            </div>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.excerpt | strip_html }} <a href="{{ post.url }}">(Read more...)</a></p>
-            </section>
-
-          </div>
-        </article>
-      {% endfor %}
+    <div class="described-image-list__item__description">
+      <p class="described-image-list__item__description__heading">{{ title }}</p>
+      <ul>
+        {% for post in category[1] %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+      </ul>
     </div>
-
-    <nav class="pagination" role="navigation">
-      {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-          <a class="newer-posts" href="/blog/">&larr;</a>
-        {% else %}
-          <a class="newer-posts" href="/blog/page{{paginator.previous_page}}">&larr;</a>
-        {% endif %}
-      {% endif %}
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-            <span class="current-page">
-              {{ page }}
-            </a>
-        {% elsif page == 1 %}
-            <a href="/blog/">
-              {{ page }}
-            </a>
-        {% else %}
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
-              {{ page }}
-            </a>
-        {% endif %}
-      {% endfor %}
-      {% if paginator.next_page %}
-        <a class="older-posts" href="/blog/page{{paginator.next_page}}/">&rarr;</a>
-      {% endif %}
-    </nav>
-
-</main>
+  </li>
+  {% endfor %}
+</ul>

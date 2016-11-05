@@ -3,6 +3,7 @@ layout: post
 title:  "Love Our Sentimental Items"
 date:   2016-10-16
 image: /assets/article_images/2016-10-16-love-our-sentimental-items/wedding-shoes.jpg
+category: Decluttering
 ---
 
 What are your sentimental items? Maybe they are your old childhood and high school things. Maybe items from your wedding or your babies? Or even tougher on our hearts - items of a loved one who is no longer with us.

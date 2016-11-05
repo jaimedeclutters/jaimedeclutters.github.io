@@ -1,17 +1,22 @@
 ---
 layout: page
-title: Inspiration...
+title: Books
 permalink: /books/
+affiliate: true
 ---
 
-Here are links to books I have enjoyed reading and have inspired my own decluttering journey. The books below are affiliate links, which means if you choose to purchase one of these, a small portion of the sale will support Jaime Declutters at no cost to you.
-
-{% for book in site.data.books %}
-
-<div class="book">
-  <a href="{{ book.link }}">
-    <img src="{{ book.image }}" alt="{{ book.title }} by {{ book.author }}"/>
-  </a>
-</div>
-
-{% endfor %}
+<ul class="described-image-list">
+  {% for book in site.data.books %}
+  <li class="described-image-list__item">
+    <div class="described-image-list__item__image">
+      <a href="{{ book.link }}" target="_blank">
+        <img src="{{ book.image }}" alt="{{ book.title }} by {{ book.author }}"/>
+      </a>
+    </div>
+    <div class="described-image-list__item__description">
+      <p class="described-image-list__item__description__heading"><a href="{{ book.link }}" target="_blank">{{ book.title }} - {{ book.author }}</a></p>
+      <p>{{ book.description }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

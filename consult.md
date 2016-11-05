@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Madison, WI
+image: /assets/images/madison-wi.jpg
 permalink: /madison-wi/
 redirect-from:
   - /consult/
@@ -20,3 +21,25 @@ Contact me to schedule your Saturday decluttering fun!
 {% include contact-form.html %}
 
 ## Client Photos
+
+<div class="image-set image-set--vertical">
+  <figure>
+    <img src="/assets/images/photo-pages/before-after/toys-before.jpg">
+    <figcaption>Before</figcaption>
+  </figure>
+  <figure>  
+    <img src="/assets/images/photo-pages/before-after/toys-after.jpg">
+    <figcaption>After</figcaption>
+  </figure>
+</div>
+
+<div class="image-set image-set--vertical">
+  <figure>
+    <img src="/assets/images/photo-pages/before-after/boys-room-bed-before.jpg">
+    <figcaption>Before</figcaption>
+  </figure>
+  <figure>  
+    <img src="/assets/images/photo-pages/before-after/boys-room-bed-after.jpg">
+    <figcaption>After</figcaption>
+  </figure>
+</div>

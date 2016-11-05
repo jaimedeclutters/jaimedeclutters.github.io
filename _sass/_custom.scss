@@ -81,6 +81,7 @@ a {
   box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.15);
   position: relative;
   margin-bottom: 4rem;
+  border-radius: 0.5rem;
 }
 
 .post__link {
@@ -128,14 +129,6 @@ a {
     border-bottom: 1px solid $meta-color;
     text-transform: uppercase;
   }
-  .reading-time {
-    display: block;
-    text-align: right;
-  }
-  .tags {
-    display: inline-block;
-    float: left;
-  }
 }
 
 .post__header__image {
@@ -143,9 +136,11 @@ a {
   margin: auto;
   width: 100%;
   height: auto;
-  max-width: 800px;
+  max-width: 320px;
   object-fit: cover;
   object-position: center center;
+  border-radius: 50%;
+  border: 3px solid $primary-color;
 }
 
 .post__body {
@@ -662,4 +657,53 @@ img.full {
 
 .tweet-link {
   font-size: 1.0rem;
+}
+
+.image-set {
+  margin-bottom: 4rem;
+}
+
+.image-set--vertical {
+  text-align: center;
+}
+
+.image-set figcaption {
+  text-align: center;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 4px;
+  padding-top: 1rem;
+}
+
+ul.described-image-list {
+
+}
+
+ul.described-image-list li.described-image-list__item {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.described-image-list__item__image {
+  flex: 1 0 auto;
+  max-width: 15rem;
+}
+
+.described-image-list__item__description {
+  flex: 1 0 auto;
+  width: 60%;
+  min-width: 20rem;
+}
+
+.described-image-list__item__description__heading {
+  margin-top: 0.5rem;
+}
+
+.header-bar {
+  img {
+    max-width: 100%;
+  }
 }

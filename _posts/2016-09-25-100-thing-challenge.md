@@ -3,6 +3,7 @@ layout: post
 title:  "100 Thing Challenge"
 date:   2016-09-25
 image: /assets/article_images/2016-09-25-100-thing-challenge/book-cover.jpg
+category: Simple Living
 ---
 
 How many personal items do you own? This includes your clothes, shoes, jackets, hats, toiletry items, cell phone, charger, bike, sleeping bag… the list can go on and on! What do you think your number is? My number and list are below.

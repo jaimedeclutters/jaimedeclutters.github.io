@@ -3,6 +3,7 @@ layout: post
 title:  "Cozy Couches"
 date:   2016-10-02
 image: /assets/article_images/2016-10-02-cozy-couches/cozy-couch.jpg
+category: Inspiration
 ---
 
 I love getting cozy on the couch with a good book and a hot cup of coffee. Having a comfortable space where you can relax, unwind from a long day of work, watch a favorite movie with your littles, or snuggle with a book on a rainy day is important.

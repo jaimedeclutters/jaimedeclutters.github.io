@@ -3,6 +3,7 @@ layout: post
 title:  "Favorite Toys"
 date:   2016-09-11
 image: /assets/article_images/2016-09-11-favorite-toys/favorite-toys.jpg
+category: Decluttering
 ---
 
 My husband and I downloaded season 3 of HGTV's Tiny House Nation and watched the first few episodes last night. One thing I love about this show is that they talk about decluttering – paring down to your favorite items to take to their new tiny home.

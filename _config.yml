@@ -23,7 +23,7 @@ author_image: "/assets/images/author.jpg"
 
 timezone: America/Chicago
 
-permalink: /blog/:categories/:year/:month/:day/:slug/
+permalink: /blog/:year/:month/:day/:slug/
 
 paginate:	5
 paginate_path: "/page:num/"

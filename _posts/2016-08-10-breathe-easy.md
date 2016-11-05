@@ -3,6 +3,7 @@ layout: post
 title:  "Breathe Easy"
 date:   2016-08-10 20:32:00
 image: /assets/article_images/2016-08-10-breathe-easy/breathe-easy.jpg
+category: Inspiration
 ---
 
 When you look around your home, do you see open space, a place to sit back and relax, a space that is easy to maintain?

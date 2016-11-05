@@ -3,6 +3,7 @@ layout: post
 title:  "3 Minimalist Toys & Orenco Station"
 date:   2016-11-01
 image: /assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/rubiks.jpg
+category: Simple Living
 affiliate: true
 ---
 

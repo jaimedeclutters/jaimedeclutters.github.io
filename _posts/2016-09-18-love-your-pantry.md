@@ -3,6 +3,7 @@ layout: post
 title:  "Love Your Pantry"
 date:   2016-09-18
 image: /assets/article_images/2016-09-18-love-your-pantry/jars.jpg
+category: Decluttering
 ---
 
 When you open your pantry, what do you see? Is it full of different boxes of cereals, granola bars, crackers, instant oatmeal, mac and cheese, and cookies? Is it overflowing? Are unknown containers  tucked back and forgotten behind the new ones up front? Is it a mess? Would you rather just shut the door and not deal with it?

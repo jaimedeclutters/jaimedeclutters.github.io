@@ -3,6 +3,7 @@ layout: post
 title:  "Tackle Paper Clutter"
 date:   2016-08-17 17:55:00
 image: /assets/article_images/2016-08-17-tackle-paper-clutter/paper-clutter.jpg
+category: Decluttering
 ---
 
 Paper can pile up fast in our homes. Kids come home from school with papers. Mail comes to our door every day. Tax related papers can fill up file cabinets. And user manuals come with everything we buy. What do we do with all these papers? Sure, some we need to keep, but maybe we can recycle more than we realize.
