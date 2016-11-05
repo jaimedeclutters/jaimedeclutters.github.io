@@ -1,31 +1,22 @@
 ---
 layout: page
-title: Declutter...
-permalink: /consult/
+title: Madison, WI
+permalink: /madison-wi/
 redirect-from:
+  - /consult/
+  - /contact/
+  - /about/
   - /photos/before-after/
 ---
 
-Is there an area of your home that stresses you out, that easily collects clutter? We can tackle those spaces together, reduce your stress, and create a system to help eliminate new clutter.
+If you would like to declutter, but can’t seem to get started, I can help. I meet with clients in the Madison, WI area to declutter and create margin in their homes, turning a room that speaks chaos into a room that speaks joy.
 
-No judgments here. I will never force you to get rid of something. I'm here for creative ideas, positive encouragement, and helping you follow-through on your decluttering goals.
+I schedule decluttering for Saturdays. We set aside 4 hours to tackle a room, basement, or garage. If at the end of the 4 hours, the space isn’t completely decluttered, we will set up specific homework tasks to help you achieve your desired	outcome. Or if you would like, we can schedule another 4 hour session.
 
-<span class="rate-info">
-  $25/hour, 2 hour minimum
-</span>
+Saturday Decluttering Session: $100
 
-# Design... #
+Contact me to schedule your Saturday decluttering fun!
 
-Our homes are meant to be a space of love, joy, and relaxation. Does your home speak to you this way? I love using my creative vision to reimagine a space. This can be anything from rearranging furniture, painting, or remodeling.
+{% include contact-form.html %}
 
-If a remodel is in your goals, I am happy to connect you with professionals I have personally worked with.
-
-Every home has the potential to be a beautiful space for your life. I would be honored to help turn your home into a space you can fully enjoy.
-
-<span class="rate-info">
-  $50 A simple 3-D drawing for space
-</span>
-
-<span class="rate-info">
-  $25/hour For time implementing design (moving furniture, painting), 2 hour minimum
-</span>
+## Client Photos
