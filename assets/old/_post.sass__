@@ -25,3 +25,13 @@ article.post
       height: $rs*12
     border-radius: 50%
     border: 3px solid $primary-color
+
+p.right
+  text-align: center
+  @media(min-width: 700px)
+    display: inline
+    float: right
+    margin-left: $rs
+
+p.center
+  text-align: center
