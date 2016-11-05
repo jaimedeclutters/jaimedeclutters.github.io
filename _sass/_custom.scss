@@ -7,6 +7,8 @@ html {
 
 body {
   margin: 0;
+  font-family: Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 ul {
@@ -81,7 +83,7 @@ a {
   box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.15);
   position: relative;
   margin-bottom: 4rem;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
 }
 
 .post__link {
@@ -109,6 +111,7 @@ a {
   color: black;
   margin: 0 0 0.5rem 0;
   font-weight: 300;
+  letter-spacing: 0.25rem;
 }
 
 .post__title--subtitle {
@@ -116,6 +119,7 @@ a {
   color: $meta-color;
   margin: 0;
   font-weight: 300;
+  letter-spacing: 0.25rem;
 }
 
 .post__meta {
@@ -123,6 +127,7 @@ a {
   text-align: center;
   display: block;
   margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
   .date {
     padding: 0.5rem 0 0.5rem 0;
     border-top: 1px solid $meta-color;
@@ -164,23 +169,27 @@ a {
     border-left: 2px solid $primary-color;
     border-right: 2px solid $primary-color;
     padding: 0 1.5rem 0 1.5rem;
+    letter-spacing: 0.1rem;
   }
 
   .side-note {
     text-align: right;
     color: $meta-color;
     font-size: 0.8rem;
+    letter-spacing: 0.1rem;
   }
 
   p, li {
     font-weight: 300;
     font-size: 1.2rem;
+    letter-spacing: 0.1rem;
   }
   .disclaimer {
     color: $meta-color;
     font-weight: 300;
     font-size: 1rem;
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .rss {
     a {
@@ -193,19 +202,23 @@ a {
 
   h4, h5, h6 {
     font-weight: 300;
+    letter-spacing: 0.15rem;
   }
 
   h1 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
   }
   h2 {
     font-size: 1.6rem;
     font-weight: 500;
+    letter-spacing: 0.2rem;
   }
   h3 {
     font-size: 1.4rem;
     font-weight: 400;
+    letter-spacing: 0.18rem;
   }
   h4 {
     font-size: 1.2rem;
@@ -251,6 +264,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
+  letter-spacing: 0.2rem;
 }
 
 .tags__tag {
@@ -311,6 +325,7 @@ img.mini-post__image{
     font-weight: 300;
     line-height: 1.4rem;
     margin: 0.2rem 0;
+    letter-spacing: 0.1rem;
   }
   h5 {
     font-weight: 300;
@@ -318,6 +333,7 @@ img.mini-post__image{
     text-transform: uppercase;
     color: $meta-color;
     font-size: 0.9rem;
+    letter-spacing: 0.1rem;
   }
 }
 
@@ -344,12 +360,14 @@ img.mini-post__image{
     vertical-align: top;
     position: relative;
     border-radius: 50%;
-    max-width: 40%;
+    max-width: 60%;
   }
 }
 
 .profile__text {
   padding: 1rem 1rem 2rem;
+
+  letter-spacing: 0.1rem;
 
   h3 {
     text-transform: uppercase;
@@ -357,6 +375,7 @@ img.mini-post__image{
     line-height: 1.6rem;
     margin: 0.2rem 0;
     font-weight: 300;
+    letter-spacing: 0.1rem;
   }
 
   h5 {
@@ -366,6 +385,7 @@ img.mini-post__image{
     color: $meta-color;
     letter-spacing: 1px;
     font-weight: 300;
+    letter-spacing: 0.1rem;
   }
 }
 
@@ -393,6 +413,7 @@ img.mini-post__image{
 
 form {
   font-size: 1.2rem;
+  letter-spacing: 0.1rem;
   font-weight: 300;
   input {
     display: inline;
@@ -435,7 +456,7 @@ nav.navbar {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-content: stretch;
-  background-color: white;
+  background-color: $bg-color;
   box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.15);
 }
 
@@ -444,7 +465,7 @@ nav.navbar {
   flex-grow: 1;
   align-self: center;
   font-size: 1rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.15rem;
   line-height: 1.2rem;
   margin: 1rem 0;
   text-transform: uppercase;
@@ -455,6 +476,7 @@ nav.navbar {
   flex-grow: 2;
   font-size: 1.2rem;
   line-height: 1.4rem;
+  letter-spacing: 0.2rem;
 }
 
 .navbar-list__item {
@@ -557,6 +579,7 @@ nav.navbar {
 
 .post-list-text__item {
   font-size: 1rem;
+  letter-spacing: 0.1rem;
   padding-bottom: 0.4rem;
 }
 
@@ -581,6 +604,7 @@ nav.navbar {
   font-weight: 300;
   .meta-header {
     font-size: 1rem;
+    letter-spacing: 0.1rem;
   }
 }
 
@@ -604,6 +628,7 @@ nav.navbar {
 p.call-to-action {
   text-align: right;
   font-size: 1.6rem;
+  letter-spacing: 0.25rem;
 }
 
 #next-post {
@@ -657,6 +682,7 @@ img.full {
 
 .tweet-link {
   font-size: 1.0rem;
+  letter-spacing: 0.1rem;
 }
 
 .image-set {
@@ -673,6 +699,7 @@ img.full {
   color: #999;
   letter-spacing: 4px;
   padding-top: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 ul.described-image-list {
