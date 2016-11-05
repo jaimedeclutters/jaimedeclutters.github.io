@@ -2,6 +2,8 @@
 layout: page
 title: Declutter...
 permalink: /consult/
+redirect-from:
+  - /photos/before-after/
 ---
 
 Is there an area of your home that stresses you out, that easily collects clutter? We can tackle those spaces together, reduce your stress, and create a system to help eliminate new clutter.

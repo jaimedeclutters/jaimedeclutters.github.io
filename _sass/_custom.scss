@@ -511,6 +511,37 @@ nav.navbar {
   right: 20%;
 }
 
+.navbar-list__item ul {
+  display: none;
+	position: absolute;
+	top: 100%;
+  left: -1.5rem;
+	background: #fff;
+	padding: 0;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.15);
+  z-index: 200;
+}
+
+.navbar-list__item ul li {
+	float: none;
+	width: 12rem;
+}
+
+.navbar-list__item ul a
+{
+	line-height: 2rem;
+	padding: 1rem 1.5rem;
+}
+
+.navbar-list__item ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.navbar-list__item:hover > ul {
+  display: block;
+}
+
 .site-footer {
   background-color: white;
   text-align: center;
