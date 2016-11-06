@@ -5,6 +5,10 @@ permalink: /books/
 affiliate: true
 ---
 
+I love reading books about decluttering, simple and eco-friendly living, and creating a zero waste home. Below, I have links to my favorites. I will continue to update this list as I find more amazing books. If you have any books you would love to share, please email me!
+
+<br>
+
 <ul class="described-image-list">
   {% for book in site.data.books %}
   <li class="described-image-list__item">
