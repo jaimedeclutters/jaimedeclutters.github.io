@@ -48,6 +48,27 @@ main.page {
   text-align: right;
 }
 
+.image-right {
+  @media(min-width: 934px){
+    float: right;
+    padding-left: 1rem;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.image-left {
+  @media(min-width: 934px){
+    float: left;
+    padding-right: 1rem;
+  }
+  img {
+    width: auto;
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

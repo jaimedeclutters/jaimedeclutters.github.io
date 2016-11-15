@@ -13,7 +13,7 @@ Unfortunately, it is easy to miss out on these fun adventures. Busy schedules - 
 ## Our Day at Devil’s Lake
 
 ![Three girls standing on a rock, flexing their biceps](/assets/article_images/2016-10-23-enjoy-the-outdoors/muscles.jpg)
-{: class="right"}
+{: class="image-right"}
 
 My husband and I took our girls to Devil’s Lake State Park this weekend. We had an awesome day. After a relaxing morning filled with coffee, my husband’s amazing pancakes, and reading on the couch, we set out for an afternoon of hiking.
 
