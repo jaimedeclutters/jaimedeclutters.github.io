@@ -1,35 +1,42 @@
-- title: "The More of Less"
-  author: Joshua Becker
-  link: http://amzn.to/2aO4ZBj
-  image: /assets/images/books/the-more-of-less.jpg
-  description: Written by my favorite minimalist blogger, this book is an easy read with great motivation for decluttering and why it is so wonderful to live with less.
-- title: "The Life-Changing Magic of Tidying Up"
-  author: Marie Kondo
-  link: http://amzn.to/2amgs7s
-  image: /assets/images/books/the-life-changing-magic-of-tidying-up.jpg
-  description: A fun read and motivational! I love that everything in our house can have a home and that the things we own spark joy (not stress).
-- title: "The 100 Thing Challenge"
-  author: Dave Bruno
-  link: http://amzn.to/2drTsqs
-  image: /assets/images/books/100-thing-challenge.jpg
-  description: A great read! I loved reading about why Dave had purchased things in the past, how he let go of some, and found more happiness with less possessions.
-- title: "Zero Waste Home"
-  author: Bea Johnson
-  link: http://amzn.to/2enhx0k
-  image: /assets/images/books/zero-waste-home.jpg
-  description: This is the first book I read about zero waste! Bea inspired me to try bulk food shopping. I've changed my grocery store and love the quality and cost of my bulk pantry.
-- title: "The Zero-Waste Lifestyle"
-  author: Amy Korst
-  link: http://amzn.to/2fEl1kW
-  image: /assets/images/books/the-zero-waste-lifestyle.jpg
-  description: This book is full of ideas to switch from our conventional lifestyle to one that creates less trash with easy, moderate, and advanced options
-- title: "Garbology"
-  author: Edward Humes
-  link: http://amzn.to/2fqymIs
-  image: /assets/images/books/garbology.jpg
-  description: Such an interesting read - learn the history of our garbage disposal system, how our landfills really work (or don't) and how plastic never biodegrades.
-- title: "The Joy of Less"
-  author: Francine Jay
-  link: http://amzn.to/2e2oeGF
-  image: /assets/images/books/the-joy-of-less.jpg
-  description: This is a great book to guide you in starting your decluttering process!
+Decluttering:
+  - title: "The More of Less"
+    author: Joshua Becker
+    link: http://amzn.to/2aO4ZBj
+    image: /assets/images/books/the-more-of-less.jpg
+    description: Written by my favorite minimalist blogger, this book is an easy read with great motivation for decluttering and why it is so wonderful to live with less.
+  - title: "The Life-Changing Magic of Tidying Up"
+    author: Marie Kondo
+    link: http://amzn.to/2amgs7s
+    image: /assets/images/books/the-life-changing-magic-of-tidying-up.jpg
+    description: A fun read and motivational! I love that everything in our house can have a home and that the things we own spark joy (not stress).
+  - title: "The 100 Thing Challenge"
+    author: Dave Bruno
+    link: http://amzn.to/2drTsqs
+    image: /assets/images/books/100-thing-challenge.jpg
+    description: A great read! I loved reading about why Dave had purchased things in the past, how he let go of some, and found more happiness with less possessions.
+  - title: "The Joy of Less"
+    author: Francine Jay
+    link: http://amzn.to/2e2oeGF
+    image: /assets/images/books/the-joy-of-less.jpg
+    description: This is a great book to guide you in starting your decluttering process!
+Eco-friendly Living:
+  - title: "Zero Waste Home"
+    author: Bea Johnson
+    link: http://amzn.to/2enhx0k
+    image: /assets/images/books/zero-waste-home.jpg
+    description: This is the first book I read about zero waste! Bea inspired me to try bulk food shopping. I've changed my grocery store and love the quality and cost of my bulk pantry.
+  - title: "The Zero-Waste Lifestyle"
+    author: Amy Korst
+    link: http://amzn.to/2fEl1kW
+    image: /assets/images/books/the-zero-waste-lifestyle.jpg
+    description: This book is full of ideas to switch from our conventional lifestyle to one that creates less trash with easy, moderate, and advanced options
+  - title: "Garbology"
+    author: Edward Humes
+    link: http://amzn.to/2fqymIs
+    image: /assets/images/books/garbology.jpg
+    description: Such an interesting read - learn the history of our garbage disposal system, how our landfills really work (or don't) and how plastic never biodegrades.
+  - title: "Plastic Free"
+    author: Beth Terry
+    link: http://amzn.to/2fP99ZZ
+    image: /assets/images/books/plastic-free.jpg
+    description: An amazing book with a wealth of information on plastic, why it is best to go plastic free in our homes, and solutions to help you ditch the plastic!

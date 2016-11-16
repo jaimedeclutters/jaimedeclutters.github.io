@@ -7,10 +7,10 @@ affiliate: true
 
 I love reading books about decluttering, simple and eco-friendly living, and creating a zero waste home. Below, I have links to my favorites. I will continue to update this list as I find more amazing books. If you have any books you would love to share, please email me!
 
-<br>
-
-<ul class="described-image-list">
-  {% for book in site.data.books %}
+{% for category in site.data.books %}
+<h2>{{ category[0] }}</h2>
+<ul class="described-image-list">  
+  {% for book in category[1] %}
   <li class="described-image-list__item">
     <div class="described-image-list__item__image">
       <a href="{{ book.link }}" target="_blank">
@@ -24,3 +24,4 @@ I love reading books about decluttering, simple and eco-friendly living, and cre
   </li>
   {% endfor %}
 </ul>
+{% endfor %}
