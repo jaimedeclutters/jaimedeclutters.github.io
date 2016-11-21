@@ -20,7 +20,9 @@ Then onto Playthings! This wasn’t too bad. We prepped our girls for this trip:
 
 Then we went to [Madewell](https://www.madewell.com/){: target="_blank"}. They recycle all denim. So even if you have denim from another store, you can bring it there. They have partnered with [Blue Jeans Go Green](http://bluejeansgogreen.org/){: target="_blank"}, turning denim into home insulation! My husband had an old pair of jeans with holes in the knees. I was excited to recycle denim for the first time!
 
-Once in the store, I told my husband: _The clothes in here are so cute! It makes me want to look around. I could totally see people spending their money here._ My husband gave me a look - __I disagree and I want out!__ I told myself I didn’t need anything. It was hard, but I succeeded in walking out empty handed - besides a 20% off coupon for a new pair of jeans at Madewell. I avoided the shopping vortex!
+Once in the store, I told my husband: _The clothes in here are so cute! It makes me want to look around. I could totally see people spending their money here._ My husband gave me a look - __I disagree and I want out!__
+
+I told myself I didn’t need anything. It was hard, but I succeeded in walking out empty handed - besides a 20% off coupon for a new pair of jeans at Madewell. I avoided the shopping vortex!
 
 As we were walking back to our car, I saw a sign for [LUSH](http://www.lushusa.com/){: target="_blank"}. I had just read about their products in one of my zero waste books and got super excited. They are supposed to have package free shampoo and conditioner bars! I had to see this! So I dragged my husband and girls into this amazing tiny store packed with people.
 
