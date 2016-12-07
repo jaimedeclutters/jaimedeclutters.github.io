@@ -12,7 +12,7 @@ I recently helped a friend declutter her baby boy clothing collection. She wante
 
 Last week, she packed her mini van with all the boxes she could find full of newborn to 18-24 month boy clothes and dropped them off at my house.
 
-![Boxes and boxes of boy clothes stacked on top of each other](/assets/article_images/2016-09-06-baby-clothes-number-two/original-boxes.jpg)
+![Boxes and boxes of boy clothes stacked on top of each other]({{site.url}}/assets/article_images/2016-09-06-baby-clothes-number-two/original-boxes.jpg)
 
 Boy, was I excited to tackle this project!!!! No, truly, I was super pumped! I love this stuff!
 
@@ -22,7 +22,7 @@ Once I had my three piles, I went through the keep pile in more detail. I looked
 
 We started with 810 baby clothing items and the final keep pile contained 119 items. We reduced her baby boy clothing storage by over 85% and fit all 119 items in one storage container.
 
-![One simple tote with the remaining clothes](/assets/article_images/2016-09-06-baby-clothes-number-two/final-tote.jpg)
+![One simple tote with the remaining clothes]({{site.url}}/assets/article_images/2016-09-06-baby-clothes-number-two/final-tote.jpg)
 
 I organized the keep clothes in age group piles. I also tried to group outfits together (sleeper with onesie). I also tried to create multi season outfits (tee, long sleeve, shorts, pants). I tied a string around each pile and labeled it so when the next baby boys comes, it will be super easy to identify what clothes she will need to pull out.
 

@@ -50,4 +50,4 @@ Honestly, you can probably recycle them all. If you have a problem with any of y
 
 > Do you have any other categories of paper clutter that are taking up space in your home or creating stress in your life? Feel free to email me with your paper clutter debacles and I'll try to provide you with some decluttering solutions.
 
-[paper-piles]: /assets/article_images/2016-08-17-tackle-paper-clutter/paper-piles-tackle.jpg
+[paper-piles]: {{site.url}}/assets/article_images/2016-08-17-tackle-paper-clutter/paper-piles-tackle.jpg

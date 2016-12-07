@@ -22,7 +22,7 @@ Your worn out couch is filled with your stories - where your family snuggles up 
 
 So your couch is stained, a little worn, but it has a history with love. Instead of tossing your couch, Simple Home has an alternative idea. Make use of your blankets. You end up covering those worn out spots and stains and add layers of warmth and texture to your couch.
 
-![Photo of our couch, covered with blankets](/assets/article_images/2016-10-02-cozy-couches/our-couch.jpg)
+![Photo of our couch, covered with blankets]({{site.url}}/assets/article_images/2016-10-02-cozy-couches/our-couch.jpg)
 {: class="title-image" }
 
 I recently did this with our furniture. I was itching to get a new couch, but now love it again. This probably saved me $1,000 dollars in new furniture and helped me utilize our blankets (saving us the need for storage).

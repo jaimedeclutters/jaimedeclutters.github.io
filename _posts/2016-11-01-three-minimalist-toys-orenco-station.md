@@ -15,7 +15,7 @@ While I am against getting big toys that take up square footage in the home and 
 
 ## Orenco Station, Portland, OR
 
-![Us at Ava's Roasteria in Orenco Station](/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/orenco-station.jpg)
+![Us at Ava's Roasteria in Orenco Station]({{site.url}}/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/orenco-station.jpg)
 {: class="center"}
 
 My husband took me on a little getaway to Orenco Station last week. I had read about this little community - walkable and tight knit homes! It was something I had expressed an interest in seeing. So off we went to explore.
@@ -30,21 +30,21 @@ We did have a wonderful time exploring! We walked a ton and enjoyed eating at th
 
 > The game links below are affiliate links, which means if you choose to purchase them, a small portion of the sale will support Jaime Declutters at no cost to you.
 
-[![Tell Tale Fairy Tales game](/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/telltalefairytales.jpg)][tell-tale-fairy-tales]
+[![Tell Tale Fairy Tales game]({{site.url}}/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/telltalefairytales.jpg)][tell-tale-fairy-tales]
 {: class="center"}
 
 #### [Tell Tale Fairy Tales][tell-tale-fairy-tales]
 
 I love the tin can the cards are stored in - so much more durable! Kids make up their own fairy tales using the circle picture cards. My kids have had a blast with these! They have made up fairy tales on their own and we have played as a family!
 
-[![Keva Brain Builders Junior game](/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/kevabrainbuildersjr.jpg)][keva-brain-builders-jr]
+[![Keva Brain Builders Junior game]({{site.url}}/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/kevabrainbuildersjr.jpg)][keva-brain-builders-jr]
 {: class="center"}
 
 #### [Keva Brain Builders Junior][keva-brain-builders-jr]
 
 This is a fun activity for kids 5 years old and up. There are 20 planks and 20 cards showing different designs kids can create! It comes in a fabric bag which is also great for durability!
 
-[![IQ XOXO game](/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/iqxoxo.jpg)][iq-xoxo]
+[![IQ XOXO game]({{site.url}}/assets/article_images/2016-11-01-three-minimalist-toys-orenco-station/iqxoxo.jpg)][iq-xoxo]
 {: class="center"}
 
 #### [IQ XOXO][iq-xoxo]

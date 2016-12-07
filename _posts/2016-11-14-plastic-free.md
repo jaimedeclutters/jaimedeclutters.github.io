@@ -13,7 +13,7 @@ Our homes are filled with plastic. From grocery bags and food packaging; cups, b
 
 ## WHY - Our Health
 
-![Watermelon in a plastic container with a plastic fork](/assets/article_images/2016-11-14-plastic-free/fruit.jpg)
+![Watermelon in a plastic container with a plastic fork]({{site.url}}/assets/article_images/2016-11-14-plastic-free/fruit.jpg)
 {: class="image-right"}
 
 Plastics contain a bunch of additives including but not limited to: stabilizers, flame retardants, and plasticizers. These chemicals can leach out into our food and water and off gas into the air we breath. Some chemicals are carcinogenic or endocrine disruptors that act like hormones and affect our bodies negatively.
@@ -24,7 +24,7 @@ One of the common chemicals found in plastics is BPA. We have heard a lot about 
 
 ## WHY - Plastics Don’t Biodegrade
 
-![Soda can on a boardwalk](/assets/article_images/2016-11-14-plastic-free/can.jpg)
+![Soda can on a boardwalk]({{site.url}}/assets/article_images/2016-11-14-plastic-free/can.jpg)
 {: class="image-right"}
 
 Yes, many plastics can be recycled. Down-cycled that is. A plastic water bottle won’t be recycled into a new plastic bottle, instead will be used to make polar fleece or carpet. Eventually, this plastic will no longer be recycled and end up in the landfill.
