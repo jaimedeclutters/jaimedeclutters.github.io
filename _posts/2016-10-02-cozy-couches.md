@@ -10,7 +10,7 @@ I love getting cozy on the couch with a good book and a hot cup of coffee. Havin
 
 So what makes a couch so comfy? I guess the answer to that question can be different for many people. But here is one answer that I love:
 
-# Use Blankets
+## Use Blankets
 
 > The book link below is an affiliate link, which means if you choose to purchase the book, a small portion of the sale will support Jaime Declutters at no cost to you.
 
@@ -29,7 +29,7 @@ I recently did this with our furniture. I was itching to get a new couch, but no
 
 I find our couch to be cozier than ever. Could you love your couch again just by using your blankets?
 
-# Picture Inspiration
+## Picture Inspiration
 
 Here are some pictures from [Houzz.com](http://www.houzz.com) of cozy looking couches that incorporate the use of blankets. Enjoy!
 

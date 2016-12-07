@@ -8,7 +8,7 @@ category: Simple Living
 
 How many personal items do you own? This includes your clothes, shoes, jackets, hats, toiletry items, cell phone, charger, bike, sleeping bag… the list can go on and on! What do you think your number is? My number and list are below.
 
-# The Book
+## The Book
 
 > The book link below is an affiliate link, which means if you choose to purchase the book, a small portion of the sale will support Jaime Declutters at no cost to you.
 
@@ -18,7 +18,7 @@ He talks about his journey in his challenge. He also defines his challenge. His 
 
 The entire time I was reading this book I was thinking about my own items. How many do I own? I have decluttered a lot (A LOT) over the past few years. I knew I didn’t have a ton, but still - was it 100 items? When I counted my personal items - items I don’t share with my family - I came up with 84 items!
 
-# My 100 Things List
+## My 100 Things List
 
 1. Pair of Black Pants
 2. Pair of Athletic Pants
@@ -105,7 +105,7 @@ The entire time I was reading this book I was thinking about my own items. How m
 83. Journal
 84. Disney Wristband
 
-# My Counting Journey
+## My Counting Journey
 
 As I was going through my items. I found a few things that I no longer use and added them to my Goodwill donation box or threw away. These items included: a baseball cap, a watch, a comb, a brush, and a second armband for my phone.
 
@@ -117,7 +117,7 @@ I don’t wear a lot of make up so my list there is short. I didn’t include my
 
 And the oddest thing on my list is probably the Disney wristband. We visited Disney World last year and I am hoping our family will visit again soon so I guess I’m keeping the wristband for now.
 
-# Your Turn
+## Your Turn
 
 Would you be willing to take the 100 Thing Challenge? If you are interested, but overwhelmed by the idea, that’s ok. Start with one category - probably clothes. Go through your clothes and count out your items (declutter along the way). Then move onto another room, closet, or drawer. Maybe make your own rules that make sense for your life.
 

@@ -20,7 +20,7 @@ Your pantry can be a thing of beauty and health. A place that encourages good ea
 6. Do you have a lot of canned fruit or vegetables? Use them up and try to go fresh. It will save space in your pantry and will be healthier. Our family loves fruit - watermelon, cantaloupe, strawberries, grapes, apples, pears! Our favorite vegetables includes - green beans, cucumbers, tomatoes, onions, bell peppers, carrots, and corn.
 7. Try to keep one week’s worth of groceries in your pantry. Restock weekly. This may not work for everyone, but if you are buying more fresh produce you will want to get to the grocery store weekly anyway. This way you use up what you have, eliminating expired and lost items in the back of your pantry.
 
-# Recipes #
+## Recipes #
 
 I’m not much of a cook - the simpler the better in my house. Here are recipes to make use of bulk pantry items:
 
@@ -59,7 +59,7 @@ Set oven to 375F. Halve squash lengthwise. Scoop out seeds from the middle of ea
 
 You can skip the jar of pasta sauce and just add some bulk pantry olive oil, bulk pantry Italian seasoning,  grape tomatoes, and parmesan.
 
-# Healthy Trick #
+## Healthy Trick #
 
 It’s ok to have a small selection in your pantry. The bulk of your food should be fresh produce if possible anyway. I know when I have the convenient prepackaged items in my pantry, I tend to eat those and ignore my fruit bowl. When I eliminate the prepackaged snacks I remember to eat the fruit in front of me. My favorite snack is apple slices with almond butter!
 

@@ -12,13 +12,13 @@ In one episode, there is a seven year old who loves his toys. There are bins ful
 
 The tiny house builder, Zach, built a small doll house for the seven year old's loft bedroom as a surprise. The seven year old was so excited and said it was even better than his old doll house. He seemed to truly enjoy his new space and the few toys he brought with him.
 
-# Toy Rooms #
+## Toy Rooms #
 
 Most of us have a dedicated toy room for our children. There is nothing wrong with that, but is it completely full, maybe stuffed? Is it a pain to clean up, let alone asking your children to clean up?
 
 If this sounds familiar to you, then decluttering your toy room will create a lot more space to play and make clean up a lot easier – for your kids!
 
-# Decluttering Toys #
+## Decluttering Toys #
 
 One of my favorite things to do when decluttering toys is to ask kids what their favorite toys are. Even better, ask for a number (like in the Tiny House Nation episode) – what are your five favorite toys.
 
@@ -30,7 +30,7 @@ Another game I like to play is – pick your favorite and pick one to donate. I 
 
 You will eventually run into your kids saying – but I like them all. That's ok. If they have made some progress, praise them for what they have accomplished and say - OK I understand. In a month or 3 you can always try again. Starting out fresh, your children will be ready to say goodbye to a few more items.
 
-# Happy Kids #
+## Happy Kids #
 
 You may be thinking that it would be too hard to down size the amount of toys your children have. You want them to be happy and all those toys were given to your children to bring them joy.
 
