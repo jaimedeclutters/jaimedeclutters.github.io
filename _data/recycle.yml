@@ -1,18 +1,42 @@
-- title: Blue Jeans Go Green
-  link: http://bluejeansgogreen.org/
-  image: /assets/images/recycling/blue-jeans-go-green.jpg
-  description: Don't toss your old denim. Give them new life as eco-friendly insulation. Find a local drive or mail your denim direct.
-- title: Adorned in Grace
-  link: http://www.adornedingrace.org/
-  image: /assets/images/recycling/adorned-in-grace.jpg
-  description: Give your wedding dress new life. Mail it in to this nonprofit bridal shop. Proceeds go to help and prevent sex trafficking victims.
-- title: Nike's Reuse-A-Shoe Program
-  link: http://www.nikegrind.com/
-  image: /assets/images/recycling/nike-reuse-a-shoe-program.jpg
-  description: Give your worn out athletic shoes new life as apparel, shoes, and surfaces. Drop off your old footwear at a nearby Nike store.
-- title: Local Library
-  image: /assets/images/recycling/local-library.jpg
-  description: Instead of keeping a home library of books & movies, donate them to your local library. You still get to enjoy them, but also share and save storage.
-- title: Electronics Recycling
-  image: /assets/images/recycling/electronics-recycling.jpg
-  description: Every Spring, Lakeside Lutheran High School in Lake Mills, WI teams up with Legacy Recycling to recycle old electronics!
+National:
+  - title: "Adorned in Grace"
+    link: http://www.adornedingrace.org/
+    image: /assets/images/recycling/adorned-in-grace.jpg
+    description: "Give your wedding dress new life. Mail it in to this nonprofit bridal shop. Proceeds go to help and prevent sex trafficking victims."
+  - title: "Apple Renew Program"
+    link: http://www.apple.com/recycling/
+    image: /assets/images/recycling/apple-renew-program.jpg
+    description: "Drop off your old Apple devices at your local Apple Store or mail it in for recycling. Apple is dedicated to making sure their devices will be recycled responsibly or given a chance to be used again."
+  - title: "Blue Jeans Go Green"
+    link: http://bluejeansgogreen.org/
+    image: /assets/images/recycling/blue-jeans-go-green.jpg
+    description: "Don't toss your old denim. Give them new life as eco-friendly insulation. Find a local drive or mail your denim direct."
+  - title: "Local Library"
+    link: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=find%20a%20library%20near%20me
+    image: /assets/images/recycling/local-library.jpg
+    description: "Instead of keeping a home library of books & movies, donate them to your local library. You still get to enjoy them, but also share and save storage."
+  - title: "Nike's Reuse-A-Shoe Program"
+    link: http://www.nikegrind.com/
+    image: /assets/images/recycling/nike-reuse-a-shoe-program.jpg
+    description: "Give your worn out athletic shoes new life as apparel, shoes, and surfaces. Drop off your old footwear at a nearby Nike store."
+  - title: "Samsung Mobile Take-Back Program"
+    link: https://pages.samsung.com/recycling/index.jsp
+    image: /assets/images/recycling/samsung-mobile-take-back.jpg
+    description: "Mail your old phone back to Samsung to be recycled and reused as resources in manufacturing."
+  - title: "thredUP.com"
+    link: http://www.thredup.com
+    image: /assets/images/recycling/thredup.jpg
+    description: "If you are decluttering your closet or looking to replace an item - think tredUP! Order a CLEAN OUT KIT or search for cute secondhand clothes (womens & kids)."
+Madison, WI:
+  - title: "Lakeside Lutheran Electronics Recycling"
+    link: http://www.llhs.org/apps/pages/index.jsp?uREC_ID=353537&type=d&pREC_ID=914746
+    image: /assets/images/recycling/electronics-recycling.jpg
+    description: "Every Spring, Lakeside Lutheran High School in Lake Mills, WI teams up with Legacy Recycling to recycle old electronics!"
+  - title: "Sergenian's Carpet Reclamation Program"
+    link: https://www.sergenians.com/sustainability/carpet-reclamation/
+    image: /assets/images/recycling/sergenians-carpet-reclamation.jpg
+    description: "Keep carpet out of the landfill. Drop-off your old carpet & padding at Sergenian’s distribution center at a modest cost."
+  - title: "Wisconsin Urbanwood"
+    link: http://wisconsinurbanwood.org
+    image: /assets/images/recycling/wisconsin-urbanwood.jpg
+    description: "If you have a tree that needs to be removed from your yard or need wood for a project, check this out! They are also partnered with local companies."
