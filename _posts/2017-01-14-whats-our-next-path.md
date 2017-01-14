@@ -7,7 +7,7 @@ image-folder: /assets/article_images/2017-01-08-live-less-furniture
 category: Simple Living
 ---
 
-Soon we will be ready for the next phase in our minimalist journey - moving to a tiny home. But where that tiny home is located in a huge unknown for us. I see us going in one of two directions - which one will we pick?
+Soon we will be ready for the next phase in our minimalist journey - moving to a tiny home. But where that tiny home is located is a huge unknown for us. I see us going in one of two directions - which one will we pick?
 
 ## Getting Ready
 
