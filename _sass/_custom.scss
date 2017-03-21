@@ -73,6 +73,29 @@ main.page {
   }
 }
 
+.captioned-image {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .image-container {
+    flex: 1 1 auto;
+    width: 400px;
+    max-width: 400px;
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  figcaption {
+    padding-left: 2rem;
+    flex: 1 1 auto;
+    min-width: 165px;
+    width: 165px;
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
