@@ -32,7 +32,7 @@ I love that Lush makes shampoo bars. They are package free, so no trash or recyc
 
 Most of the ingredients used are natural oils - jojoba, lavender, chamomile, and neroli. It also uses sodium bicarbonate - baking soda.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LM0-imdOfAI" frameborder="0" allowfullscreen></iframe>
+{% capture video-link %}https://www.youtube.com/embed/LM0-imdOfAI{% endcapture %}{% include video-embed.html %}
 
 Unfortunately, the main ingredient is SLS. This is a surfactant known to cause irritation and may cause non-reproductive organ system toxicity. This soap also uses synthetic dyes to get it’s pretty pink color - red 4 and red 27. I wish Lush would use a natural coloring or go completely natural altogether by using no coloring agents!
 
@@ -44,7 +44,7 @@ This soap also uses Linalool (natural fragrance in essential oil). Though natura
 
 Aveda is a great company in many ways. They strive to use green ingredients whenever possible. They also have a Soil to Bottle program where they are able to trace back their ingredients to co-ops that ensure fair compensation and provide community development projects - SO COOL!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xRivBgTfelY" frameborder="0" allowfullscreen></iframe>
+{% capture video-link %}https://www.youtube.com/embed/xRivBgTfelY{% endcapture %}{% include video-embed.html %}
 
 Aveda also offers Full Cycle Recycling. Any product container/packaging that cannot be recycled in your municipal program can be returned to your local Aveda Salon. Aveda will recycle these items into new Aveda packaging and accessories! AWESOME!
 

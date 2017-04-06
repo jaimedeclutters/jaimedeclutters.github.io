@@ -27,7 +27,7 @@ Two years later, we were engaged and I was immersed into the insane world of the
 
 My favorite movie wedding scene is from Three Men and a Little Lady. Peter finally declares his love for Sylvia. They exchange simple vows, kiss, and walk out of the church happy and in love.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIuLIks3v4g" frameborder="0" allowfullscreen></iframe>
+{% capture video-link %}https://www.youtube.com/embed/zIuLIks3v4g{% endcapture %}{% include video-embed.html %}
 
 It wasn’t about the dress, the ring, the flowers, or the party afterward. It was just about love; choosing each other and walking into your new future together. That’s all I wanted, all I needed to have a perfect day But once again, the world confused me.
 
