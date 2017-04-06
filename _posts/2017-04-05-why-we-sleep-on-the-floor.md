@@ -28,7 +28,7 @@ We have been floor sleepers for about 4 months now and I am completely use to it
 
 That’s the big question! Why choose to sleep on the floor when you can sleep in a soft bed raised up off the floor?
 
-I never knew that floor sleeping what a thing until I came across this youtube video!
+I never knew that floor sleeping was a thing until I came across this youtube video!
 
 {% capture video-link %}https://www.youtube.com/embed/6o6SHcXIbsA?ecver=2{% endcapture %}{% include video-embed.html %}
 
