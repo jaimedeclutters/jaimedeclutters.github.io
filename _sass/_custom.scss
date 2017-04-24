@@ -489,7 +489,12 @@ img.mini-post__image{
 }
 
 .side-column__image {
-  max-width: 100%;
+  img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+  }
 }
 
 
