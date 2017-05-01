@@ -34,18 +34,4 @@ If you’ve read some of my other posts, you know that I love houzz.com. Their p
 
 <div><a href='https://www.houzz.com/photos/18052476/Boys-Vintage-Modern-Nursery-modern-nursery-other' target='_blank'><img src='https://st.hzcdn.com/simgs/0261a29d042d732a_8-3875/modern-nursery.jpg' alt='' border='0' width='500' height='718' nopin='nopin' ondragstart='return false;' onselectstart='return false;' oncontextmenu='return false;'/></a></div><div style='color:#444;'><small><a style="text-decoration:none;color:#444;" href="https://www.houzz.com/pro/designstiles/designstiles" target="_blank">Photo by designstiles</a> - <a style="text-decoration:none;color:#444;" href="https://www.houzz.com/photos/modern/nursery" target="_blank">Discover modern nursery design ideas</a></small></div>
 
-## King Ranch Saddle Shop
-
-I recently connected with Kristin from [King Ranch Saddle Shop](http://www.krsaddleshop.com/){: target="_blank" rel="nofollow"}. She saw my husband’s blog post about [Living In Half Our House](https://www.keepthrifty.com/2017/04/10/living-in-half-of-our-house/){: target="_blank"} and saw our home remodeling photos. She asked if we had any ideas on adding a Western vibe and she inspired me to write this post.
-
-This post is not sponsored or have affiliate links. This post came about because I thought this would be a fun topic to write on and I thank Kristin for reaching out!
-
-After perusing their online shop, I found a few fun items that I thought would make awesome western accents in a minimalist home.
-
-[![Products from King Ranch - stool, hat, wine bottle holder, rug]({{site.url}}/assets/article_images/2017-04-30-western-minimalist-home/king-ranch-collage.jpg)](http://www.krsaddleshop.com/){: target="_blank" rel="nofollow"}
-
-And if you are a cowboy boot lover like my grandfather. I think this are classically cool:
-
-[![Men's and women's cowboy boots]({{site.url}}/assets/article_images/2017-04-30-western-minimalist-home/king-ranch-boots.jpg)](http://www.krsaddleshop.com/){: target="_blank" rel="nofollow"}
-
 _Are you a cowboy lover? Do you accent your home with a western vibe? Or do you have any other styles you would love to see me feature in a blog post? Comment below!_
