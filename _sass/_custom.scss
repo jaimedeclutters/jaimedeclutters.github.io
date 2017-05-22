@@ -158,7 +158,7 @@ a {
   font-size: 2.5rem;
   color: black;
   margin: 0 0 0.5rem 0;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.25rem;
 }
 
@@ -166,7 +166,7 @@ a {
   font-size: 2.0rem;
   color: $meta-color;
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.25rem;
 }
 
@@ -228,13 +228,13 @@ a {
   }
 
   p, li {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
   }
   .disclaimer {
     color: $meta-color;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -243,13 +243,13 @@ a {
     a {
       color: $meta-color;
     }
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1rem;
     text-transform: uppercase;
   }
 
   h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.15rem;
   }
 
@@ -341,7 +341,7 @@ a {
   font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.2rem;
 }
 
@@ -400,13 +400,13 @@ img.mini-post__image{
   h3 {
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.4rem;
     margin: 0.2rem 0;
     letter-spacing: 0.1rem;
   }
   h5 {
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 0 0.5rem 0;
     text-transform: uppercase;
     color: $meta-color;
@@ -452,7 +452,7 @@ img.mini-post__image{
     font-size: 1.5rem;
     line-height: 1.6rem;
     margin: 0.2rem 0;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.1rem;
   }
 
@@ -462,7 +462,7 @@ img.mini-post__image{
     text-transform: uppercase;
     color: $meta-color;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.1rem;
   }
 }
@@ -501,7 +501,7 @@ img.mini-post__image{
 form {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  font-weight: 400;
   input {
     display: inline;
   }
@@ -556,7 +556,7 @@ nav.navbar {
   line-height: 1.2rem;
   margin: 1rem 0;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .navbar-list--logo {
@@ -688,7 +688,7 @@ nav.navbar {
 
 .copyright {
   margin-top: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   .meta-header {
     font-size: 1rem;
     letter-spacing: 0.1rem;
@@ -844,4 +844,10 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+}
+
+p.critical-statement {
+  display: block;
+  text-align: center;
+  font-weight: 700;
 }
