@@ -4,6 +4,7 @@
       <li class="navbar-list__item navbar-list__item--current"><a href="/" data-hover="Jaime Declutters">Jaime Declutters</a></li>
     </ul>
     <ul class="navbar-list">
+      <li class="navbar-list__item {% if page.url == "/about/" %}navbar-list__item--current{% endif %}"><a href="/about/" data-hover="About">About</a></li>
       <li class="navbar-list__item"><a href="#!" data-hover="Resources">Resources <i class="fa fa-angle-down" aria-hidden="true"></i></a>
         <ul>
           <li><a href="/recycle/">Recycle</a></li>
@@ -11,7 +12,7 @@
           <li><a href="/blog/">Blog Archive</a></li>
         </ul>
       </li>
-      <li class="navbar-list__item {% if page.url == "/archive/" %}navbar-list__item--current{% endif %}"><a href="/madison-wi/" data-hover="Madison, WI">Madison, WI</a></li>
+      <li class="navbar-list__item {% if page.url == "/work-with-me/" %}navbar-list__item--current{% endif %}"><a href="/work-with-me/" data-hover="Work With Me">Work With Me</a></li>
     </ul>
   </nav>
   <div class="header-bar">

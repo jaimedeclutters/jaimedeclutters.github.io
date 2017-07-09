@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Madison, WI
+title: Work With Me
 image: /assets/images/madison-wi.jpg
-permalink: /madison-wi/
+permalink: /work-with-me/
 redirect-from:
   - /consult/
   - /contact/
   - /about/
   - /photos/before-after/
+  - /madison-wi/
 ---
 
 If you would like to declutter, but can’t seem to get started, I can help. I meet with clients in the Madison, WI area to declutter and create margin in their homes, turning a room that speaks chaos into a room that speaks joy.

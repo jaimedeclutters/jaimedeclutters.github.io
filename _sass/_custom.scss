@@ -127,11 +127,14 @@ a {
   margin-right: auto;
   background-color: white;
   padding: 2rem;
-  max-width: 54rem;
+  max-width: 70rem;
   box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.15);
   position: relative;
   margin-bottom: 4rem;
   border-radius: 2rem;
+  @media screen and (max-width: 1015px) {
+    box-shadow: none;
+  }
 }
 
 .post__link {
@@ -544,7 +547,6 @@ nav.navbar {
   justify-content: flex-end;
   align-content: stretch;
   background-color: $bg-color;
-  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.15);
 }
 
 .navbar-list {
@@ -712,10 +714,17 @@ nav.navbar {
   }
 }
 
-p.call-to-action {
-  text-align: right;
-  font-size: 1.6rem;
-  letter-spacing: 0.25rem;
+div.call-to-action {
+  margin: 2rem 0 0 0;
+  text-align: center;
+  a {
+    color: $meta-color;
+    border: 1px solid $meta-color;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
 }
 
 #next-post {

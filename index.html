@@ -7,7 +7,7 @@ redirect-from:
   - /photos/home-tour/
 ---
 
-<div class="col-three-quarters">
+<div>
 {% for post in paginator.posts %}
   <article class="post">
     <header class="post__header">
@@ -25,22 +25,10 @@ redirect-from:
 
     <main class="post__body">
       <p>{{ post.excerpt | strip_html }}</p>
-      <p class="call-to-action"><a href="{{ post.url }}">Read the rest...</a></p>
+      <div class="call-to-action"><a href="{{ post.url }}">Continue reading</a></div>
     </main>
   </article>
 {% endfor %}
+</div>
 
 {% include pagination-links.html %}
-</div>
-
-<div class="side-column col">
-  <div class="side-column__content">
-    {% include about.html %}
-  </div>
-  <div class="side-column__content">
-    {% include featured.html %}
-  </div>
-  <div class="side-column__content">
-    {% include supporting.html %}
-  </div>
-</div>

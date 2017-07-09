@@ -2,40 +2,26 @@
 layout: default
 ---
 
-<div class="col-three-quarters">
-  <article class="post">
-    <header class="post__header">
-      {% if page.image %}
-      <img src="{{ page.image }}" class="post__header__image" alt="" />
-      {% endif %}
-      <div class="post__title">
-        <h1 class="post__title--main">{{ page.title }}</h1>
-        {% if page.subtitle %}<h2 class="post__title--subtitle">{{ page.subtitle }}</h2>{% endif %}
-      </div>
-    </header>
+<article class="post">
+  <header class="post__header">
+    {% if page.image %}
+    <img src="{{ page.image }}" class="post__header__image" alt="" />
+    {% endif %}
+    <div class="post__title">
+      <h1 class="post__title--main">{{ page.title }}</h1>
+      {% if page.subtitle %}<h2 class="post__title--subtitle">{{ page.subtitle }}</h2>{% endif %}
+    </div>
+  </header>
 
-    <main class="post__body">
-      {% include affiliate.html %}
-      {{ content }}
-    </main>
+  <main class="post__body">
+    {% include affiliate.html %}
+    {{ content }}
+  </main>
 
-    <fooder class="post__footer">
-      {% if page.comments %}
-        <hr>
-        {% include comments.html %}
-      {% endif %}
-    </footer>
-  </article>
-</div>
-
-<div class="side-column col">
-  <div class="side-column__content">
-    {% include about.html %}
-  </div>
-  <div class="side-column__content">
-    {% include featured.html %}
-  </div>
-  <div class="side-column__content">
-    {% include supporting.html %}
-  </div>
-</div>
+  <fooder class="post__footer">
+    {% if page.comments %}
+      <hr>
+      {% include comments.html %}
+    {% endif %}
+  </footer>
+</article>

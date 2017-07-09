@@ -2,44 +2,29 @@
 layout: default
 comments: true
 ---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post__header">
+    <div class="post__meta">
+      {% include page-date.html %}
+    </div>
+    <div class="post__title">
+      <h1 class="post__title--main" itemprop="name headline">{{ page.title }}</h1>
+      {% if page.subtitle %}<h2 class="post__title--subtitle">{{ page.subtitle }}</h2>{% endif %}
+    </div>
+    {% if page.image %}
+    <img src="{{site.url}}{{ page.image }}" class="post__header__image" itemprop="image" alt="" />
+    {% endif %}
+  </header>
 
-<div class="col-three-quarters">
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post__header">
-      <div class="post__meta">
-        {% include page-date.html %}
-      </div>
-      <div class="post__title">
-        <h1 class="post__title--main" itemprop="name headline">{{ page.title }}</h1>
-        {% if page.subtitle %}<h2 class="post__title--subtitle">{{ page.subtitle }}</h2>{% endif %}
-      </div>
-      {% if page.image %}
-      <img src="{{site.url}}{{ page.image }}" class="post__header__image" itemprop="image" alt="" />
-      {% endif %}
-    </header>
+  <main class="post__body" itemprop="articleBody">
+    {% include affiliate.html %}
+    {{ content }}
+  </main>
 
-    <main class="post__body" itemprop="articleBody">
-      {% include affiliate.html %}
-      {{ content }}
-    </main>
-
-    <fooder class="post__footer">
-      <hr>
-      {% include post-navigation.html %}
-      <hr>
-      {% include comments.html %}
-    </footer>
-  </article>
-</div>
-
-<div class="side-column col">
-  <div class="side-column__content">
-    {% include about.html %}
-  </div>
-  <div class="side-column__content">
-    {% include featured.html %}
-  </div>
-  <div class="side-column__content">
-    {% include supporting.html %}
-  </div>
-</div>
+  <fooder class="post__footer">
+    <hr>
+    {% include post-navigation.html %}
+    <hr>
+    {% include comments.html %}
+  </footer>
+</article>
