@@ -30,9 +30,13 @@ redirect-from:
   <p>First meeting is free. Each design draft is $50.</p>
 </div>
 
-<h3>If you would like to work with me, send me an email below:</h3>
+<div>
+  <div class="contact__box">
+    <h3 class="title">If you would like to work with me, send me an email below:</h3>
 
-{% include contact-form.html %}
+    {% include contact-form.html %}
+  </div>
+</div>
 
 <h2>Client Photos</h2>
 
