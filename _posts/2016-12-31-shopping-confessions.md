@@ -4,6 +4,7 @@ title:  "Shopping Confessions"
 date:   2016-12-31
 image: /assets/article_images/2016-12-31-shopping-confessions/clothes-rack.jpg
 category: Simple Living
+featured: true
 ---
 
 This past year I haven’t stepped into many stores and haven’t done much shopping for clothes. Honestly, it feels like I’ve been really good this year in not buying many clothes, but I looked at my spending over 2016 and was amazed at what I found.

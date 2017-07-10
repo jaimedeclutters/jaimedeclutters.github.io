@@ -5,6 +5,7 @@ date:   2017-01-08
 image: /assets/article_images/2017-01-08-live-less-furniture/chair-in-road.jpg
 image-folder: /assets/article_images/2017-01-08-live-less-furniture
 category: Decluttering
+featured: true
 ---
 
 Is your home filled with furniture - beds, dressers, tables, couches, chairs, etc? What if I said you could eliminate half of your furniture, still have everything you need and still enjoy your home? It is possible, here is how to make it happen:

@@ -5,6 +5,7 @@ date:   2016-12-15
 image: /assets/article_images/2016-12-15-my-minimalist-dream-coming-true/shack.jpg
 image-folder: /assets/article_images/2016-12-15-my-minimalist-dream-coming-true
 category: Simple Living
+featured: true
 ---
 
 Why live simply? Why minimalism? Why would anyone want to live this way? My short answer: JOY. This way of life isn’t for everyone. Not everyone would enjoy living this way. But for me, it a dream come true.

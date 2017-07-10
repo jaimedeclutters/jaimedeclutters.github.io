@@ -4,6 +4,7 @@ title:  "How Minimalism Has Improved My Life"
 date:   2017-05-21 19:45:00 -05:00
 image: /assets/article_images/2017-05-21-how-minimalism-has-improved-my-life/minimalist-coffee.jpg
 category: Simple Living
+featured: true
 ---
 
 As my husband and I dive deeper into living a minimalist lifestyle, we are slowly sharing this change with the people around us. Today we were asked how becoming minimalists has improved our lives. As expected, we have less to maintain and clean and more time for the things that we value. But I knew I had another answer; one I wasn’t able to answer in the moment. Something bigger. Something life changing.  This is what I didn’t get the chance to share...

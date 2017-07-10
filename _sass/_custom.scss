@@ -668,6 +668,9 @@ nav.navbar {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   padding-bottom: 0.4rem;
+  a {
+    color: black;
+  }
 }
 
 
@@ -900,4 +903,36 @@ img.page__section__image {
   .title {
     text-align: center;
   }
+}
+
+.image__gallery {
+  display: block;
+  text-align: center;
+}
+
+.image__gallery__item {
+  display: inline-block;
+  max-width: 250px;
+  vertical-align: top;
+  margin: 1rem 2rem;
+  a {
+    color: black;
+  }
+}
+
+.image__gallery__caption {
+  display: block;
+}
+
+img.image__gallery__image {
+  height: 250px;
+  width: auto;
+  display: inline;
+  margin: 1rem 2rem;
+}
+
+img.image__gallery__image--circled {
+  border-radius: 50%;
+  border: 3px solid $primary-color;
+  height: 200px;
 }

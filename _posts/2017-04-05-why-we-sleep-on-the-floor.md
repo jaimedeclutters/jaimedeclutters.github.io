@@ -4,6 +4,7 @@ title:  "Why We Sleep On The Floor"
 date:   2017-04-05
 image: /assets/article_images/2017-04-05-why-we-sleep-on-the-floor/floor-sleeping.jpg
 category: Simple Living
+featured: true
 ---
 
 A friend walked into our home the other week. After walking past our bedrooms she asked - Where do you sleep? Fair question - there are no beds.
