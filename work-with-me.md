@@ -14,7 +14,7 @@ redirect-from:
   <img src="{{site.url}}/assets/images/declutter-with-me.jpg" class="page__section__image">
   <h2 class="page__section__title">Declutter With Me</h2>
   <p>I love the decluttering process. We can take on a room, closets, or garage. I'll ask some tough questions, and give you lots of solutions. Together we will get your home back to feeling spacious.</p>
-  <p>This Summer, I am scheduling decluttering sessions in the Madison, WI area on Monday and Thursday afternoons. Sessions are 4 hours long and cost $40.</p>
+  <p>This Fall, I am scheduling decluttering sessions in the Madison, WI area during the day (8-2) on Tuesdays through Fridays. Sessions are 4 hours long and cost $40.</p>
 </div>
 <div class="page__section">
   <img src="{{site.url}}/assets/images/chat-with-me.jpg" class="page__section__image">
