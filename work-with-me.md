@@ -38,26 +38,39 @@ redirect-from:
   </div>
 </div>
 
-<h2>Client Photos</h2>
+<h2>Design Client Photos</h2>
 
 <div class="image-set image-set--vertical">
   <figure>
-    <img src="/assets/images/photo-pages/before-after/toys-before.jpg">
+    <img src="/assets/images/design-photos/kitchen-remodel-original.png">
     <figcaption>Before</figcaption>
   </figure>
   <figure>  
-    <img src="/assets/images/photo-pages/before-after/toys-after.jpg">
+    <img src="/assets/images/design-photos/kitchen-remodel.png">
+    <figcaption>After</figcaption>
+  </figure>
+</div>
+
+<h2>Declutter Client Photos</h2>
+
+<div class="image-set image-set--vertical">
+  <figure>
+    <img src="/assets/images/declutter-photos/toys-before.jpg">
+    <figcaption>Before</figcaption>
+  </figure>
+  <figure>  
+    <img src="/assets/images/declutter-photos/toys-after.jpg">
     <figcaption>After</figcaption>
   </figure>
 </div>
 
 <div class="image-set image-set--vertical">
   <figure>
-    <img src="/assets/images/photo-pages/before-after/boys-room-bed-before.jpg">
+    <img src="/assets/images/declutter-photos/boys-room-bed-before.jpg">
     <figcaption>Before</figcaption>
   </figure>
   <figure>  
-    <img src="/assets/images/photo-pages/before-after/boys-room-bed-after.jpg">
+    <img src="/assets/images/declutter-photos/boys-room-bed-after.jpg">
     <figcaption>After</figcaption>
   </figure>
 </div>
