@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Minimalist Apartment Tour - Living & Dining Room"
-date:   2017-10-03 10:55:00 -05:00
+date:   2017-10-03 8:13:00 -05:00
 image: /assets/article_images/2017-10-03-minimalist-apartment-tour-living-dining/minimalist-dining.jpg
 category: Minimalist Apartment Tour
 ---
