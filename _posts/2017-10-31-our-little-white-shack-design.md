@@ -1,40 +1,88 @@
 ---
 layout: post
-title:  "One in One Out Christmas Challenge"
-date:   2017-11-14 10:15:00 -05:00
-image: /assets/article_images/2017-11-14-one-in-one-out-christmas-challenge/box-of-toys.jpg
-category: Decluttering
+title:  "Our Little White Shack Design"
+date:   2017-10-31 10:17:00 -05:00
+image: /assets/article_images/2017-10-31-our-little-white-shack-design/little-white-shack.jpg
+category: Inspiration
 ---
 
-Christmas is usually a time of influx in our homes. More gifts, more stuff. But more stuff doesn’t equal more joy. Often times, it means moving on to the next best gadget or toy. The gifts are replacements, but we don’t actually replace out stuff. We just push it to the back of the cabinet, down to the basement, or up to the attic.
+I am so freakin excited! Big news - We bought some land this Summer! This wasn’t on our radar, the land just popped up for sale and it was a perfect fit for us. We made an offer, crossed our fingers, prayed, and got the land. Since then, I’ve been working on a home layout design - something small and simple. I finally created something I love! Here are 3D images of our future little white shack!
 
-## Product Life Cycle
+## Why The Land Is Perfect
 
-Things break over time and kids grow up and out of certain toys. This is all normal. Replacing an old cell phone that isn’t working well makes sense. Growing out of Sesame Street toys and moving onto legos is normal.
+Back in January I wrote about trying to figure out our next path. We wanted to live somewhere within walking distance to our favorite places, but we also love being close to nature. That’s a tall order.
 
-When these life transitions happen, let’s make sure that we give our old items a new life. Recycle old electronics. Donate, sell, or regift still nice toys.
+The land we ended up purchasing is centrally located in our town. It had been owned by the Village with an old utility building on it. They knocked that down and decided to sell the land. This was a unique opportunity since these lots usually aren’t available.
 
-## The What Ifs
+We will be able to walk our kids to school and be closer to our favorite pizza place, church, and the bike trail! We will also be really close to a small nature preserve in our town!
 
-If your reasoning for holding onto old toys is for a future baby, that’s ok, but limit those items to a single box of your favorites. I’m sure there is an obnoxious noise-maker that you would be happy not to have around with your next little one.
+## What We Want In Our Future House
 
-Maybe you’ve held onto duplicate items in the past because you may need them again. But here’s a better question. If your old item still works great, why do you have a new version? Can you forgo or return this new item and spend the money on something you actually need or save it for future expenses?
+Unlike most new homes being built, we want to go smaller. This is tough because most new subdivisions have deeds with minimum square footage and materials used. These restrictions would have left us with a bigger, more expensive home.
 
-If you love the new item, can you sell your old one to someone who is looking for a still working used item at a discounted price? You’ll help someone and get a little money for future expenses or savings.
+Luckily, this land came with no deed restrictions. We can build whatever size home we want! YAY!
 
-## Decluttering Challenge
+So what do we want? Something smaller - about 1,000 square feet or less. We want simple yet beautiful.
 
-Take control of the clutter this holiday season. Instead of just adding new items to your home, become intentional about your stuff. Here’s how:
+## Here’s Our Design
 
-1. Grab a cardboard box. Label it DONATIONS
-2. When you get a gift, ask yourself if this item is something you want to keep.
-3. If so, pick something old from your home to place in the donation box. If the gift is a replacement item, such as a new wine bottle opener, the easy trade is the old wine bottle opener.
-4. If you decide you would rather keep your current items, can you return the new item? If so, great. If not, you can sell it second hand? Otherwise, place it in the donation box.
+After talking with our builder, we decided to go with a two story home. This will save us some cost on the foundation and roof. The house is 20 feet wide by 24 feet deep with a two-car attached garage. We will have an unfinished exposed basement as well.
 
-The goal is to keep the same number of items in your home. You don’t need more stuff, you just need the items that are going to bring you the most value.
+The 3D images show the overall look and feel of the home. The window and door openings are rough and I didn’t add much detail yet.
 
-If you decide to take on this challenge, communicate this challenge with your spouse and children. Let them know that you are all doing it (not just the kids) and that the choice is theirs - to keep the new toy or keep the old toy.
+![Front view of house]({{site.url}}/assets/article_images/2017-10-31-our-little-white-shack-design/little-white-shack-front.png)
 
-You don’t have to complete the challenge perfectly. The goal is to be intentional. To acknowledge when you have items that you no longer use, and taking the steps to give them new life outside of your home.
+<div class="image-caption">Front View</div>
 
-_Are you up for the challenge? Comment below if you plan to try ONE IN ONE OUT this holiday season. We can support each other in our efforts!_
+I really wanted to keep with an old school look. A nice front porch and the garage off to the side, slightly set back from the front of the home. To me, it has a very welcoming entrance.
+
+To create some dimension and texture in the home, I added the porch roof and used a wood siding in the peak to keep a natural look but add contrast to the white siding. The wood siding also matches the beams on the porch.
+
+![Back view of house]({{site.url}}/assets/article_images/2017-10-31-our-little-white-shack-design/little-white-shack-back.png)
+
+<div class="image-caption">Back View</div>
+
+With the garage pushed back, we get some privacy on our deck. It’s a little hard to tell here, but about half the porch would be screened in so we can enjoy bug free evenings outside in the Summer.
+
+![Main floor layout of house]({{site.url}}/assets/article_images/2017-10-31-our-little-white-shack-design/little-white-shack-main-floor.png)
+
+<div class="image-caption">Main Floor</div>
+
+Don’t be confused by all the windows. The upper windows are for the second floor.
+
+I kept this floor simple with stairs to the left of the front door, living room and dining area to the right. We’ve always wanted a fireplace to enjoy our crazy long Wisconsin winters so that was a must in our design. We also kept the living and dining areas open to each other for flexibility.
+
+If we have a family or friend gathering, we can slide around the furniture to expand our table to welcome more to sit and dine with us!
+
+Behind the stairs is the entrance from the garage. It’s small, but leaves just enough room to put some hooks to hang up jackets. I’m also hoping to create more of a landing and shoe drop off space in the garage.
+
+At the end of the home we have a half bath and the kitchen. We placed the half bath here for a few reasons - easy access from backyard and garage. There is also a bit of privacy from the main living area.
+
+We have a galley kitchen in our apartment and decided to mimic it in our future home because we love it so much. The big difference is that I will have a huge window over the sink looking out into the back yard!
+
+The kitchen is pretty much completely closed off from the rest of the house. I’m still playing with the idea of opening up the wall a bit to the dining area.
+
+![Upstairs layout of house]({{site.url}}/assets/article_images/2017-10-31-our-little-white-shack-design/little-white-shack-upstairs.png)
+
+<div class="image-caption">Upstairs</div>
+
+Upstairs we have two bedrooms, one bathroom, and a laundry room. Our builder told me there is some space to expand the laundry over the stairs so we may be able to have a larger laundry room.
+
+The bathroom is pretty basic with an entrance from the hall and from the master bedroom.
+
+The Master is basic with a small built-in his and hers closet.
+The girls room is a bit more crazy. I have three built-in small closets. Then I decided to create a built in bunk with stairs. The lower bunk has personal storage under the stairs. I also built up walls at the end of the bunk to create a welcoming L-shape for their beds. This will have additional personal storage for the girls along with outlets and a light.
+
+The laundry room is basic with a sink and washer/dryer combo.
+
+## What About Storage
+
+You may notice there isn’t a lot of storage. Being minimalists, we don’t want a lot of storage space. Instead we focus on only having what we love, use, and need.
+
+We plan on placing coat hooks by the garage entrance and on the side of the stairwell facing the living area.
+
+We will also have the garage and an unfinished basement for other storage needs.
+
+The other thing I love about the unfinished basement is that it offers flexibility. If we want to finish a part of it in the future, we can. Otherwise it can be a cool hangout, run around play area for our kids and their friends!
+
+_Do you currently live in a small home with a family? How do you make it work?_
