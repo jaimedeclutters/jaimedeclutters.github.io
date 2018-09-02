@@ -7,6 +7,65 @@ redirect-from:
   - /photos/home-tour/
 ---
 
+<div class="landing-header">
+  <div class="landing-header__image">
+    <img src="{{site.url}}/assets/images/headshot.jpg" />
+  </div>
+  <div class="landing-header__copy">
+    <h1 class="landing-header__title">Welcome</h1>
+    <p class="landing-header__text">I'm Jaime - a minimalist who's passionate about decluttering and responsible recycling. I hope my blog and resources inspire and help you in your own life.</p>
+  </div>
+</div>
+
+{% assign latest = site.posts.first %}
+<div class="landing-box">
+  <a class="landing-box__label" href="#">
+    Declutter
+  </a>
+  <div class="landing-latest">
+    <div class="landing-latest__image">
+      <img src="{{site.url}}{{latest.image}}" alt="{{latest.title}}"/>
+    </div>
+    <div class="landing-latest__copy">
+      <h3 class="landing-latest__title">{{latest.title}}</h1>
+      {{latest.excerpt}}
+      <p><a href="{{latest.link}}">Read More...</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="landing-box">
+  <a class="landing-box__label" href="#">
+    Inspire
+  </a>
+  <div class="landing-latest">
+    <div class="landing-latest__image">
+      <img src="{{site.url}}{{latest.image}}" alt="{{latest.title}}"/>
+    </div>
+    <div class="landing-latest__copy">
+      <h3 class="landing-latest__title">{{latest.title}}</h1>
+      {{latest.excerpt}}
+      <p><a href="{{latest.link}}">Read More...</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="landing-box">
+  <a class="landing-box__label" href="#">
+    Story
+  </a>
+  <div class="landing-latest">
+    <div class="landing-latest__image">
+      <img src="{{site.url}}{{latest.image}}" alt="{{latest.title}}"/>
+    </div>
+    <div class="landing-latest__copy">
+      <h3 class="landing-latest__title">{{latest.title}}</h1>
+      {{latest.excerpt}}
+      <p><a href="{{latest.link}}">Read More...</a></p>
+    </div>
+  </div>
+</div>
+
 <div>
 {% for post in paginator.posts %}
   <article class="post">

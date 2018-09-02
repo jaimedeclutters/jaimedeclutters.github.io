@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Winter is an Ideal Time to Declutter Your Home"
-date:   2018-01-30 12:00:00 -05:00
+date:   2012-01-30 12:00:00 -05:00
 image: /assets/article_images/2018-01-30-winter-declutter/chaos.jpg
 category: Decluttering
 ---

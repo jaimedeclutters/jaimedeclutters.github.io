@@ -4,7 +4,7 @@
 @charset "utf-8";
 /*** Colors ***/
 $primary-color: #8DDBE7; //color("light-green", "darken-3") !default;
-$secondary-color: #8DDBE7; //color("blue", "accent-4") !default;
+$secondary-color: #26C6DA; //color("blue", "accent-4") !default;
 $meta-color: #9E9E9E; //color("grey", "base") !default;
 $bg-color: white; //color("grey", "lighten-4") !default;
 $code-color: #38761D; //color("light-green", "lighten-4") !default;
@@ -17,5 +17,6 @@ $large-screen: 1200px;
 @import
         "typography",
         "custom",
+        "landing",
         "../assets/font-awesome-4.6.3/scss/font-awesome"
 ;
