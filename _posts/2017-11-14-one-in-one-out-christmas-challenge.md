@@ -3,7 +3,9 @@ layout: post
 title:  "One in One Out Christmas Challenge"
 date:   2017-11-14 10:15:00 -05:00
 image: /assets/article_images/2017-11-14-one-in-one-out-christmas-challenge/box-of-toys.jpg
-category: Decluttering
+redirect_from:
+  - /blog/2017/11/14/one-in-one-out-christmas-challenge
+category: Declutter
 ---
 
 Christmas is usually a time of influx in our homes. More gifts, more stuff. But more stuff doesn’t equal more joy. Often times, it means moving on to the next best gadget or toy. The gifts are replacements, but we don’t actually replace out stuff. We just push it to the back of the cabinet, down to the basement, or up to the attic.

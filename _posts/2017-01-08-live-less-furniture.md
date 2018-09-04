@@ -3,8 +3,10 @@ layout: post
 title:  "How to Live with Less Furniture"
 date:   2017-01-08
 image: /assets/article_images/2017-01-08-live-less-furniture/chair-in-road.jpg
+redirect_from:
+  - /blog/2017/01/08/live-less-furniture
 image-folder: /assets/article_images/2017-01-08-live-less-furniture
-category: Decluttering
+category: Declutter
 featured: true
 ---
 

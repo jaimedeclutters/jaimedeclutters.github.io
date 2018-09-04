@@ -3,7 +3,9 @@ layout: post
 title:  "Baby Clothes for # 2"
 date:   2016-09-06
 image: /assets/article_images/2016-09-06-baby-clothes-number-two/pregnant-mom-and-daughter.jpg
-category: Decluttering
+redirect_from:
+  - /blog/2016/09/06/baby-clothes-number-two
+category: Declutter
 ---
 
 With our first baby, we buy new clothes for our little one because we are starting something new. As our little one quickly grows, we hold onto their tiny outfits for baby number two (or three or four). We are trying to be smart and save ourselves money. This is a great idea, but what if you end up with a closet full or a dozen boxes worth of clothes for your future baby?

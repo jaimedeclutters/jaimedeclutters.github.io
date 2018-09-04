@@ -1,0 +1,20 @@
+{% assign category = include.category | default: include.title %}
+
+{% assign posts = site.categories[category] %}
+{% assign latest = posts.first %}
+
+<div class="landing-box">
+  <a class="landing-box__label" href="{{ include.title | slugify }}">
+    {{ include.title }}
+  </a>
+  <div class="landing-latest">
+    <div class="landing-latest__image">
+      <img src="{{site.url}}{{latest.image}}" alt="{{latest.title}}"/>
+    </div>
+    <div class="landing-latest__copy">
+      <h3 class="landing-latest__title">{{latest.title}}</h3>
+      {{latest.excerpt}}
+      <p><a href="{{latest.url}}">Read More...</a></p>
+    </div>
+  </div>
+</div>

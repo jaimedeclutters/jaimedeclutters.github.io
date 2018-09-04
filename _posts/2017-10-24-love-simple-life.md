@@ -3,7 +3,9 @@ layout: post
 title:  "Why I Love the Simple Life"
 date:   2017-10-24 12:20:00 -05:00
 image: /assets/article_images/2017-10-24-love-simple-life/simple-life.jpg
-category: Simple Living
+redirect_from:
+  - /blog/2017/10/24/love-simple-life
+category: Inspiration
 ---
 
 The way I see it, living simply is about filling your daily life with the things that bring you joy and peace, limiting the things that bring you stress, and eliminating the unnecessary. When I am able to find this balance in my life, I find that my soul is filled.

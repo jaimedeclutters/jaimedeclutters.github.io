@@ -3,6 +3,8 @@ layout: post
 title:  "Enjoy the Outdoors"
 date:   2016-10-23
 image: /assets/article_images/2016-10-23-enjoy-the-outdoors/hiking.jpg
+redirect_from:
+  - /blog/2016/10/23/enjoy-the-outdoors
 category: Inspiration
 ---
 

@@ -5,6 +5,8 @@ subtitle: "Kids Bedroom Inspiration"
 date:   2016-08-24
 image: /assets/article_images/2016-08-24-bright-airy-kids-bedroom-inspiration/kids-bedroom-inspiration.jpg
 category: Inspiration
+redirect_from:
+  - /blog/2016/08/24/bright-airy-kids-bedroom-inspiration
 ---
 
 Decluttering is only half the fun. Once you've figured out what to keep and what to say goodbye to, the next step is loving the room you have decluttered. When I'm looking for inspiration in room design, I go to houzz.com to find pictures I love.

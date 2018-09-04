@@ -3,7 +3,9 @@ layout: post
 title:  "Minimalist Apartment Tour - Living & Dining Room"
 date:   2017-10-03 8:13:00 -05:00
 image: /assets/article_images/2017-10-03-minimalist-apartment-tour-living-dining/minimalist-dining.jpg
-category: Minimalist Apartment Tour
+redirect_from:
+  - /blog/2017/10/03/minimalist-apartment-tour-living-dining
+category: My-Story
 ---
 
 Two months ago we sold our 1,800 square foot home and moved into a 1,100 square foot apartment. We gave up about 700 square feet, an unfinished basement, and a backyard. How has our family adapted to our new home?

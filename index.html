@@ -1,10 +1,18 @@
 ---
 layout: default
-redirect-from:
-  - /about/
-  - /blog/
+redirect_from:
+  - /blog
   - /photos/index.html
   - /photos/home-tour/
+  - /page2
+  - /page3
+  - /page4
+  - /page5
+  - /page6
+  - /page7
+  - /page8
+  - /page9
+  - /page10
 ---
 
 <div class="landing-header">
@@ -17,77 +25,4 @@ redirect-from:
   </div>
 </div>
 
-{% assign latest = site.posts.first %}
-<div class="landing-box">
-  <a class="landing-box__label" href="#">
-    Declutter
-  </a>
-  <div class="landing-latest">
-    <div class="landing-latest__image">
-      <img src="{{site.url}}{{latest.image}}" alt="{{latest.title}}"/>
-    </div>
-    <div class="landing-latest__copy">
-      <h3 class="landing-latest__title">{{latest.title}}</h1>
-      {{latest.excerpt}}
-      <p><a href="{{latest.link}}">Read More...</a></p>
-    </div>
-  </div>
-</div>
-
-<div class="landing-box">
-  <a class="landing-box__label" href="#">
-    Inspire
-  </a>
-  <div class="landing-latest">
-    <div class="landing-latest__image">
-      <img src="{{site.url}}{{latest.image}}" alt="{{latest.title}}"/>
-    </div>
-    <div class="landing-latest__copy">
-      <h3 class="landing-latest__title">{{latest.title}}</h1>
-      {{latest.excerpt}}
-      <p><a href="{{latest.link}}">Read More...</a></p>
-    </div>
-  </div>
-</div>
-
-<div class="landing-box">
-  <a class="landing-box__label" href="#">
-    Story
-  </a>
-  <div class="landing-latest">
-    <div class="landing-latest__image">
-      <img src="{{site.url}}{{latest.image}}" alt="{{latest.title}}"/>
-    </div>
-    <div class="landing-latest__copy">
-      <h3 class="landing-latest__title">{{latest.title}}</h1>
-      {{latest.excerpt}}
-      <p><a href="{{latest.link}}">Read More...</a></p>
-    </div>
-  </div>
-</div>
-
-<div>
-{% for post in paginator.posts %}
-  <article class="post">
-    <header class="post__header">
-      <div class="post__meta">
-        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-      </div>
-      <div class="post__title">
-        <h1 class="post__title--main"><a href="{{ post.url}}">{{ post.title }}</a></h1>
-        {% if post.subtitle %}<h2 class="post__title--subtitle"><a href="{{ post.url}}">{{ post.subtitle }}</h2></a>{% endif %}
-      </div>
-      {% if post.image %}
-      <a href="{{ post.url}}"><img src="{{ post.image }}" class="post__header__image" alt="" /></a>
-      {% endif %}
-    </header>
-
-    <main class="post__body">
-      <p>{{ post.excerpt | strip_html }}</p>
-      <div class="call-to-action"><a href="{{ post.url }}">Continue reading</a></div>
-    </main>
-  </article>
-{% endfor %}
-</div>
-
-{% include pagination-links.html %}
+{% include landing/latest-group.html %}

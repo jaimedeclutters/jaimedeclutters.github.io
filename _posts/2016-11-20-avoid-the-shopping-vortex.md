@@ -3,7 +3,9 @@ layout: post
 title:  "Avoid the Shopping Vortex"
 date:   2016-11-20
 image: /assets/article_images/2016-11-20-avoid-the-shopping-vortex/shopping-mall.jpg
-category: Zero Waste
+redirect_from:
+  - /blog/2016/11/20/avoid-the-shopping-vortex
+category: Inspiration
 ---
 
 Confession - I rarely step into a mall anymore. I remember walking through the mall over a year ago and all I could think was, THIS IS CRAZY! How many clothes are actually in this huge building in all these different stores? Is this really necessary? What a waste of materials and labor!

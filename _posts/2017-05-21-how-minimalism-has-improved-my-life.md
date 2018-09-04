@@ -3,7 +3,9 @@ layout: post
 title:  "How Minimalism Has Improved My Life"
 date:   2017-05-21 19:45:00 -05:00
 image: /assets/article_images/2017-05-21-how-minimalism-has-improved-my-life/minimalist-coffee.jpg
-category: Simple Living
+redirect_from:
+  - /blog/2017/05/21/how-minimalism-has-improved-my-life
+category: My-Story
 featured: true
 ---
 

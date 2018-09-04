@@ -3,6 +3,8 @@ layout: post
 title:  "A Values-Run Life"
 date:   2017-04-22
 image: /assets/article_images/2017-04-22-a-values-run-life/runner-rocks.jpg
+redirect_from:
+  - /blog/2017/04/22/a-values-run-life
 category: Inspiration
 ---
 

@@ -3,7 +3,9 @@ layout: post
 title:  "Why We Sleep On The Floor"
 date:   2017-04-05
 image: /assets/article_images/2017-04-05-why-we-sleep-on-the-floor/floor-sleeping.jpg
-category: Simple Living
+redirect_from:
+  - /blog/2017/04/05/why-we-sleep-on-the-floor
+category: My-Story
 featured: true
 ---
 

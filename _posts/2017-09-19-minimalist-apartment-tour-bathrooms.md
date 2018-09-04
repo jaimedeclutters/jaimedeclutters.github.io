@@ -3,7 +3,9 @@ layout: post
 title:  "Minimalist Apartment Tour - Bathrooms"
 date:   2017-09-19 10:55:00 -05:00
 image: /assets/article_images/2017-09-19-minimalist-apartment-tour-bathrooms/minimalist-bathroom.jpg
-category: Minimalist Apartment Tour
+redirect_from:
+  - /blog/2017/09/19/minimalist-apartment-tour-bathrooms
+category: My-Story
 ---
 
 Two months ago we sold our 1,800 square foot home and moved into a 1,100 square foot apartment. We gave up about 700 square feet, an unfinished basement, and a backyard. How has our family adapted to our new home?

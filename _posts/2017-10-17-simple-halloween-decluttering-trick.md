@@ -3,7 +3,9 @@ layout: post
 title:  "A Simple Halloween Decluttering Trick"
 date:   2017-10-17 12:20:00 -05:00
 image: /assets/article_images/2017-10-17-simple-halloween-decluttering-trick/halloween-costume.jpg
-category: Decluttering
+redirect_from:
+  - /blog/2017/10/17/simple-halloween-decluttering-trick
+category: Declutter
 ---
 
 A few weeks ago, we got a Halloween costume catalog in the mail. My girls went crazy over it. They probably spent an hour looking at all the choices and picking out their favorites. Then they called me over to show me what they would like to get: Cleopatra, A Movie Star, and a Bollywood Dancer. I believe the total cost was close to $300 for the full costumes. While these costumes were wonderful, I had another idea:

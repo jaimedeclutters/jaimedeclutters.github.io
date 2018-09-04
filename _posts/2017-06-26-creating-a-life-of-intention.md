@@ -3,6 +3,8 @@ layout: post
 title:  "Creating a Life of Intention"
 date:   2017-06-26 15:45:00 -05:00
 image: /assets/article_images/2017-06-26-creating-a-life-of-intention/mom-and-daughter.jpg
+redirect_from:
+  - /blog/2017/06/26/creating-a-life-of-intention
 category: Inspiration
 ---
 

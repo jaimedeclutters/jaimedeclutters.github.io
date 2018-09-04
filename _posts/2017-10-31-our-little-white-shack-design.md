@@ -3,7 +3,9 @@ layout: post
 title:  "Our Little White Shack Design"
 date:   2017-10-31 10:17:00 -05:00
 image: /assets/article_images/2017-10-31-our-little-white-shack-design/little-white-shack.jpg
-category: Inspiration
+redirect_from:
+  - /blog/2017/10/31/our-little-white-shack-design
+category: My-Story
 ---
 
 I am so freakin excited! Big news - We bought some land this Summer! This wasn’t on our radar, the land just popped up for sale and it was a perfect fit for us. We made an offer, crossed our fingers, prayed, and got the land. Since then, I’ve been working on a home layout design - something small and simple. I finally created something I love! Here are 3D images of our future little white shack!

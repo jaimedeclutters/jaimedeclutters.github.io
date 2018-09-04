@@ -3,7 +3,9 @@ layout: post
 title:  "The Freedom of Contentment"
 date:   2016-11-26
 image: /assets/article_images/2016-11-26-the-freedom-of-contentment/hammock.jpg
-category: Simple Living
+redirect_from:
+  - /blog/2016/11/26/the-freedom-of-contentment
+category: Inspiration
 ---
 
 According to dictionary.com the word content means: to be satisfied with what one is or has. In order to be content with what one has, first we need to be thankful. Are we truly thankful for what we have, or do we feel that what we have is never enough?

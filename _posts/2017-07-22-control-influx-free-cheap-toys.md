@@ -3,7 +3,9 @@ layout: post
 title:  "How To Control the Influx of Free Cheap Toys"
 date:   2017-07-22 10:55:00 -05:00
 image: /assets/article_images/2017-07-22-control-influx-free-cheap-toys/toy-box.jpg
-category: Inspiration
+redirect_from:
+  - /blog/2017/07/22/control-influx-free-cheap-toys
+category: Declutter
 ---
 
 There seems to always be an influx of toys coming into our home. Beyond birthdays and holidays, there is an abundance of free random gifts! There are party favor gifts. Free toy items to pick from the basket at the dentist’s office, the shoe store, and summer bookmobile reading program. It seems we can’t go anywhere these days without the opportunity for my kids to come home with some new free cheap toy!

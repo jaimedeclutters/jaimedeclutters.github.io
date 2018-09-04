@@ -3,6 +3,8 @@ layout: post
 title:  "Called to Adventure"
 date:   2017-02-11
 image: /assets/article_images/2017-02-11-called-to-adventure/lake-adventure.jpg
+redirect_from:
+  - /blog/2017/02/11/called-to-adventure
 category: Inspiration
 ---
 

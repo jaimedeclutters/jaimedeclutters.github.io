@@ -3,7 +3,9 @@ layout: post
 title:  "Create a Happy Closet"
 date:   2016-07-26 20:22:00
 image: /assets/article_images/2016-07-26-create-a-happy-closet/create-a-happy-closet.jpg
-category: Decluttering
+category: Declutter
+redirect_from:
+  - /blog/2016/07/26/create-a-happy-closet
 ---
 
 Imagine opening your closet doors. You easily locate the shirt and pants you want to wear and in minutes you are dressed and ready to tackle the rest of your day. Sounds good to me!

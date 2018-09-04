@@ -3,7 +3,9 @@ layout: post
 title:  "For the Love of Decluttering Dishes"
 date:   2017-02-07
 image: /assets/article_images/2017-02-07-for-the-love-of-decluttering-dishes/dishes.jpg
-category: Decluttering
+redirect_from:
+  - /blog/2017/02/07/for-the-love-of-decluttering-dishes
+category: Declutter
 ---
 
 I used to shop at Target on a weekly basis and aimlessly walk through the home goods aisles. The kitchenware would always catch my eye. You know the aisle right, the one that they change out every season. The colors are bright and you can’t turn away. I would undoubtedly grab something, excited to add it to my growing collection at home.

@@ -3,8 +3,10 @@ layout: post
 title:  "My Minimalist Dream Coming True"
 date:   2016-12-15
 image: /assets/article_images/2016-12-15-my-minimalist-dream-coming-true/shack.jpg
+redirect_from:
+  - /blog/2016/12/15/my-minimalist-dream-coming-true
 image-folder: /assets/article_images/2016-12-15-my-minimalist-dream-coming-true
-category: Simple Living
+category: My-Story
 featured: true
 ---
 
