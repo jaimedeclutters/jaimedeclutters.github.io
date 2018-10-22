@@ -27,4 +27,4 @@ I do this to keep the site focused on the best content. Please check out some ot
 
 -Jaime
 
-{% include landing/latest-group.html %}
+{% include TK.html %}

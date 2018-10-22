@@ -2,22 +2,22 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-/*** Colors ***/
-$primary-color: #8DDBE7; //color("light-green", "darken-3") !default;
-$secondary-color: #26C6DA; //color("blue", "accent-4") !default;
-$meta-color: #9E9E9E; //color("grey", "base") !default;
-$bg-color: white; //color("grey", "lighten-4") !default;
-$code-color: #38761D; //color("light-green", "lighten-4") !default;
 
-$minimum-break: 600px;
-$medium-screen: 992px;
-$large-screen: 1200px;
+$text-primary-color: black;
+$text-secondary-color: gray;
+
+$box-border: 3px solid black;
+
+$transition-duration: 250ms;
+
+$screen-small: 425px;
+$screen-medium: 768px;
+$screen-large: 1024px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "typography",
-        "custom",
-        "landing",
-        "category",
-        "../assets/font-awesome-4.6.3/scss/font-awesome"
-;
+@import 'normalize',
+        'typography',
+        'layout/default',
+        'layout/header',
+        'layout/main',
+        'layout/footer';

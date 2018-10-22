@@ -34,7 +34,7 @@ redirect-from:
   <div class="contact__box">
     <h3 class="title">If you would like to work with me, send me an email below:</h3>
 
-    {% include contact-form.html %}
+    {% include components/contact-form.html %}
   </div>
 </div>
 

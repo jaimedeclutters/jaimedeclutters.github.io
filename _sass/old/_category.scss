@@ -1,0 +1,37 @@
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  max-width: 90%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.post-list__post {
+  flex: 1 1 auto;
+  max-width: 235px;
+  border: 1px solid $meta-color;
+  border-radius: 2rem;
+  margin: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+a.post-list__post-link {
+  color: black;
+  transition: color 0.2s ease;
+  &:hover {
+    color: $secondary-color;;
+  }
+}
+
+img.post-list__post-image {
+  padding: 2rem;
+  max-width: 100%;
+  border-radius: 50%;
+
+}
+
+h2.post-list__post-title {
+  padding: 0 2rem;
+  text-align: center;
+}

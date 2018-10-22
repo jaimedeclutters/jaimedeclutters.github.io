@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+  {% include layout/head.html %}
   <body>
-    {% include header.html %}
-    <main class="page">
+    {% include layout/header.html %}
+    <main class="site-content {{page.class}}">
       {{ content }}
     </main>
-    {% include footer.html %}
+    {% include layout/footer.html %}
   </body>
 </html>

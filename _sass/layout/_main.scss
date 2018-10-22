@@ -1,0 +1,70 @@
+main.landing {
+  background-image: url('../assets/images/landing/couch.jpg'), linear-gradient(to top, rgb(84, 70, 59) 0%, rgb(131, 132, 134) 28%, #BDC5C4 93%, rgb(169, 170, 165) 100%);
+  background-repeat: no-repeat;
+  background-size: 55% auto;
+  background-position: right center;
+
+  min-height: 82.5vw;
+
+  font-size: 1.25vw;
+  @media screen and (max-width: $screen-medium) {
+    font-size: 1.5vw;
+  }
+  @media screen and (max-width: $screen-small) {
+    font-size: 1.75vw;
+  }
+
+  h1 {
+    width: 95%;
+    margin: 0.75em 0.25em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    .spaced-heading {
+      letter-spacing: 0.75em;
+    }
+    .subheading {
+      width: 95%;
+      display: block;
+      word-spacing: 0;
+      letter-spacing: 0.375em;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+  }
+}
+
+nav.landing-nav {
+  margin: 3em 0 0;
+  width: 45%;
+}
+
+ul.landing-links {
+  display: table;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0 2em;
+}
+
+li.landing-link {
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+
+  a {
+    color: $text-primary-color;
+    text-decoration: none;
+    border-bottom: $box-border;
+    border-bottom-color: lightgray;
+    transition: border-bottom-color $transition-duration;
+    &:hover, &:focus {
+      outline: none;
+      border-bottom-color: black;
+    }
+  }
+}

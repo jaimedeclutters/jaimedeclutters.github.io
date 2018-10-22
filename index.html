@@ -1,5 +1,6 @@
 ---
 layout: default
+class: landing
 redirect_from:
   - /blog
   - /photos/index.html
@@ -15,14 +16,12 @@ redirect_from:
   - /page10
 ---
 
-<div class="landing-header">
-  <div class="landing-header__image">
-    <img src="{{site.url}}/assets/images/headshot.jpg" />
-  </div>
-  <div class="landing-header__copy">
-    <h1 class="landing-header__title">Welcome</h1>
-    <p class="landing-header__text">I'm Jaime - a minimalist who's passionate about decluttering and responsible recycling. I hope my blog and resources inspire and help you in your own life.</p>
-  </div>
-</div>
+<h1>Create <span class="spaced-heading">space</span> <span class="subheading">in your</span> <span class="subheading">home</span></h1>
 
-{% include landing/latest-group.html %}
+<nav class="landing-nav">
+  <ul class="landing-links">
+    <li class="landing-link"><a href="/minimalism">Minimalism</a></li>
+    <li class="landing-link"><a href="/declutter">Declutter</a></li>
+    <li class="landing-link"><a href="/recycle">Recycle</a></li>
+  </ul>
+</nav>

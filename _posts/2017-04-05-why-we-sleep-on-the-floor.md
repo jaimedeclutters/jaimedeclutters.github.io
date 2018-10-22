@@ -33,7 +33,7 @@ That’s the big question! Why choose to sleep on the floor when you can sleep i
 
 I never knew that floor sleeping was a thing until I came across this youtube video!
 
-{% capture video-link %}https://www.youtube.com/embed/6o6SHcXIbsA?ecver=2{% endcapture %}{% include video-embed.html %}
+{% capture video-link %}https://www.youtube.com/embed/6o6SHcXIbsA?ecver=2{% endcapture %}{% include components/video-embed.html %}
 
 This video totally blew my mind. Right after watching this I knew our family would experiment with floor sleeping. And here is why:
 

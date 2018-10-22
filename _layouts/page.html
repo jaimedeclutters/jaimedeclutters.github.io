@@ -14,14 +14,14 @@ layout: default
   </header>
 
   <main class="post__body">
-    {% include affiliate.html %}
+    {% include components/affiliate.html %}
     {{ content }}
   </main>
 
   <fooder class="post__footer">
     {% if page.comments %}
       <hr>
-      {% include comments.html %}
+      {% include components/comments.html %}
     {% endif %}
   </footer>
 </article>

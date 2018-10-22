@@ -5,7 +5,7 @@ comments: true
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post__header">
     <div class="post__meta">
-      {% include page-date.html %}
+      {% include TK.html old="page-date" %}
     </div>
     <div class="post__title">
       <h1 class="post__title--main" itemprop="name headline">{{ page.title }}</h1>
@@ -17,14 +17,14 @@ comments: true
   </header>
 
   <main class="post__body" itemprop="articleBody">
-    {% include affiliate.html %}
+    {% include components/affiliate.html %}
     {{ content }}
   </main>
 
   <fooder class="post__footer">
     <hr>
-    {% include post-navigation.html %}
+    {% include TK.html old="post-navigation" %}
     <hr>
-    {% include comments.html %}
+    {% include components/comments.html %}
   </footer>
 </article>
