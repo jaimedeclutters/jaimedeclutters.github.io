@@ -1,20 +1,3 @@
-@mixin has-nav-link {
-  a {
-    text-decoration: none;
-    color: $text-secondary-color;
-    border: $box-border;
-    border-color: transparent;
-    transition: color $transition-duration,
-                border-bottom-color $transition-duration;
-    &.active, &:hover, &:focus {
-      outline: none;
-      color: $text-primary-color;
-      border-bottom-color: lightgray;
-    }
-  }
-}
-
-
 .site-header {
   display: flex;
   flex-wrap: wrap;

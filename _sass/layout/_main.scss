@@ -56,15 +56,5 @@ li.landing-link {
   font-weight: 100;
   letter-spacing: 0.2em;
 
-  a {
-    color: $text-primary-color;
-    text-decoration: none;
-    border-bottom: $box-border;
-    border-bottom-color: lightgray;
-    transition: border-bottom-color $transition-duration;
-    &:hover, &:focus {
-      outline: none;
-      border-bottom-color: black;
-    }
-  }
+  @include has-text-link;
 }

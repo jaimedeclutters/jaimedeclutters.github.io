@@ -8,16 +8,16 @@
     <nav class="header-nav">
       <ul class="header-nav__list">
         <li class="header-nav__list-item">
-          <a href="/about">About</a>
+          <a href="/about" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
         </li>
         <li class="header-nav__list-item">
-          <a href="/blog">Blog</a>
+          <a href="/blog" class="{% if page.url == '/blog/' %}active{% endif %}">Blog</a>
         </li>
         <li class="header-nav__list-item">
-          <a href="/resources">Resources</a>
+          <a href="/resources" class="{% if page.url == '/resources/' %}active{% endif %}">Resources</a>
         </li>
         <li class="header-nav__list-item">
-          <a href="/work-with-me">Work With Me</a>
+          <a href="/work-with-me" class="{% if page.url == '/work-with-me/' %}active{% endif %}">Work With Me</a>
         </li>
       </ul>
     </nav>
