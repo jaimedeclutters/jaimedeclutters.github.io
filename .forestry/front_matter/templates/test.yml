@@ -8,3 +8,4 @@ fields:
   name: title
 pages:
 - test.md
+- _posts/test.md
