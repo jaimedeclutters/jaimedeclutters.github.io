@@ -1,50 +1,27 @@
-- title: "The Yellow Envelope: One Gift, Three Rules, and A Life-Changing Journey Around the World"
-  author: Kim Dinan
-  link: http://amzn.to/2vIeYUb
-  image: /assets/images/books/the-yellow-envelope.jpg
-  description: ""
-- title: "The More of Less"
-  author: Joshua Becker
-  link: http://amzn.to/2u00AVq
-  image: /assets/images/books/the-more-of-less.jpg
-  description: "Written by my favorite minimalist blogger, this book is an easy read with great motivation for decluttering and why it is so wonderful to live with less."
-- title: "The Year of Living Danishly: Uncovering the Secrets of the World's Happiest Country"
-  author: Helen Russell
-  link: http://amzn.to/2u0ejfc
-  image: /assets/images/books/the-year-of-living-danishly.jpg
-  description: "Living in London where long work hours, stress, and IVF appointments are common, could moving to another country be the answer to Helen's wish come true? Enter: living in Denmark, where work hours are short, traditions are strong, and following your dreams are welcome."
-- title: "Chasing Slow: Courage to Journey Off the Beaten Path"
-  author: Erin Loechner
-  link: http://amzn.to/2sWRsS0
-  image: /assets/images/books/chasing-slow.jpg
-  description: ""
-- title: "Notes from a Blue Bike: The Art of Living Intentionally in a Chaotic World"
-  author: Tsh Oxenreider
-  link: http://amzn.to/2u0edUL
-  image: /assets/images/books/notes-from-a-blue-bike.jpg
-  description: ""
 - title: "My Year with Eleanor: A Memoir"
-  author: Noelle Hancock
   link: http://amzn.to/2sHEzqt
-  image: /assets/images/books/my-year-with-eleanor.jpg
-  description: ""
+  list-image: /assets/images/books/my-year-with-eleanor.png
+- title: "Notes from a Blue Bike: The Art of Living Intentionally in a Chaotic World"
+  link: http://amzn.to/2u0edUL
+  list-image: /assets/images/books/notes-from-a-blue-bike.png
+- title: "The More of Less"
+  link: http://amzn.to/2u00AVq
+  list-image: /assets/images/books/the-more-of-less.png
+- title: "Chasing Slow: Courage to Journey Off the Beaten Path"
+  link: http://amzn.to/2sWRsS0
+  list-image: /assets/images/books/chasing-slow.png
 - title: "The Life-Changing Magic of Tidying Up"
-  author: Marie Kondo
   link: http://amzn.to/2u9Iv7U
-  image: /assets/images/books/the-life-changing-magic-of-tidying-up.jpg
-  description: "A fun read and motivational! I love that everything in our house can have a home and that the things we own spark joy (not stress)."
+  list-image: /assets/images/books/the-life-changing-magic-of-tidying-up.png
 - title: "Zero Waste Home"
-  author: Bea Johnson
   link: http://amzn.to/2uImQ3R
-  image: /assets/images/books/zero-waste-home.jpg
-  description: "This is the first book I read about zero waste! Bea inspired me to try bulk food shopping. I've changed my grocery store and love the quality and cost of my bulk pantry."
-- title: "No Impact Man"
-  author: Colin Beavan
-  link: http://amzn.to/2ua0E5C
-  image: /assets/images/books/no-impact-man.jpg
-  description: "It's all about experimenting, because if you never try, you'll never know if you can live differently. Colin took on a year of experimenting with living in such a way to create as little negative environmental impact as possible (along with his wife and daughter). It's an awesome read! Or check out the documentary of their family's journey!"
-- title: "The 100 Thing Challenge: How I Got Rid of Almost Everything, Remade My Life, and Regained My Soul"
-  author: Dave Bruno
-  link: http://amzn.to/2sHbbAU
-  image: /assets/images/books/100-thing-challenge.jpg
-  description: ""
+  list-image: /assets/images/books/zero-waste-home.png
+- title: "The Year of Living Danishly: Uncovering the Secrets of the World's Happiest Country"
+  link: http://amzn.to/2u0ejfc
+  list-image: /assets/images/books/the-year-of-living-danishly.png
+- title: "The Yellow Envelope: One Gift, Three Rules, and A Life-Changing Journey Around the World"
+  link: http://amzn.to/2vIeYUb
+  list-image: /assets/images/books/the-yellow-envelope.png
+- title: "At Home in the World: Reflections on Belonging While Wandering the Globe"
+  link: https://amzn.to/2D2naBW
+  list-image: /assets/images/books/at-home-in-the-world.png

@@ -10,13 +10,44 @@
   }
 }
 
+.page-title {
+  margin: 1em 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 0.25em;
+}
+
+.page-list {
+  max-width: 60em;
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.page-list__item {
+  flex: 0 0 18em;
+}
+
+a.page-list__link {
+  margin: 1em;
+  width: 100%;
+  &:hover, &:focus {
+    opacity: 0.8;
+  }
+}
+
+img.page-list__image {
+  max-width: 100%;
+}
+
 .page-content {
   font-size: 1rem;
   @media screen and (max-width: $screen-small) {
     font-size: 0.8rem;
   }
-  width: 90%;
-  max-width: 691.2px;
   margin: 0 auto;
   h1, h2 {
     text-align: center;
