@@ -1,15 +1,15 @@
 - title: "Wedding Dress"
-  link: http://www.adornedingrace.org/donate/#donations
-  list-image: /assets/images/recycle/wedding-dress.png
+  url: http://www.adornedingrace.org/donate/#donations
+  link-image: /assets/images/recycle/wedding-dress.png
 - title: "Denim"
-  link: https://bluejeansgogreen.org/
-  list-image: /assets/images/recycle/denim.png
+  url: https://bluejeansgogreen.org/
+  link-image: /assets/images/recycle/denim.png
 - title: "Athletic Shoes"
-  link: https://recyclenation.com/2012/08/nike-reuse-shoe-program/
-  list-image: /assets/images/recycle/athletic-shoes.png
+  url: https://recyclenation.com/2012/08/nike-reuse-shoe-program/
+  link-image: /assets/images/recycle/athletic-shoes.png
 - title: "Electronics"
-  link: https://www.bestbuy.com/site/services/recycle/pcmcat149900050025.c?id=pcmcat149900050025
-  list-image: /assets/images/recycle/electronics.png
+  url: https://www.bestbuy.com/site/services/recycle/pcmcat149900050025.c?id=pcmcat149900050025
+  link-image: /assets/images/recycle/electronics.png
 - title: "Plastics (also: sharps, gum, filters, paint & more)"
-  link: https://www.terracycle.com/en-US/
-  list-image: /assets/images/recycle/plastics-plus.png
+  url: https://www.terracycle.com/en-US/
+  link-image: /assets/images/recycle/plastics-plus.png

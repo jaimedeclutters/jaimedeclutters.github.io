@@ -1,8 +1,8 @@
 <div class="page-list">
 {% for item in include.list %}
   <div class="page-list__item">
-    <a href="{{ item.url }}" class="page-list__link">
-      <img class="page-list__image" src="{{ item.list-image }}" alt="{{ item.title }}">
+    <a href="{{ item.url }}" class="page-list__link" title="{{ item.title }}"{% if include.external_links %} target="_blank"{% endif %}>
+      <img class="page-list__image" src="{{ item.link-image }}" alt="{{ item.title }}">
     </a>
   </div>
 {% endfor %}
