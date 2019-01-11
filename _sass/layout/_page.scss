@@ -34,6 +34,7 @@
 
 a.page-list__link {
   width: 100%;
+  transition: opacity $transition-duration;
   &:hover, &:focus {
     opacity: 0.8;
   }
@@ -71,5 +72,18 @@ img.page-list__image {
       margin: 1em;
       @include has-text-link;
     }
+  }
+
+  .page-container {
+    max-width: 60rem;
+    margin: 2rem auto;
+  }
+
+  p.disclaimer {
+    margin: 1rem 0;
+    color: $text-secondary-color;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1rem;
   }
 }
