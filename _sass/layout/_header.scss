@@ -2,56 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 0 0.5rem;
   border-bottom: $box-border;
-}
-
-.header-title {
-  flex: 0 0 auto;
-  max-width: 100%;
-  padding: 0 1.5rem;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 1.5rem;
-  letter-spacing: 0.25rem;
-  @include has-nav-link;
-  @media screen and (max-width: $screen-medium - 1px) {
-    font-size: 1.25rem;
-    flex: 0 0 100%;
-    text-align: center;
-  }
-}
-
-.header-navigation {
-  flex: 0 0 auto;
-  max-width: 100%;
-
-  @media screen and (max-width: $screen-medium - 1px) {
-    flex: 0 0 100%;
-    text-align: center;
-  }
-}
-
-nav.header-nav {
-  padding: 0 0.5rem;
-}
-
-ul.header-nav__list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  @media screen and (max-width: $screen-medium - 1px) {
-    justify-content: center;
-  }
-}
-
-li.header-nav__list-item {
-  flex: 0 0 auto;
-  padding: 0.5rem 0.75rem;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 0.9rem;
-  @include has-nav-link;
 }

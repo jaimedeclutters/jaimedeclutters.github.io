@@ -34,15 +34,22 @@
 
 a.page-list__link {
   width: 100%;
-  transition: opacity $transition-duration;
+  img.page-list__image {
+    max-width: 100%;
+    border: 2px solid transparent;
+    transition: border-color $transition-duration,
+                opacity $transition-duration;
+  }
   &:hover, &:focus {
-    opacity: 0.8;
+    img.page-list__image {
+      border-color: black;
+      opacity: 0.8;
+    }
+    outline: none;
   }
 }
 
-img.page-list__image {
-  max-width: 100%;
-}
+
 
 .page-content {
   font-size: 1rem;
@@ -56,20 +63,23 @@ img.page-list__image {
   }
   h1 {
     text-transform: uppercase;
-    font-size: 4em;
-    margin: 1em 0.25em 0.5em;
+    font-size: 3rem;
+    margin: 3rem 0.5rem 0;
+    @media screen and (max-width: $screen-medium - 1px) {
+      font-size: 2rem;
+    }
   }
   h2 {
-    font-size: 2em;
+    font-size: 2rem;
     margin: 0;
     color: $text-secondary-color;
   }
   ol {
     font-weight: 100;
-    font-size: 1.75em;
+    font-size: 1.75rem;
     text-transform: uppercase;
     li {
-      margin: 1em;
+      margin: 1rem;
       @include has-text-link;
     }
   }
