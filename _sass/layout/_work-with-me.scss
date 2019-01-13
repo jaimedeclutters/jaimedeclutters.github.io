@@ -32,9 +32,14 @@ ul.services-list__details, div.services-list__details {
   input, textarea {
     flex: 0 0 100%;
     font-size: 1.25rem;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin: 0.5rem 0;
     padding: 0.25rem;
+    transition: border-color $transition-duration;
+    &:hover, &:focus {
+      border-color: black;
+      outline: none;
+    }
   }
   button {
     flex: 0 0 auto;
