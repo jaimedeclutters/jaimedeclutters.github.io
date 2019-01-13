@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: post
 permalink: /work-with-me/
+title: "Work With Me"
+image: /assets/images/work-with-me/work-with-me.jpg
 redirect-from:
   - /consult/
   - /contact/
@@ -9,68 +11,40 @@ redirect-from:
   - /madison-wi/
 ---
 
+If you would like help with decluttering your home, reach out! I live in the Madison, WI area and can come to your home! If you don’t live in the Madison area, but would still like my help, I would be happy to work with you via Skype and email.
 
-<div class="page__section">
-  <img src="{{site.url}}/assets/images/declutter-with-me.jpg" class="page__section__image">
-  <h2 class="page__section__title">Declutter With Me</h2>
-  <p>I love the decluttering process. We can take on a room, closets, or garage. I'll ask some tough questions, and give you lots of solutions. Together we will get your home back to feeling spacious.</p>
-  <p>This Fall, I am scheduling decluttering sessions in the Madison, WI area during the day (8-2) on Tuesdays through Fridays. Sessions are 4 hours long and cost $40.</p>
-</div>
-<div class="page__section">
-  <img src="{{site.url}}/assets/images/chat-with-me.jpg" class="page__section__image">
-  <h2 class="page__section__title">Chat With Me</h2>
-  <p>I love talking about minimalism, decluttering, and tiny living. If you would like me to come speak at an event in the Madison, WI area, please reach out and we can talk about a specific topic that would be of interest to your group.</p>
-  <p>Cost varies. This can be decided when scheduled.</p>
-</div>
-<div class="page__section">
-  <img src="{{site.url}}/assets/images/design-with-me.jpg" class="page__section__image">
-  <h2 class="page__section__title">Design With Me</h2>
-  <p>I have always loved drawing and design. And now I have turned that pasison into small home design. I can sketch by hand and use SketchUP to create 3D models.</p>
-  <p>If you are looking to remodel, build a small or tiny home, or design small family friendly apartments - I would love to work with you to bring your vision to life.</p>
-  <p>First meeting is free. Each design draft is $50.</p>
-</div>
-
-<div>
-  <div class="contact__box">
-    <h3 class="title">If you would like to work with me, send me an email below:</h3>
-
+<div class="services-list">
+  <div class="services-list__item">
+    <div class="services-list__icon">{% include icon.html name='home' %}</div>
+    <h2 class="services-list__title">In-Home Decluttering</h2>
+    <ul class="services-list__details">
+      <li>Sessions are scheduled for 3 hours</li>
+      <li>We can work through any space</li>
+      <li>You must be available to work with me for the first hour of the first session. After that, if you would like me to work on my own, I just ask for guidelines.</li>
+      <li>Sessions can also include packing up or unpacking your home</li>
+      <li>I can drop off your decluttered items at a local donation center (cost: $20)</li>
+      <li>Each 3-hour session costs $60</li>
+    </ul>
+  </div>
+  <div class="services-list__item">
+    <div class="services-list__icon">{% include icon.html name='computer-desktop' %}</div>
+    <h2 class="services-list__title">Virtual Decluttering</h2>
+    <ul class="services-list__details">
+      <li>Skype 1 hour and 3 follow-up emails</li>
+      <li>We can talk through any space</li>
+      <li>While I will not be able to physically help you declutter, I will be your resource, support, and accountability partner.</li>
+      <li>A 1-hour session with 3 follow-up emails costs $30</li>
+    </ul>
+  </div>
+  <div class="services-list__item">
+    <h2 class="services-list__title">Contact Form</h2>
     {% include components/contact-form.html %}
   </div>
-</div>
-
-<h2>Design Client Photos</h2>
-
-<div class="image-set image-set--vertical">
-  <figure>
-    <img src="/assets/images/design-photos/kitchen-remodel-original.png">
-    <figcaption>Before</figcaption>
-  </figure>
-  <figure>  
-    <img src="/assets/images/design-photos/kitchen-remodel.png">
-    <figcaption>After</figcaption>
-  </figure>
-</div>
-
-<h2>Declutter Client Photos</h2>
-
-<div class="image-set image-set--vertical">
-  <figure>
-    <img src="/assets/images/declutter-photos/toys-before.jpg">
-    <figcaption>Before</figcaption>
-  </figure>
-  <figure>  
-    <img src="/assets/images/declutter-photos/toys-after.jpg">
-    <figcaption>After</figcaption>
-  </figure>
-</div>
-
-<div class="image-set image-set--vertical">
-  <figure>
-    <img src="/assets/images/declutter-photos/boys-room-bed-before.jpg">
-    <figcaption>Before</figcaption>
-  </figure>
-  <figure>  
-    <img src="/assets/images/declutter-photos/boys-room-bed-after.jpg">
-    <figcaption>After</figcaption>
-  </figure>
+  <div class="services-list__item">
+    <h2 class="services-list__title">Testimonials</h2>
+    <div class="services-list__details">
+      <p><em>"Jaime helped get through my paper clutter and create a better system for staying organized!"</em><br />-A. (In-Home Decluttering)</p>
+      <p><em>"I didn't realize all the things I could get rid of in my kitchen until Jaime came over!"</em><br /> -M. (In-Home Decluttering)</p>
+    </div>
+  </div>
 </div>

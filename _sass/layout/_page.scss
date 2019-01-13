@@ -97,3 +97,21 @@ a.page-list__link {
     font-size: 1rem;
   }
 }
+
+.fun-facts-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  .fun-facts {
+    flex: 0 0 auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 0 1rem;
+    h2 {
+      text-align: center;
+    }
+    ul, ol, li, p {
+      text-align: left;
+    }
+  }
+}

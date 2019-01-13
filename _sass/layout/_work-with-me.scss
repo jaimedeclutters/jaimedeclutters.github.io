@@ -1,0 +1,45 @@
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.services-list__item {
+  flex: 0 0 20rem;
+  @media screen and (max-width: $screen-medium - 1px) {
+    flex: 0 0 18rem;
+  }
+}
+
+h2.services-list__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+ul.services-list__details, div.services-list__details {
+  font-size: 1.25rem;
+  p, li {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+}
+
+.form--contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  input, textarea {
+    flex: 0 0 100%;
+    font-size: 1.25rem;
+    border: 1px solid black;
+    margin: 0.5rem 0;
+    padding: 0.25rem;
+  }
+  button {
+    flex: 0 0 auto;
+    padding: 0.75rem;
+    text-transform: uppercase;
+    background-color: lightgray;
+  }
+}
