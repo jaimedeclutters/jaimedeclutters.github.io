@@ -40,11 +40,4 @@ If you would like help with decluttering your home, reach out! I live in the Mad
     <h2 class="services-list__title">Contact Form</h2>
     {% include components/contact-form.html %}
   </div>
-  <div class="services-list__item">
-    <h2 class="services-list__title">Testimonials</h2>
-    <div class="services-list__details">
-      <p><em>"Jaime helped get through my paper clutter and create a better system for staying organized!"</em><br />-A. (In-Home Decluttering)</p>
-      <p><em>"I didn't realize all the things I could get rid of in my kitchen until Jaime came over!"</em><br /> -M. (In-Home Decluttering)</p>
-    </div>
-  </div>
 </div>
