@@ -1,0 +1,11 @@
+---
+label: Test
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Title
+  name: title
+pages:
+- test.md
+- _posts/test.md
