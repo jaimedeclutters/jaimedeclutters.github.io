@@ -33,6 +33,8 @@ ul.services-list__details, div.services-list__details {
   justify-content: center;
   input, textarea {
     flex: 0 0 100%;
+    max-width: 90%;
+    min-width: 0;
     font-size: 1.25rem;
     border: 1px solid lightgray;
     margin: 0.5rem 0;
