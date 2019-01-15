@@ -25,7 +25,7 @@ timezone: America/Chicago
 
 permalink: /:categories/:slug/
 
-url: "http://www.jaimedeclutters.com" # the base hostname & protocol for your site
+url: "https://www.jaimedeclutters.com" # the base hostname & protocol for your site
 baseurl: ""
 
 rss-imageW: 320
