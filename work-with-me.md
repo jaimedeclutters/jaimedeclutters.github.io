@@ -10,7 +10,7 @@ redirect-from:
   - /photos/before-after/
   - /madison-wi/
 ---
-
+ 
 If you would like help with decluttering your home, reach out! I live in the Madison, WI area and can come to your home! If you don’t live in the Madison area, but would still like my help, I would be happy to work with you via Skype and email.
 
 <div class="services-list">

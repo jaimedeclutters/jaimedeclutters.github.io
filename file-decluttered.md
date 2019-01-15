@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Page Decluttered
+title: Page Decluttered 
 permalink: /file-decluttered/
 redirect_from:
   - /blog/2016/08/10/breathe-easy
