@@ -101,9 +101,10 @@ a.page-list__link {
 .fun-facts-container {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   .fun-facts {
-    flex: 0 0 auto;
+    flex: 0 1 30rem;
+    min-width: 18rem;
     margin: 0 auto;
     border: 1px solid black;
     padding: 0 1rem;
