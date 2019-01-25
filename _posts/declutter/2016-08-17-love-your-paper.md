@@ -6,7 +6,7 @@ image: /assets/images/declutter/love-your-paper.png
 link-image: /assets/images/declutter/love-your-paper-link.png
 category: Declutter
 redirect_from:
-  - /blog/2016/08/17/tackle-paper-clutter
+  - /blog/2016/08/17/tackle-paper-clutter/
 ---
 
 Paper can pile up fast in our homes. Kids come home from school with papers. Mail comes to our door every day. Tax related papers can fill up file cabinets. And user manuals come with everything we buy. What do we do with all these papers? Sure, some we need to keep, but maybe we can recycle more than we realize.

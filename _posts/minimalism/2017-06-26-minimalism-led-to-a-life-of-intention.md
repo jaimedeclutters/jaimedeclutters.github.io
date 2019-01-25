@@ -5,7 +5,7 @@ date:   2017-06-26
 image: /assets/images/minimalism/minimalism-led-to-a-life-of-intention.png
 link-image: /assets/images/minimalism/minimalism-led-to-a-life-of-intention-link.png
 redirect_from:
-  - /blog/2017/06/26/creating-a-life-of-intention
+  - /blog/2017/06/26/creating-a-life-of-intention/
 category: Minimalism
 ---
 

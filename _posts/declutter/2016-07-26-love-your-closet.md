@@ -6,7 +6,7 @@ image: /assets/images/declutter/love-your-closet.png
 link-image: /assets/images/declutter/love-your-closet-link.png
 category: Declutter
 redirect_from:
-  - /blog/2016/07/26/create-a-happy-closet
+  - /blog/2016/07/26/create-a-happy-closet/
 ---
 
 Imagine opening your closet doors. You easily locate the shirt and pants you want to wear and in minutes you are dressed and ready to tackle the rest of your day. Sounds good to me!

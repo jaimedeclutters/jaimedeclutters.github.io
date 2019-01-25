@@ -5,8 +5,8 @@ date:   2016-09-11
 image: /assets/images/declutter/love-your-kids-toys-playroom.png
 link-image: /assets/images/declutter/love-your-kids-toys-playroom-link.png
 redirect_from:
-  - /blog/2016/09/11/favorite-toys
-  - /blog/2017/07/22/control-influx-free-cheap-toys
+  - /blog/2016/09/11/favorite-toys/
+  - /blog/2017/07/22/control-influx-free-cheap-toys/
 category: Declutter
 ---
 

@@ -5,7 +5,7 @@ date:   2017-10-31
 image: /assets/images/minimalism/first-little-white-shack-design.png
 link-image: /assets/images/minimalism/first-little-white-shack-design-link.png
 redirect_from:
-  - /blog/2017/10/31/our-little-white-shack-design
+  - /blog/2017/10/31/our-little-white-shack-design/
 category: Minimalism
 ---
 I am so freakin excited! Big news - We bought a small lot to build on!

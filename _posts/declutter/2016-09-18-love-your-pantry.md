@@ -5,7 +5,7 @@ date:   2016-09-18
 image: /assets/images/declutter/love-your-pantry.png
 link-image: /assets/images/declutter/love-your-pantry-link.png
 redirect_from:
-  - /blog/2016/09/18/love-your-pantry
+  - /blog/2016/09/18/love-your-pantry/
 category: Declutter
 ---
 

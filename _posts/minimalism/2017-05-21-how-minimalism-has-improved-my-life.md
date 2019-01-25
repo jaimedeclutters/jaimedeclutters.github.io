@@ -5,7 +5,7 @@ date:   2017-05-21
 image: /assets/images/minimalism/how-minimalism-has-improved-my-life.png
 link-image: /assets/images/minimalism/how-minimalism-has-improved-my-life-link.png
 redirect_from:
-  - /blog/2017/05/21/how-minimalism-has-improved-my-life
+  - /blog/2017/05/21/how-minimalism-has-improved-my-life/
 category: Minimalism
 ---
 

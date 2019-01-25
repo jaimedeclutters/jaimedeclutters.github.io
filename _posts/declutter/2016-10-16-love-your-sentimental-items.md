@@ -5,7 +5,7 @@ date:   2016-10-16
 image: /assets/images/declutter/love-your-sentimental-items.png
 link-image: /assets/images/declutter/love-your-sentimental-items-link.png
 redirect_from:
-  - /blog/2016/10/16/love-our-sentimental-items
+  - /blog/2016/10/16/love-our-sentimental-items/
 category: Declutter
 ---
 

@@ -5,7 +5,7 @@ date:   2016-09-06
 image: /assets/images/declutter/love-your-kids-clothes.png
 link-image: /assets/images/declutter/love-your-kids-clothes-link.png
 redirect_from:
-  - /blog/2016/09/06/baby-clothes-number-two
+  - /blog/2016/09/06/baby-clothes-number-two/
 category: Declutter
 ---
 

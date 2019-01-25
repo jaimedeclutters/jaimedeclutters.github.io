@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Thanks
 permalink: /thanks/
 sitemap: false

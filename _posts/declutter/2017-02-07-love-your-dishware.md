@@ -5,7 +5,7 @@ date:   2017-02-07
 image: /assets/images/declutter/love-your-dishware.png
 link-image: /assets/images/declutter/love-your-dishware-link.png
 redirect_from:
-  - /blog/2017/02/07/for-the-love-of-decluttering-dishes
+  - /blog/2017/02/07/for-the-love-of-decluttering-dishes/
 category: Declutter
 ---
 

@@ -5,7 +5,7 @@ date:   2017-01-08
 image: /assets/images/declutter/love-your-furniture.png
 link-image: /assets/images/declutter/love-your-furniture-link.png
 redirect_from:
-  - /blog/2017/01/08/live-less-furniture
+  - /blog/2017/01/08/live-less-furniture/
 category: Declutter
 ---
 

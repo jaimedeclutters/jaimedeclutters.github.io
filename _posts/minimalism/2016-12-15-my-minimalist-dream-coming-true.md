@@ -5,7 +5,7 @@ date:   2016-12-15
 image: /assets/images/minimalism/my-minimalist-dream-coming-true.png
 link-image: /assets/images/minimalism/my-minimalist-dream-coming-true-link.png
 redirect_from:
-  - /blog/2016/12/15/my-minimalist-dream-coming-true
+  - /blog/2016/12/15/my-minimalist-dream-coming-true/
 category: Minimalism
 ---
 
