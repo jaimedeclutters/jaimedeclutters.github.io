@@ -5,12 +5,12 @@ date:   2017-09-05
 image: /assets/images/minimalism/our-minimalist-apartment-tour.png
 link-image: /assets/images/minimalism/our-minimalist-apartment-tour-link.png
 redirect_from:
-  - /blog/2017/09/05/minimalist-apartment-tour-bedrooms
-  - /blog/2017/09/12/minimalist-apartment-tour-closets
-  - /blog/2017/09/19/minimalist-apartment-tour-bathrooms
-  - /blog/2017/09/27/minimalist-apartment-tour-kitchen
-  - /blog/2017/10/03/minimalist-apartment-tour-living-dining
-  - /blog/2017/10/10/minimalist-apartment-tour-garage
+  - /blog/2017/09/05/minimalist-apartment-tour-bedrooms/
+  - /blog/2017/09/12/minimalist-apartment-tour-closets/
+  - /blog/2017/09/19/minimalist-apartment-tour-bathrooms/
+  - /blog/2017/09/27/minimalist-apartment-tour-kitchen/
+  - /blog/2017/10/03/minimalist-apartment-tour-living-dining/
+  - /blog/2017/10/10/minimalist-apartment-tour-garage/
 category: Minimalism
 ---
 
