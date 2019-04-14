@@ -9,11 +9,11 @@ redirect_from:
 category: Declutter
 ---
 
-Is your home filled with furniture - beds, dressers, tables, couches, chairs, etc? What if I said you could eliminate half of your furniture, still have everything you need, and still enjoy your home? It is possible, here is how to make it happen:
+Is your home filled with furniture - beds, dressers, tables, couches, chairs, etc? What if I said you could eliminate half of your furniture, still have everything you need, and still enjoy your home? It is possible. Here is how to make it happen:
 
-1. ___Question Expectations:___ Does a living room need end table at the ends of the couch? Does everyone need a dresser in their bedroom? Do you need a dining room and separate table and chairs in a breakfast nook? Do you need a night stand? Is your entry table, bookcases, desks, hallway console, and tv stands necessary? Instead of thinking about what you are supposed to have, ask yourself - do I use this, do I want to use this?
+1. ___Question Expectations:___ Does a living room need end tables? Does everyone need a dresser in their bedroom? Do you need a dining room and separate table and chairs in a breakfast nook? Do you need a night stand? Is your entry table, bookcases, desks, hallway console, and tv stands necessary? Instead of thinking about what you are supposed to have, ask yourself - do I use this, do I want to use this?
 
-2. ___Let Go Of Trends:___ Instead of trying to stay on top of the latest trends, think about what you want your home to feel like, what do you picture happening in these rooms? Think about how you want to enjoy the space. Anything that doesn’t help with creating that vision - remove from the room. For example: When I picture my ideal living room, I think about visiting with friends and snuggling up with a good book. I removed my television, console.
+2. ___Let Go Of Trends:___ Instead of trying to stay on top of the latest trends, think about what you want your home to feel like, what do you picture happening in these rooms? Think about how you want to enjoy the space. Anything that doesn’t help with creating that vision - remove from the room. For example: When I picture my ideal living room, I think about visiting with friends and snuggling up with a good book. I removed my television and console.
 
 3. ___Experiment:___  Remove the excess items from your room. Store them in your basement or in a spare room of your home. Practice living with less furniture. Give yourself at least a month to adjust to the changes. If at the end of the month, you are enjoying your new decluttered space, feel free to sell or give away your stored items. If after the month is over, you’ve missed something, bring it back. Maybe try a new layout if the first trial didn’t meet your ideals. It’s all about experimenting
 

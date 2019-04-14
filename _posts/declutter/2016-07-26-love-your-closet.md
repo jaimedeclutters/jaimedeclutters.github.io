@@ -29,6 +29,6 @@ If your closet is a space of frustration, you can turn it into a closet  you lov
 
 5. ___Have versatile shoes.___ I suggest one or two pairs of tennis shoes for every day or workout wear, 1 pair of heels (nude color works with everything), 1 pair of boots for winter wear, and 1 pair of casual summer sandals. With this selection you will always know what you are putting on your feet when you walk out the door, saving yourself time and energy.
 
-Once you make these changes, opening your closet doors will bring you a sense of peace. You will see a clean and naturally organized closet. All your clothes will be easy to see and grab. Outfits will be easy to create and you will feel great in whatever you chose to wear.
+Once you make these changes, opening your closet doors will bring you a sense of peace. You will see a clean and naturally organized closet. All your clothes will be easy to see and grab. Outfits will be easy to create and you will feel wonderful in whatever you chose to wear.
 
 <p class="call-to-action">If this sounds great, but you can’t get yourself to go through your closet, send me an email. If you are in the Madison, WI area I would be happy to come to your home and help you create a closet you love!</p>

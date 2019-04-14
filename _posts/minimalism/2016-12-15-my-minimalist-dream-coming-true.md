@@ -9,7 +9,7 @@ redirect_from:
 category: Minimalism
 ---
 
-Why live simply? Why minimalism? Why would anyone want to live this way? My short answer: JOY. This way of life isn’t for everyone. Not everyone would enjoy living this way. But for me, it a dream come true.
+Why live simply? Why minimalism? Why would anyone want to live this way? My short answer: JOY. This way of life isn’t for everyone. Not everyone would enjoy living this way. But for me, it's a dream come true.
 
 ## A Simple Dream
 
@@ -23,11 +23,11 @@ While I was trying to make the world take notice of me, my soul was breaking. My
 
 When I wasn’t looking, a man who I thought wouldn’t give me a second glance, never looked away. While the rest of the world kept moving past me, he stood still and wanted to get to know me. I didn’t know I was looking at my soulmate when I met this man, but here he was - tall and handsome, sweet and thoughtful. And as he opened his car door for me, on our way to our first date, I realized he was the real thing.
 
-Two years later, we were engaged and I was immersed into the insane world of the bridal industry. This world tells us we deserve to have the perfect day.
+Two years later, we were engaged and I was immersed into the insane world of the bridal industry. This world tells us we deserve to have the perfect day with all the stuff.
 
 My favorite movie wedding scene is from Three Men and a Little Lady. Peter finally declares his love for Sylvia.They exchange simple vows, kiss, and walk out of the church happy and in love. It wasn’t about the dress, the ring, the flowers, or the party afterward. It was just about love; choosing each other and walking into your new future together. That’s all I wanted, all I needed to have a perfect day But once again, the world confused me.
 
-We had the big ceremony and party. It was a beautiful and a wonderful day, but I would have been just as happy to say I do in a simple fashion. And most likely, had I rejected the world’s desire for more, our wedding would have been just a beautiful and less stressful.
+We had a big beautiful ceremony and party. It was a wonderful day, but I would have been just as happy to say I do in a simple fashion. And most likely, had I rejected the world’s desire for more, our wedding would have been just a beautiful and less stressful.
 
 ## Enter Exhaustion
 
@@ -49,7 +49,7 @@ I had officially forgotten about my simple dream - a little shack and love. I wa
 
 When my kids were ages 3 and 2 my depression was at a high and my marriage at a low. This is when I was introduced to minimalism - decluttering and living with less. It was about living with only the things that bring meaning and joy to your life. It was about clearing out the unimportant to make space for love.
 
-As I started decluttering immediately. I felt healing begin. I had been consumed with consumerism, with keeping up with the world. And I was starting toI let it all go.
+I started decluttering immediately. I felt healing begin. I had been consumed with consumerism, with keeping up with the world. And now I was starting to let it all go.
 
 Then something amazing happened. I remembered my dream, my simple dream. My little shack white shack with the love of my life. My dream of living in joy and not stuff. My dream of spending time with my husband and kids - laughing, playing, walking, exploring, dancing. My spark started coming back. My smile started coming back. My husband and I fell deeper in love.
 

@@ -22,4 +22,4 @@ Since closing on the sale, I’ve been working on a home design - something smal
 
 ![Upstairs view]({{site.url}}/assets/images/minimalism/first-little-white-shack-design/upstairs.png)
 
-<p class="call-to-action">Do you currently live in a small home with a family? What do you love what living small?</p>
+<p class="call-to-action">Do you currently live in a small home with a family? What do you love about living small?</p>

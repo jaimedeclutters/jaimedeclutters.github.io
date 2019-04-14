@@ -17,7 +17,7 @@ When you give away 90 percent of your possessions, you learn a lot about what is
 
 1. ___Letting Go Of Impressive Possessions:___ We are told that we need that big impressive home, but this is a lie. Sure, we need a place to call home, to feel safe. But whether you are sleeping on a clean floor in a sleeping bag or in an expensive bed full of expensive linens, your needs are being met. We can have happiness, love, and joy in the minimalist of homes. All that other stuff - it’s just not necessary.
 
-2. ___Making A Dream A Reality:___ I had dreamed of traveling, but spend all my energy on spending money on filling our home with stuff. There was no money left over for travel until I became a minimalist. With more money freed up, we started road tripping with our kids with the goal of visiting all 50 states! We are over half way there!
+2. ___Making A Dream A Reality:___ I had dreamed of traveling, but spent all my energy and money on filling our home with stuff. There was no money left over for travel until I became a minimalist. With more money freed up, we started road tripping with our kids with the goal of visiting all 50 states! We are over half way there!
 
 3. ___A Stronger Marriage:___ When my husband and I were dating we would talk about our dreams. Then we got married and start facing all the burdens of life together. Those struggles pulled us away from our dreams. When we became minimalists, we found ourselves talking about our dreams again. Our marriage has flourished in our minimalist lifestyle.
 

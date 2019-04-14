@@ -9,7 +9,7 @@ redirect_from:
 category: Declutter
 ---
 
-Kids grow so fast. This means they outgrow their clothes fast. If you have multiple kiddos, you probably hold onto outgrown clothes for number two and three. This can save you a ton of money over the years. The problem comes when you are holding so many clothes that it takes over the closet or basement.
+Kids grow so fast. This means they outgrow their clothes fast. If you have multiple kiddos, you probably hold onto outgrown clothes for number two and three. This can save you a ton of money over the years. The problem comes when you are holding on to so many clothes that it takes over the closet or basement.
 
 That’s a lot of clutter and storage! You probably don’t need that much. Here are some ways to hold onto a decent amount of hand me down clothes without filling up your basement with boxes (and forgetting about them until after number number two has already bypassed that size).
 
@@ -17,7 +17,7 @@ That’s a lot of clutter and storage! You probably don’t need that much. Here
 
 2. ___Keep 5 Outfits/Size:___ You don’t have to keep everything that isn’t ripped or stained. Pick your 5 favorite outfits for each size group and donate the rest!
 
-3. ___Limit Storage Bins:___  If limiting the number of outfits seems to challenging, try limiting your storage bins. Maybe one bin per six months or year.
+3. ___Limit Storage Bins:___  If limiting the number of outfits seems too challenging, try limiting your storage bins. Maybe one bin per six months or year.
 
 4. ___Make Room For Gifts:___ Remember that if you declutter a lot of clothes that new items will make their way in your home. Friends and family members love to buy clothes or provide additional hand me downs.
 

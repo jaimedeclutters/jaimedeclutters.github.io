@@ -9,7 +9,7 @@ redirect_from:
 category: Declutter
 ---
 
-I used to shop at Target on a weekly basis and aimlessly walk through the home goods aisles, the kitchenware would always catch my eye. You know the aisle right, the one they change out every season. The colors are bright and you can’t turn away. I would undoubtedly grab something, excited to add it to my growing collection at home.
+I used to shop at Target on a weekly basis and aimlessly walk through the home goods aisles, the kitchenware always catching my eye. You know the aisle right, the one they change out every season. The colors are bright and you can’t turn away. I would undoubtedly grab something, excited to add it to my growing collection at home.
 
 Does this sound familiar? Do you do this as well? Do you find that your cabinets are bursting with a variety of plates, bowls, cups, mini bowls, and serving dishes?
 

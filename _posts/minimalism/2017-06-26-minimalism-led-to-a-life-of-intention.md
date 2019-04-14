@@ -13,7 +13,7 @@ What if we were able to clear out not only the items in our life, but the action
 
 I have spent years not living intentionally. I didn’t really know what I wanted. Actually, that’s not true. I knew what I wanted, but I pushed that aside to strive to impress the world. I took on the pressure of wanting it all and feeling like we were never going to get there, no matter how financially successful we were. I allowed impulse shopping to overshadow spending (and saving) with intention. I allowed my schedule to be filled in order to please others. In result, I found myself exhausted and feeling like I might never truly feel joy.
 
-Then minimalism came into view. Joshua Becker defines minimalism as: The intentional promotion of the things that we most value and the removal of everything that distracts us from it.
+Then minimalism came into view. [Joshua Becker](https://www.becomingminimalist.com/){: target="_blank" } defines minimalism as: The intentional promotion of the things that we most value and the removal of everything that distracts us from it.
 
 And that’s what I started doing.
 
