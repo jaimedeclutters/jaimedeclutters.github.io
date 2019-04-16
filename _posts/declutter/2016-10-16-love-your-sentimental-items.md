@@ -23,4 +23,4 @@ How do you pick what to pull out and what to say goodbye to? Here are some ideas
 
 Our basements can become the holding spot for all things sentimental. I find this so interesting, that the things we tell ourselves are so important, are boxed away never to be used or seen. Instead, love your sentimental items. Go through your boxes, decide what you love would love to display. Allow the rest of those items to be used and loved by others.
 
-<p class="call-to-action">If this sounds great, but you’re having trouble getting through those boxes of sentimental items, send me an email. If you are in the Madison, WI area I would be happy to come to your home and help you go through those sentimental items.</p>
+<p class="call-to-action">If this sounds great, but you’re having trouble getting through those boxes of sentimental items, send me an email. If you are in the Madison, WI area I would be happy to come to your home and help you go through those sentimental boxes.</p>
