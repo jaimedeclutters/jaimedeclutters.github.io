@@ -1,8 +1,22 @@
 main.landing {
-  background-image: url('../assets/images/landing/couch.jpg'), linear-gradient(to top, rgb(84, 70, 59) 0%, rgb(131, 132, 134) 28%, #BDC5C4 93%, rgb(169, 170, 165) 100%);
+  background-image: url('../assets/images/landing/couch-small.jpg'), linear-gradient(to top, #523C2E 0%, #838486 55%, #BDC5C4 93%, #a9aaa5 100%);
+  background-image:
+    -webkit-image-set(
+      url('../assets/images/landing/couch-large.jpg') 1x,
+      url('../assets/images/landing/couch.jpg') 2x
+    ), linear-gradient(to top, #523C2E 0%, #838486 55%, #BDC5C4 93%, #a9aaa5 100%);
+  background-image:
+    image-set(
+    url('../assets/images/landing/couch-large.jpg') 1x,
+    url('../assets/images/landing/couch.jpg') 2x
+    ), linear-gradient(to top, #523C2E 0%, #838486 55%, #BDC5C4 93%, #a9aaa5 100%);
+
   background-repeat: no-repeat;
   background-size: 55% auto;
-  background-position: right center;
+  background-position: right top;
+  @media screen and (min-width: $screen-medium) {
+    background-position: right 75%;
+  }
 
   min-height: 82.5vw;
 

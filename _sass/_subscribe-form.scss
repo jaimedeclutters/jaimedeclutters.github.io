@@ -1,0 +1,255 @@
+.ml-form-embedSubmitLoad {
+  font-size: 0.8em !important;
+  line-height: 1.25 !important;
+  padding: 0.25em !important;
+}
+.ml-form-embedSubmitLoad:after {
+  content: " ";
+  display: block;
+  padding: 0.25em;
+  border-radius: 50%;
+  border: 0.125em solid #fff;
+  border-color: #ffffff #ffffff #ffffff transparent;
+  animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+  box-sizing: border-box;
+}
+@keyframes ml-form-embedSubmitLoad {
+  0% {
+  transform: rotate(0deg);
+  }
+  100% {
+  transform: rotate(360deg);
+  }
+}
+#mlb2-1320882.ml-form-embedContainer {
+  box-sizing: border-box;
+  display: inline-block;
+  position: static;
+  width: 45%;
+  font-size: 1.75vw;
+  @media screen and (min-width: $screen-small) {
+    font-size: 1.5vw;
+  }
+  @media screen and (min-width: $screen-medium) {
+    font-size: 1vw;
+  }
+  @media screen and (min-width: $screen-large) {
+    font-size: 1vw;
+  }
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper {
+  border: 3px solid black;
+  border-radius: 1em;
+  background: linear-gradient(90deg, white 45%, lightgray 45%);
+  @media screen and (min-width: $screen-medium) {
+    background: linear-gradient(90deg, white 45%, lightgray 45%);
+  }
+
+  box-sizing: border-box;
+  display: inline-block !important;
+  margin: 0 0 1em 0;
+  padding: 0;
+  position: relative;
+  width: 45%;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  width: 90vw;
+  margin-left: calc(4.5vw);
+  @media screen and (min-width: 768px) {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+  margin: 1em 0;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+  @media screen and (min-width: $screen-medium) {
+    margin: 8.5em 0;
+  }
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+  color: #000000;
+  font-size: 3em;
+  font-weight: 100;
+  letter-spacing: 0.8em;
+  margin: 0.5em 0;
+  text-align: center;
+  text-transform: uppercase !important;
+  word-break: break-word;
+  @media screen and (min-width: $screen-medium) {
+    letter-spacing: 0.6em;
+  }
+  span.secondary {
+    text-transform: uppercase !important;;
+    display: block;
+    font-size: 0.9em;
+    letter-spacing: 0.5em;
+    padding-left: 0.5em;
+    @media screen and (min-width: $screen-medium) {
+      padding-left: 0.9em;
+    }
+  }
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  color: #000000;
+	font-size: 2.5em;
+	font-weight: 400;
+  margin: 0 0 0.75em 0;
+  text-align: center;
+  padding: 0 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  line-height: 1.5;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p:last-child,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child {
+  margin: 0;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {
+  margin: 0;
+  width: 100%;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+  margin: 0 0 1.25em 0;
+  width: 100%;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+  margin: 0 0 0.75em 0;
+  width: 100%;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
+  margin: 0;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+  background-color: #ffffff !important;
+  border: none;
+  border-bottom: 0.1em solid lightgray;
+  outline: none;
+  color: #333333;
+  line-height: 1.25 !important;
+  padding: 0.75em 0 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+  margin: 0.5em 0 1em;
+  transition: border-bottom-color $transition-duration;
+  &:hover, &:focus {
+    border-bottom-color: $accent-color;
+  }
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder {
+  color: gray;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+  color: red !important;
+  text-align: center;
+  margin: 0 0 0.5em;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+  background-color: $accent-color !important;
+  text-transform: uppercase;
+  border: none !important;
+  border-radius: 0.25em !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  font-size: 1em !important;
+  font-weight: 100 !important;
+  line-height: 1.25 !important;
+  padding: 0.75em !important;
+  box-sizing: border-box !important;
+  display: inline-block;
+  margin: 0 auto;
+  transition: background-color $transition-duration;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {
+  display: none;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
+  background-color: black !important;
+}
+.ml-error input {
+  background: url(https://bucket.mlcdn.com/images/default/error-icon.png) 98% center no-repeat #ffffff !important;
+  background-size: 0.25em 0.25em !important;
+}
+.ml-error .label-description {
+  color: #ff0000 !important;
+}
+.ml-error .label-description p,
+.ml-error .label-description p a {
+  color: #ff0000 !important;
+}
+
+.ml-form-recaptcha {
+  margin-bottom: 1.25em;
+}
+
+.ml-form-recaptcha.ml-error iframe {
+  border: solid 0.1em #ff0000;
+}
+
+.ml-form-container {
+  display: flex;
+  flex-wrap: wrap;
+  .form-container__form {
+    font-size: 2em;
+    flex: 0 0 45%;
+    padding: 0 0.75em;
+  }
+  .form-container__extra {
+    flex: 0 0 55%;
+    padding: 0 0.75em;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    text-align: center;
+    ul.feature-list {
+      list-style: none;
+      padding-left: 0;
+      li {
+        color: #333;
+      }
+      li:first-child {
+        color: black;
+      }
+    }
+    div.coupon {
+      border: 3px solid #414141;
+      border-radius: 50%;
+      text-align: center;
+      display: inline-block;
+      div.coupon-badge {
+        border: 3px solid white;
+        border-radius: 50%;
+        background-color: #414141;
+        color: white;
+        display: inline-block;
+        width: 7em;
+        height: 7em;
+        div.coupon-content {
+          display: inline-block;
+          transform: translateY(50%);
+          span.coupon-amount {
+            display: inline-block;
+            font-size: 2em;
+            font-weight: 400;
+            line-height: 1;
+          }
+          span.coupon-label {
+            display: inline-block;
+            font-size: 1em;
+            line-height: 1;
+          }
+        }
+      }
+    }
+  }
+}

@@ -5,6 +5,7 @@
 
 $text-primary-color: black;
 $text-secondary-color: gray;
+$accent-color: #3D829E;
 
 $box-border: 3px solid black;
 
@@ -17,6 +18,7 @@ $screen-large: 1024px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'normalize',
         'typography',
+        'subscribe-form',
         'mixins/has-nav-link',
         'mixins/has-text-link',
         'layout/default',
