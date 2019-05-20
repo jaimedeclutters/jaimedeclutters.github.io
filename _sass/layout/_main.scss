@@ -74,6 +74,28 @@ li.landing-link {
 
   &--newsletter {
     display: block;
+    a {
+      background-color: $accent-color;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 0.25em;
+      box-shadow: none;
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 100;
+      line-height: 1.25;
+      padding: 0.75em;
+      box-sizing: border-box;
+      display: inline-block;
+      margin: 0 auto;
+      transition: background-color $transition-duration;
+      text-decoration: none;
+      border-bottom: none;
+      color: white;
+      &:hover {
+        background-color: black;
+      }
+    }
     @media screen and (min-width: $screen-medium) {
       display: none;
     }

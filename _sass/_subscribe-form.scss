@@ -90,8 +90,12 @@
   margin: 1em 0;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+  margin: 0;
+  background-color: white;
+  border-radius: 1em;
+  padding: 3em 0;
   @media screen and (min-width: $screen-medium) {
-    margin: 8.5em 0;
+    padding: 8.5em 0;
   }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
@@ -117,6 +121,9 @@
       padding-left: 0.9em;
     }
   }
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+  margin: 0 0 1em;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
