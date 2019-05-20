@@ -93,7 +93,7 @@ li.landing-link {
       text-decoration: none;
       border-bottom: none;
       color: white;
-      &:hover {
+      &:hover, &:focus {
         background-color: black;
       }
     }
