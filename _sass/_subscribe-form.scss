@@ -36,21 +36,46 @@
   @media screen and (min-width: $screen-large) {
     font-size: 1vw;
   }
+  @media screen and (max-width: $screen-medium - 1px){
+    display: none;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper {
+  z-index: 1;
   border: 3px solid black;
   border-radius: 1em;
   background: linear-gradient(90deg, white 45%, lightgray 45%);
   @media screen and (min-width: $screen-medium) {
     background: linear-gradient(90deg, white 45%, lightgray 45%);
   }
-
+  @media screen and (max-width: $screen-medium - 1px){
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   box-sizing: border-box;
   display: inline-block !important;
   margin: 0 0 1em 0;
   padding: 0;
   position: relative;
   width: 45%;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-closeButton {
+  display: none;
+  @media screen and (max-width: $screen-medium - 1px){
+    font-size: 2em;
+    display: inline-block;
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    color: #333;
+    text-decoration: none;
+  }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
   width: 90vw;

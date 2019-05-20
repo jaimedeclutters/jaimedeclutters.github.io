@@ -1,5 +1,6 @@
 <div id="mlb2-1320882" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-1320882">
   <div class="ml-form-embedWrapper embedForm">
+    <a class="ml-form-closeButton" href='#'>X</a>
     <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
       <div class="ml-form-embedContent">
         <h4>Monthly<span class="secondary">Newsletter</span></h4>
@@ -52,10 +53,41 @@
 </div>
 <script>
   function ml_webform_success_1320882() {
-      var $ = ml_jQuery || jQuery;
-      $('.ml-subscribe-form-1320882 .row-success').show();
-      $('.ml-subscribe-form-1320882 .row-form').hide();
+    var $ = ml_jQuery || jQuery;
+    $('.ml-subscribe-form-1320882 .row-success').show();
+    $('.ml-subscribe-form-1320882 .row-form').hide();
+  }
+
+  const popupLink = document.querySelector('.landing-link--newsletter');
+  const popup = document.querySelector('#mlb2-1320882');
+  const popupContent = popup.querySelector('.ml-form-embedWrapper.embedForm');
+  const popupCloseButton = popup.querySelector('.ml-form-closeButton');
+
+  function openPopUp() {
+    popup.style.display = "block";
+    popupLink.style.display = "none";
+  }
+
+  function closePopUp() {
+    popup.style.display = "none";
+    popupLink.style.display = "block";
+  }
+
+  popupLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    openPopUp();
+  });
+
+  popup.addEventListener('click', (event) => {
+    if (event.target.id === "mlb2-1320882" && document.body.clientWidth < 768) {
+      closePopUp();
     }
+  });
+
+  popupCloseButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    closePopUp();
+  });
 </script>
 <img src="https://track.mailerlite.com/webforms/o/1320882/k7m8l1?vd890ed88b3a28c805acc70e1a88fa27c" width="1" height="1" style="max-width: 1px; max-height: 1px; visibility: hidden; padding: 0; margin: 0; display: block;" border="0">
 <script src="https://static.mailerlite.com/js/w/webforms.min.js?vd890ed88b3a28c805acc70e1a88fa27c" type="text/javascript"></script>

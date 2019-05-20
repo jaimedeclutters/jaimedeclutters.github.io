@@ -71,4 +71,11 @@ li.landing-link {
   letter-spacing: 0.2em;
 
   @include has-text-link;
+
+  &--newsletter {
+    display: block;
+    @media screen and (min-width: $screen-medium) {
+      display: none;
+    }
+  }
 }
