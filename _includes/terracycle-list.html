@@ -1,0 +1,38 @@
+{% for city in site.data.terracycle %}
+  <div class="terracycle__city">
+    <h3 class="terracycle__city__title">{{ city.city }}</h3>
+    {% for location in city.locations %}
+    <div class="terracycle__location">
+      <h4 class="terracycle__location__title">{{ location.location }} <span class="terracycle__location__address">(<a href="{{location.address-link}}" target="_blank">{{ location.address }}</a>)</span></h4>
+      <p class="terracycle__location__detail">{{ location.detail }} - <span class="terracycle__sponsor">Sponsored by {{ location.sponsored-by }}</span></p>
+      <ul class="terracycle__box-list">
+        {% for box in location.boxes %}
+        <li class="terracycle__box terracycle__box--title-only">
+          <div class="terracycle__box__type"><img class="expand-icon" src="/assets/icons/expand.svg" /> <span class="terracycle__box__type__title">{{ box.type }}</span></div>
+          <ul class="terracycle__box__detail-list">
+            {% for detail in box.details %}
+              <li class="terracycle__box__detail">{{ detail }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+
+<script async type='text/javascript'>
+  const hiddenListClass = "terracycle__box--title-only"
+  const terracycleBoxTitles = document.querySelectorAll(".terracycle__box__type");
+  for (let i = 0; i < terracycleBoxTitles.length; i += 1) {
+    terracycleBoxTitles[i].addEventListener("click", (event) => {
+      let thisBox = terracycleBoxTitles[i].parentNode;
+      if (thisBox.classList.contains(hiddenListClass)) {
+        thisBox.classList.remove(hiddenListClass)
+      } else {
+        thisBox.classList.add(hiddenListClass)
+      }
+    });
+  }
+</script>

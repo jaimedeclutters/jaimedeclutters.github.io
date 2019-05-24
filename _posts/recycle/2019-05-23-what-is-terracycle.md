@@ -23,9 +23,9 @@ The remaining items need to go in the trash. That was, until TerraCycle found a 
 
 ## Terracycle Programs
 
-- There are free programs funded by companies that want to support consumers in recycling their products. You can view [all the free programs here](https://www.terracycle.com/en-US/brigades){: target="_blank"}. Many programs fill up and have wait lists. If or when you join one of these programs, you will be able to print free shipping labels to mail in your recyclables.
+- __There are free programs__ funded by companies that want to support consumers in recycling their products. You can view [all the free programs here](https://www.terracycle.com/en-US/brigades){: target="_blank"}. Many programs fill up and have wait lists. If or when you join one of these programs, you will be able to print free shipping labels to mail in your recyclables.
 
-- The paid programs are a great option for those items you can’t recycle in the free programs. This works by purchasing a Zero Waste Box. You can view [all the box categories here](https://www.terracycle.com/en-US/zero_waste_boxes){: target="_blank"}. The more specific the box, the more affordable. Boxes come with a free shipping label to return to TerraCycle via FedEx.
+- __The paid programs__ are a great option for those items you can’t recycle in the free programs. This works by purchasing a Zero Waste Box. You can view [all the box categories here](https://www.terracycle.com/en-US/zero_waste_boxes){: target="_blank"}. The more specific the box, the more affordable. Boxes come with a free shipping label to return to TerraCycle via FedEx.
 
 I now have three collection systems at home - trash, recycling, & TerraCycle! I have personally used these boxes:
 
@@ -43,52 +43,4 @@ You will notice that the Zero Waste Boxes aren’t cheap. If you are interested 
 
 There are multiple FREE Terracycle Collection Boxes in the Madison, WI area. I’ve listed the ones I know of below. If you know of additional collection sites open to the public, email me and I will add them to this list!
 
-### Cottage Grove, WI (located inside Piggly Wiggly)
-
-_Sponsored By ME - Jaime Declutters_
-
-- __Candy & Snack Wrapper Box:__
-  - Individual, multipack and family-size snack bags and wrappers, including chip, candy and granola wrappers.
-
-### Monona, WI (located inside Library)
-
-_Provided By Winnequah Elementary School_
-
-- __Cleaner Packaging Brigade:__
-  - Pumps, caps, triggers, pouches, flexible cleaner product packaging
-
-- __D’Addario Instrument Strings Recycling Program:__
-  - Instrument strings and clippings from ANY string instrument and ANY brand
-  - Packaging from D’Addario strings
-
-- __The Brita Brigade:__
-  - Brita dispensers, bottles, filters, filter packaging, faucet filtration systems, pitchers
-
-- __Tom’s Of Maine Natural Care Recycling Program:__
-  - Any brand mouthwash bottles and caps, deodorant containers and caps, toothpaste tubes and caps, soap packaging, floss containers, toothbrushes
-
-- __Energy Bar Wrapper Brigade:__
-  - Any Brand foil-lined energy bar, granola bar, meal replacement bar, protein bar, and diet bar wrappers
-  - Clif Bar & Co wrappers from Clif Bars, Luna Bars, MOJO, Builders, Clif Organic Trail Mix Bars, Crunch, Clif Kid Z-Bar, Kits Organic, Clif Kid Z-Fruit, Shot Bloks, Shot Gels and Drinks
-  - Pouches from Clif Organic Energy Food
-
-- __MOM Brands Cereal Bag Brigade:__
-  - ANY brand plastic cereal bags and cereal bag liners
-
-- __Entenmann’s Little Bites Pouch Brigade:__
-  - ONLY Entenmann’s Little Bites plastic Pouches
-
-- __Personal Care and Beauty Brigade:__
-  - ANY brand hair care packaging
-  - ANY brand skin care packaging
-  - ANY brand cosmetics packaging
-
-- __Chip Bags:__
-  - ANY brand Any Size
-
-- __GoGo SqueeZ Brigade:__
-  - ANY brand healthy snack plastic pouches and caps
-
-- __Drink Pouch Brigade:__
-  - ANY brand aluminum and plastic drink pouches (no need to remove straws)
-  - ANY brand drink pouches with spouts
+{% include terracycle-list.html %}

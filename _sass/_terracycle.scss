@@ -1,0 +1,81 @@
+div.terracycle__city {
+  border: 3px solid black;
+  margin: 1em 0;
+}
+
+h3.terracycle__city__title {
+  background-color: #CCC;
+  margin: 0;
+  padding: 0.5em 0.5em 0.25em;
+  border-bottom: 3px solid black;
+}
+
+div.terracycle__location {
+  border-bottom: 3px solid black;
+  margin: 1em;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+h4.terracycle__location__title {
+  margin: 0;
+}
+
+span.terracycle__location__address {
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+p.terracycle__location__detail {
+  font-size: 1.2em;
+  margin-top: 0;
+  font-style: italic;
+}
+
+ul.terracycle__box-list {
+  padding-left: 0.5em;
+  list-style: none;
+}
+
+li.terracycle__box {
+  padding-left: none;
+  border-bottom: 1px solid #CCC;
+  cursor: pointer;
+  &:last-child {
+    border-bottom: none;
+  }
+  img.expand-icon {
+    display: inline;
+    max-width: none;
+    margin: 0;
+    float: right;
+    transform: rotate(180deg);
+    transition: transform $transition-duration;
+  }
+  ul.terracycle__box__detail-list {
+    display: block;
+    cursor: auto;
+    padding: 0 2em;
+  }
+  &--title-only {
+    img.expand-icon {
+      transform: none;
+    }
+    ul.terracycle__box__detail-list {
+      display: none;
+    }
+  }
+}
+
+div.terracycle__box__type {
+  span.terracycle__box__type__title {
+  }
+  font-weight: bold;
+}
+
+
+
+li.terracycle__box__detail {
+
+}

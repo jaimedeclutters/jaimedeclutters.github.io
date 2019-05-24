@@ -1,0 +1,57 @@
+- city: "Cottage Grove, WI"
+  locations:
+    - location: "Piggly Wiggly"
+      detail: "Right Entrance"
+      address: "421 W Cottage Grove Rd"
+      address-link: "https://goo.gl/maps/ZpXBn4fZT72tmi1U7"
+      map-iframe: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.7797943167525!2d-89.2133115845151!3d43.088124679144684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88065a2c3ea06675%3A0xab4cdec2148fd84f!2sPiggly+Wiggly!5e0!3m2!1sen!2sus!4v1558663525811!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      sponsored-by: 'Me (Jaime Declutters)'
+      boxes:
+      - type: "Candy & Snack Wrapper Box"
+        details:
+          - "Individual, multipack and family-size snack bags and wrappers, including chip, candy and granola wrappers."
+- city: "Monona, WI"
+  locations:
+    - location: "Monona Library"
+      detail: "Lower Level by Vending Machines"
+      address: "1000 Nichols Rd"
+      address-link: "https://goo.gl/maps/HzAXJ3FWrYmDSe7B9"
+      map-iframe: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.9818168432002!2d-89.34273968451592!3d43.06284997914596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880653c9d2a33b85%3A0x2888961b62c42e9f!2sMonona+Public+Library!5e0!3m2!1sen!2sus!4v1558663454751!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      sponsored-by: 'Winnequah Elementary School'
+      boxes:
+        - type: "D’Addario Instrument Strings Recycling Program"
+          details:
+            - "Instrument strings and clippings from ANY string instrument and ANY brand"
+            - "Packaging from D’Addario strings"
+        - type: "The Brita Brigade"
+          details:
+            - Brita dispensers, bottles, filters, filter packaging, faucet filtration systems, pitchers
+        - type: "Tom’s Of Maine Natural Care Recycling Program"
+          details:
+            - Any brand mouthwash bottles and caps, deodorant containers and caps, toothpaste tubes and caps, soap packaging, floss containers, toothbrushes
+        - type: "Energy Bar Wrapper Brigade"
+          details:
+            - Any Brand foil-lined energy bar, granola bar, meal replacement bar, protein bar, and diet bar wrappers
+            - Clif Bar & Co wrappers from Clif Bars, Luna Bars, MOJO, Builders, Clif Organic Trail Mix Bars, Crunch, Clif Kid Z-Bar, Kits Organic, Clif Kid Z-Fruit, Shot Bloks, Shot Gels and Drinks
+            - Pouches from Clif Organic Energy Food
+        - type: "MOM Brands Cereal Bag Brigade"
+          details:
+            - ANY brand plastic cereal bags and cereal bag liners
+        - type: "Entenmann’s Little Bites Pouch Brigade"
+          details:
+            - ONLY Entenmann’s Little Bites plastic Pouches
+        - type: "Personal Care and Beauty Brigade"
+          details:
+            - ANY brand hair care packaging
+            - ANY brand skin care packaging
+            - ANY brand cosmetics packaging
+        - type: "Chip Bags"
+          details:
+            - ANY brand Any Size
+        - type: "GoGo SqueeZ Brigade"
+          details:
+            - ANY brand healthy snack plastic pouches and caps
+        - type: "Drink Pouch Brigade"
+          details:
+            - ANY brand aluminum and plastic drink pouches (no need to remove straws)
+            - ANY brand drink pouches with spouts
