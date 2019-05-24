@@ -9,17 +9,10 @@
       <ul class="site-navbar__nav-list site-navbar__nav-list--dropdown" aria-label="submenu">
         {% include /layout/navbar-item.html path='minimalism' title='Minimalism' %}
         {% include /layout/navbar-item.html path='declutter' title='Declutter' %}
-      </ul>
-    </li>
-    <li class="site-navbar__nav-list-item">
-      <a href='javascript:;' aria-haspopup="true">
-        Resources
-      </a>
-      <ul class="site-navbar__nav-list site-navbar__nav-list--dropdown" aria-label="submenu">
         {% include /layout/navbar-item.html path='recycle' title='Recycle' %}
-        {% include /layout/navbar-item.html path='books' title='Books' %}
       </ul>
     </li>
+    {% include /layout/navbar-item.html path='books' title='Books' %}
     {% include /layout/navbar-item.html path='work-with-me' title='Work With Me' %}
   </ul>
 </nav>
