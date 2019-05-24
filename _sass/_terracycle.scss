@@ -4,7 +4,7 @@ div.terracycle__city {
 }
 
 h3.terracycle__city__title {
-  background-color: #CCC;
+  background-color: lightgray;
   margin: 0;
   padding: 0.5em 0.5em 0.25em;
   border-bottom: 3px solid black;
@@ -40,7 +40,7 @@ ul.terracycle__box-list {
 
 li.terracycle__box {
   padding-left: none;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid lightgray;
   cursor: pointer;
   &:last-child {
     border-bottom: none;

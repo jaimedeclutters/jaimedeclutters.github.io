@@ -23,6 +23,8 @@ The remaining items need to go in the trash. That was, until TerraCycle found a 
 
 ## Terracycle Programs
 
+![Terracycle Logo]({{site.url}}/assets/images/recycle/TerraCycle_Logo_High-Res.jpg){: class="image--right"}
+
 - __There are free programs__ funded by companies that want to support consumers in recycling their products. You can view [all the free programs here](https://www.terracycle.com/en-US/brigades){: target="_blank"}. Many programs fill up and have wait lists. If or when you join one of these programs, you will be able to print free shipping labels to mail in your recyclables.
 
 - __The paid programs__ are a great option for those items you can’t recycle in the free programs. This works by purchasing a Zero Waste Box. You can view [all the box categories here](https://www.terracycle.com/en-US/zero_waste_boxes){: target="_blank"}. The more specific the box, the more affordable. Boxes come with a free shipping label to return to TerraCycle via FedEx.

@@ -37,7 +37,13 @@
   img {
     display: block;
     max-width: 80%;
-    margin: 0 auto
+    margin: 0 auto;
+    &.image--right {
+      display: inline-block;
+      max-width: 300px;
+      float: right;
+      margin: 0 0 2em 2em;
+    }
   }
 
   p.call-to-action {
