@@ -7,7 +7,7 @@ link-image: /assets/images/recycle/what-is-terracycle-link.png
 category: Recycle
 ---
 
-Most people have a trash and a recycling bin. Waste Management (Madison, WI) accepts plastics 1-7, PET, HDPE, glass, cardboard, mixed paper, newspaper, tin, steel, and aluminum cans. Here are examples of the different plastics:
+At home I have a trash and a recycling bin. My recycling company (Advanced Disposal) accepts plastics 1-7, PET, HDPE, glass, cardboard, mixed paper, newspaper, tin, steel, and aluminum cans. Here are examples of the different plastics:
 
 - __#1 (PET)__ - Example:	Water Bottles
 - __#2 (HDPE)__ - Example: 	Milk Jugs
