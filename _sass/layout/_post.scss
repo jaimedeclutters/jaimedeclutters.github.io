@@ -52,5 +52,31 @@
     text-align: center;
   }
 
+  .button-container {
+    text-align: center;
+    margin: 2em 0 1em;
+    a.button {
+      display: inline-block;
+      font-size: 2.5em;
+      padding: 0.5em 0.5em 0.25em;
+      border: none;
+      border-radius: 0.5em;
+      background-color: black;
+      color: white;
+      transition: background-color $transition-duration;
+      &--active {
+        background-color: $accent-color;
+        cursor: pointer;
+        &:hover, &:focus {
+          background-color: black;
+        }
+      }
+      &--disabled {
+        background-color: gray;
+        cursor: not-allowed;
+      }
+    }
+  }
+
   @include has-text-link;
 }

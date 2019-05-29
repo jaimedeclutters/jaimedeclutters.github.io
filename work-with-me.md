@@ -37,7 +37,7 @@ If you would like help with decluttering your home, reach out! I live in the Mad
     </ul>
   </div>
   <div class="services-list__item">
-    <h2 class="services-list__title">Contact Form</h2>
+    <h2 class="services-list__title" id="contact-form">Contact Form</h2>
     {% include components/contact-form.html %}
   </div>
 </div>
