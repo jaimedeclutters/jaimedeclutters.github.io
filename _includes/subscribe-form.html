@@ -3,7 +3,8 @@
     <a class="ml-form-closeButton" href='#'>X</a>
     <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
       <div class="ml-form-embedContent">
-        <h4>Monthly<span class="secondary">Newsletter</span></h4>
+        <h4>Monthly Newsletter</h4>
+        <h5 class="dividing-header">discounts, events, new blog posts</h5>
       </div>
       <div class="ml-form-container">
         <form class="form-container__form ml-block-form" action="https://app.mailerlite.com/webforms/submit/k7m8l1" data-code="k7m8l1" method="post" target="_blank">
@@ -25,22 +26,6 @@
             </button>
           </div>
         </form>
-        <div class="form-container__extra">
-          <div class="coupon">
-            <div class="coupon-badge">
-              <div class="coupon-content">
-                <span class="coupon-amount">50%</span>
-                <span class="coupon-label">Coupon</span>
-              </div>
-            </div>
-          </div>
-          <ul class="feature-list">
-            <li>Monthly</li>
-            <li>Discounts</li>
-            <li>New Content</li>
-            <li>Free Events</li>
-          </ul>
-        </div>
       </div>
     </div>
     <div class="ml-form-successBody row-success" style="display: none">
@@ -79,7 +64,7 @@
   });
 
   popup.addEventListener('click', (event) => {
-    if (event.target.id === "mlb2-1320882" && document.body.clientWidth < 768) {
+    if (event.target.id === "mlb2-1320882") {
       closePopUp();
     }
   });

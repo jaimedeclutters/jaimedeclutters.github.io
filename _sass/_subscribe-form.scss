@@ -23,9 +23,12 @@
 }
 #mlb2-1320882.ml-form-embedContainer {
   box-sizing: border-box;
-  display: inline-block;
-  position: static;
-  width: 45%;
+  display: none;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
   font-size: 1.75vw;
   @media screen and (min-width: $screen-small) {
     font-size: 1.5vw;
@@ -36,54 +39,35 @@
   @media screen and (min-width: $screen-large) {
     font-size: 1vw;
   }
-  @media screen and (max-width: $screen-medium - 1px){
-    display: none;
-    position: fixed;
-    height: 100vh;
-    top: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-  }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper {
   z-index: 1;
   border: 3px solid black;
   border-radius: 1em;
-  background: linear-gradient(90deg, white 45%, lightgray 45%);
-  @media screen and (min-width: $screen-medium) {
-    background: linear-gradient(90deg, white 45%, lightgray 45%);
-  }
-  @media screen and (max-width: $screen-medium - 1px){
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+  background: white;
+  position: absolute;
+  top: 50%;
   box-sizing: border-box;
   display: inline-block !important;
   margin: 0 0 1em 0;
   padding: 0;
-  position: relative;
-  width: 45%;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-closeButton {
-  display: none;
-  @media screen and (max-width: $screen-medium - 1px){
-    font-size: 2em;
-    display: inline-block;
-    position: absolute;
-    right: 0.5em;
-    top: 0.5em;
-    color: #333;
-    text-decoration: none;
-  }
+  font-size: 2em;
+  display: inline-block;
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  color: #333;
+  text-decoration: none;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
-  width: 90vw;
-  margin-left: calc(4.5vw);
-  @media screen and (min-width: 768px) {
-    width: 90%;
-    margin-left: 5%;
-  }
+  min-width: 300px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
@@ -93,37 +77,38 @@
   margin: 0;
   background-color: white;
   border-radius: 1em;
-  padding: 3em 0;
-  @media screen and (min-width: $screen-medium) {
-    padding: 8.5em 0;
-  }
+  padding: 8.5em 0;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
   color: #000000;
   font-size: 3em;
   font-weight: 100;
-  letter-spacing: 0.8em;
-  margin: 0.5em 0;
+  letter-spacing: 0.6em;
+  margin: 0.5em 0 0;
   text-align: center;
   text-transform: uppercase !important;
   word-break: break-word;
-  @media screen and (min-width: $screen-medium) {
-    letter-spacing: 0.6em;
-  }
   span.secondary {
     text-transform: uppercase !important;;
     display: block;
     font-size: 0.9em;
     letter-spacing: 0.5em;
-    padding-left: 0.5em;
-    @media screen and (min-width: $screen-medium) {
-      padding-left: 0.9em;
-    }
+    padding-left: 0.9em;
   }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
   margin: 0 0 1em;
+}
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h5,
+#mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h5 {
+  color: white;
+  background-color: #414141;
+  text-align: center;
+  font-size: 2em;
+  padding: 0.25em 0 0;
+  font-weight: 300;
+  margin: 0;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
@@ -147,12 +132,13 @@
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent,
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
-  margin: 0 0 1.25em 0;
+  margin: 0;
   width: 100%;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
-  margin: 0 0 0.75em 0;
+  margin: 0;
   width: 100%;
+  padding: 0 1em;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
   margin: 0;
@@ -171,7 +157,7 @@
   margin: 0.5em 0 1em;
   transition: border-bottom-color $transition-duration;
   &:hover, &:focus {
-    border-bottom-color: $accent-color;
+    border-bottom-color: #414141;
   }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,
@@ -186,7 +172,7 @@
   margin: 0 0 0.5em;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
-  background-color: $accent-color !important;
+  background-color: #414141 !important;
   text-transform: uppercase;
   border: none !important;
   border-radius: 0.25em !important;
@@ -195,17 +181,20 @@
   font-size: 1em !important;
   font-weight: 100 !important;
   line-height: 1.25 !important;
-  padding: 0.75em !important;
+  padding: 0.5em 0.75em 0.25em !important;
   box-sizing: border-box !important;
   display: inline-block;
   margin: 0 auto;
   transition: background-color $transition-duration;
+  &:hover {
+    background-color: $accent-color !important;
+  }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {
   display: none;
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
-  background-color: black !important;
+  background-color: $accent-color !important;
 }
 .ml-error input {
   background: url(https://bucket.mlcdn.com/images/default/error-icon.png) 98% center no-repeat #ffffff !important;
@@ -229,59 +218,11 @@
 
 .ml-form-container {
   display: flex;
+  margin: 0 0 1em;
   flex-wrap: wrap;
   .form-container__form {
     font-size: 2em;
-    flex: 0 0 45%;
+    flex: 0 0 100%;
     padding: 0 0.75em;
-  }
-  .form-container__extra {
-    flex: 0 0 55%;
-    padding: 0 0.75em;
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 0.2em;
-    text-align: center;
-    ul.feature-list {
-      list-style: none;
-      padding-left: 0;
-      li {
-        color: #333;
-      }
-      li:first-child {
-        color: black;
-      }
-    }
-    div.coupon {
-      border: 3px solid #414141;
-      border-radius: 50%;
-      text-align: center;
-      display: inline-block;
-      div.coupon-badge {
-        border: 3px solid white;
-        border-radius: 50%;
-        background-color: #414141;
-        color: white;
-        display: inline-block;
-        width: 7em;
-        height: 7em;
-        div.coupon-content {
-          display: inline-block;
-          transform: translateY(50%);
-          span.coupon-amount {
-            display: inline-block;
-            font-size: 2em;
-            font-weight: 400;
-            line-height: 1;
-          }
-          span.coupon-label {
-            display: inline-block;
-            font-size: 1em;
-            line-height: 1;
-          }
-        }
-      }
-    }
   }
 }

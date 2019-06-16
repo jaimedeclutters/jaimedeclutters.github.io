@@ -2,57 +2,46 @@ main.landing {
   background-image: url('../assets/images/landing/couch-small.jpg'), linear-gradient(to top, #523C2E 0%, #838486 55%, #BDC5C4 93%, #a9aaa5 100%);
   background-image:
     -webkit-image-set(
-      url('../assets/images/landing/couch-large.jpg') 1x,
-      url('../assets/images/landing/couch.jpg') 2x
+      url('../assets/images/landing/couch-1x.jpg') 1x,
+      url('../assets/images/landing/couch-2x.jpg') 2x
     ), linear-gradient(to top, #523C2E 0%, #838486 55%, #BDC5C4 93%, #a9aaa5 100%);
   background-image:
     image-set(
-    url('../assets/images/landing/couch-large.jpg') 1x,
-    url('../assets/images/landing/couch.jpg') 2x
+      url('../assets/images/landing/couch-1x.jpg') 1x,
+      url('../assets/images/landing/couch-2x.jpg') 2x
     ), linear-gradient(to top, #523C2E 0%, #838486 55%, #BDC5C4 93%, #a9aaa5 100%);
 
   background-repeat: no-repeat;
   background-size: 55% auto;
-  background-position: right top;
-  @media screen and (min-width: $screen-medium) {
-    background-position: right 75%;
-  }
-
-  min-height: 82.5vw;
+  background-position: right 50%;
+  
+  min-height: 25vw;
 
   font-size: 1.25vw;
-  @media screen and (max-width: $screen-medium) {
-    font-size: 1.5vw;
-  }
-  @media screen and (max-width: $screen-small) {
-    font-size: 1.75vw;
-  }
 
   h1 {
-    width: 95%;
-    margin: 0.75em 0.25em;
+    margin: 0.5em auto;
+    padding: 0.25em;
     text-align: center;
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
-    letter-spacing: 0.25em;
-    word-spacing: 0.25em;
-    .spaced-heading {
-      letter-spacing: 0.675em;
-    }
+    letter-spacing: 0.5em;
+    transform: translateX(-1.4em);
     .subheading {
-      width: 95%;
+      margin: 0.5em auto;
+      font-size: 0.825em;
       display: block;
-      word-spacing: -0.1em;
-      letter-spacing: 0.375em;
+      letter-spacing: 0.4375em;
       font-weight: 400;
       line-height: 1.25;
+      transform: translateX(-0.4em);
     }
   }
 }
 
 nav.landing-nav {
-  margin: 3em 0 0;
+  margin: 5em 0;
   width: 45%;
 }
 
@@ -75,7 +64,8 @@ li.landing-link {
   &--newsletter {
     display: block;
     a {
-      background-color: $accent-color;
+      width: min-content;
+      background-color: #414141;
       text-transform: uppercase;
       border: none;
       border-radius: 0.25em;
@@ -84,7 +74,7 @@ li.landing-link {
       font-size: 1em;
       font-weight: 100;
       line-height: 1.25;
-      padding: 0.75em 0.25em;
+      padding: 0.5em 0.75em 0.25em;
       text-align: center;
       box-sizing: border-box;
       display: inline-block;
@@ -96,9 +86,6 @@ li.landing-link {
       &:hover, &:focus {
         background-color: black;
       }
-    }
-    @media screen and (min-width: $screen-medium) {
-      display: none;
     }
   }
 }
