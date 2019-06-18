@@ -1,0 +1,15 @@
+---
+title: The Blog
+permalink: /blog
+layout: page
+redirect_from:
+  - /recycle
+  - /minimalism
+  - /declutter
+---
+
+<h1 class="page-title">{{page.title}}</h1>
+
+{% assign list = site.posts | where_exp: "post", "post.category != 'Events'" %}
+
+{% include components/page-list.html list=list %}

@@ -1,18 +1,9 @@
 <nav class="site-navbar">
   <ul class="site-navbar__nav-list">
     {% assign current = page.url | downcase | split: '/' %}
-    <li class="site-navbar__nav-list-item">
-      <a href='javascript:;' aria-haspopup="true">
-        Blog
-      </a>
-      <ul class="site-navbar__nav-list site-navbar__nav-list--dropdown" aria-label="submenu">
-        {% include /layout/navbar-item.html path='minimalism' title='Minimalism' %}
-        {% include /layout/navbar-item.html path='declutter' title='Declutter' %}
-        {% include /layout/navbar-item.html path='recycle' title='Recycle' %}
-      </ul>
-    </li>
+    {% include /layout/navbar-item.html path='blog' title='Blog' %}
     {% include /layout/navbar-item.html path='events' title='Events' %}
-    {% include /layout/navbar-item.html path='about' title='About' %}    
+    {% include /layout/navbar-item.html path='about' title='About' %}
     {% include /layout/navbar-item.html path='work-with-me' title='Work With Me' %}
   </ul>
 </nav>

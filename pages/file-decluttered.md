@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Page Decluttered
-permalink: /file-decluttered/
+permalink: /file-decluttered
 redirect_from:
   - /blog/2016/08/10/breathe-easy/
   - /blog/2016/08/24/bright-airy-kids-bedroom-inspiration/
@@ -30,6 +30,8 @@ redirect_from:
   - /blog/2017/11/28/declutter-holiday-season-managing-time-expectations/
   - /blog/2017/12/11/my-three-balancing-acts/
   - /blog/2017/01/30/winter-declutter/
+  - /blog/2017/10/31/our-little-white-shack-design/
+  - /minimalism/first-little-white-shack-design/
 sitemap: false
 ---
 
@@ -37,6 +39,6 @@ As a minimalist, I declutter my digital home the same way I declutter my regular
 
 I'm sorry that the page you’re looking for was a part of one of those sweeps.
 
-I do this to keep the site focused on the best content. Please check out my posts on [minimalism]({{site.url}}/minimalism) and [decluttering]({{site.url}}/declutter).
+I do this to keep the site focused on the best content. Please check out my posts on [the blog]({{site.url}}/blog).
 
 -Jaime

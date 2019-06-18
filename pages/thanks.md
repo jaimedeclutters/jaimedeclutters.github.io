@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thanks
-permalink: /thanks/
+permalink: /thanks
 sitemap: false
 ---
 

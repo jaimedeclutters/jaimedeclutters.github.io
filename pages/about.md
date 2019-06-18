@@ -1,8 +1,8 @@
 ---
 layout: post
 class: about
-title: "About Me" 
-permalink: /about/
+title: "About Me"
+permalink: /about
 image: /assets/images/about/about.jpg
 ---
 
