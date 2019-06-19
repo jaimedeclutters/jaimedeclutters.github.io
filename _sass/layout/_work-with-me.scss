@@ -27,7 +27,7 @@ ul.services-list__details, div.services-list__details {
 
 .form--contact {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,10 +45,15 @@ ul.services-list__details, div.services-list__details {
       outline: none;
     }
   }
-  button {
-    flex: 0 0 auto;
-    padding: 0.75rem;
-    text-transform: uppercase;
-    background-color: lightgray;
+  .button-box {
+    flex: 0 0 100%;
+    text-align: center;
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 0.75rem;
+      text-transform: uppercase;
+      background-color: lightgray;
+    }
   }
 }

@@ -1,13 +1,9 @@
 ---
 layout: post
-permalink: /work-with-me
-title: "Work With Me"
-image: /assets/images/work-with-me/work-with-me.jpg
-redirect_from:
-  - /consult
-  - /contact
-  - /photos/before-after
-  - /madison-wi
+permalink: /services/decluttering-sessions
+title: "Decluttering Sessions"
+image: /assets/images/services/decluttering-sessions.jpg
+
 ---
 
 If you would like help with decluttering your home, reach out! I live in the Madison, WI area and can come to your home! If you don’t live in the Madison area, but would still like my help, I would be happy to work with you via Skype and email.
@@ -35,8 +31,8 @@ If you would like help with decluttering your home, reach out! I live in the Mad
       <li>A 1-hour session with 3 follow-up emails costs $30</li>
     </ul>
   </div>
-  <div class="services-list__item">
-    <h2 class="services-list__title" id="contact-form">Contact Form</h2>
-    {% include components/contact-form.html %}
-  </div>
+</div>
+
+<div class="button-container">
+  <a href="{{site.url}}/services/#contact-form" class="button button--active">Schedule Today</a>
 </div>

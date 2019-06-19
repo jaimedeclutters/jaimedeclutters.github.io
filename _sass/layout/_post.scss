@@ -61,19 +61,12 @@
       padding: 0.5em 0.5em 0.25em;
       border: none;
       border-radius: 0.5em;
-      background-color: black;
+      background-color: #414141;
       color: white;
       transition: background-color $transition-duration;
-      &--active {
-        background-color: $accent-color;
-        cursor: pointer;
-        &:hover, &:focus {
-          background-color: black;
-        }
-      }
-      &--disabled {
-        background-color: gray;
-        cursor: not-allowed;
+      cursor: pointer;
+      &:hover, &:focus {
+        background-color: black;
       }
     }
   }
