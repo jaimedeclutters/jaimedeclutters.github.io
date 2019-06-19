@@ -34,5 +34,5 @@ If you would like help with decluttering your home, reach out! I live in the Mad
 </div>
 
 <div class="button-container">
-  <a href="{{site.url}}/services/#contact-form" class="button button--active">Schedule Today</a>
+  <a href="{{site.url}}/services#contact-form" class="button button--active">Schedule Today</a>
 </div>

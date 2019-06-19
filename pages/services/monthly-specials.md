@@ -20,5 +20,5 @@ Veterans Living in Cottage Grove, WI
 Email to schedule  
 
 <div class="button-container">
-  <a href="{{site.url}}/services/#contact-form" class="button button--active">Schedule Today</a>
+  <a href="{{site.url}}/services#contact-form" class="button button--active">Schedule Today</a>
 </div>

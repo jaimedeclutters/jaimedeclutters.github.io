@@ -20,5 +20,5 @@ Located in Entry of Piggly Wiggly
 Cottage Grove, WI 53527
 
 <div class="button-container">
-  <a href="{{site.url}}/services/#contact-form" class="button button--active">Schedule an Event</a>
+  <a href="{{site.url}}/services#contact-form" class="button button--active">Schedule an Event</a>
 </div>
