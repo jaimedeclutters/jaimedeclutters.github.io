@@ -28,7 +28,7 @@ If you would like help with decluttering your home, reach out! I live in the Mad
       <li>Skype 1 hour and 3 follow-up emails</li>
       <li>We can talk through any space</li>
       <li>While I will not be able to physically help you declutter, I will be your resource, support, and accountability partner</li>
-      <li>Contact for an estimate30</li>
+      <li>Contact for an estimate</li>
     </ul>
   </div>
 </div>
