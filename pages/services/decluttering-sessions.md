@@ -17,8 +17,8 @@ If you would like help with decluttering your home, reach out! I live in the Mad
       <li>We can work through any space</li>
       <li>We can work together during sessions OR I can sort through the clutter on my own, having you join for final decisions</li>
       <li>Sessions can also include packing up or unpacking your home</li>
-      <li>I can drop off your decluttered items at a local donation center (cost: $20)</li>
-      <li>Each 3-hour session costs $60</li>
+      <li>I can drop off your decluttered items at a local donation center</li>
+      <li>Contact for an estimate</li>
     </ul>
   </div>
   <div class="services-list__item">
@@ -28,7 +28,7 @@ If you would like help with decluttering your home, reach out! I live in the Mad
       <li>Skype 1 hour and 3 follow-up emails</li>
       <li>We can talk through any space</li>
       <li>While I will not be able to physically help you declutter, I will be your resource, support, and accountability partner</li>
-      <li>A 1-hour session with 3 follow-up emails costs $30</li>
+      <li>Contact for an estimate30</li>
     </ul>
   </div>
 </div>
