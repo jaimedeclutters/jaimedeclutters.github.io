@@ -1,8 +1,27 @@
 .site-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0 0.5rem;
-  border-bottom: $box-border;
+  padding: 1rem;
+  position: relative;
+}
+
+.header-title, .header-subtitle {
+  max-width: calc(100% - 4rem);
+  margin: 0 auto 1rem;
+  text-align: center;
+
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.header-title {
+  @include has-nav-link;
+}
+
+.header-subtitle {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.125rem;
+  text-transform: lowercase;
 }
