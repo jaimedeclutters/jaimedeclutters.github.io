@@ -12,16 +12,21 @@
     cursor: pointer;
     a {
       text-decoration: none;
-      outline: none;
+      color: $text-primary-color;
+      transition: color $transition-duration;
+      &.active, &:hover, &:focus {
+        outline: none;
+        color: $text-secondary-color;
+      }
     }
   }
 
   nav.navbar-menu {
     display: none;
-    min-width: 10rem;
+    min-width: 12rem;
     border: 2px solid black;
     background-color: white;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     position: absolute;
     top: 3rem;
     right: 0;
@@ -34,7 +39,7 @@
     transition: all $transition-duration;
   }
 
-  &:hover, &:focus-within {
+  &:focus-within {
     nav.navbar-menu {
       visibility: visible;
       animation: appear $transition-duration;
@@ -45,6 +50,7 @@
 }
 
 ul.navbar-menu-social-list {
+  margin: 0.75rem 0;
   list-style: none;
   padding-left: 0;
   display: flex;
@@ -59,6 +65,7 @@ ul.navbar-menu-social-list {
 }
 
 ul.navbar-menu-list {
+  margin: 0.75rem 0;
   list-style: none;
   padding-left: 0;
   text-align: center;
@@ -71,6 +78,7 @@ ul.navbar-menu-list {
 }
 
 .navbar-menu-footer {
+  margin: 0.75rem 0;
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.5;

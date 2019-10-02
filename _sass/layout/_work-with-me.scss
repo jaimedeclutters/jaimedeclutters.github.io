@@ -6,9 +6,6 @@
 
 .services-list__item {
   flex: 0 0 20rem;
-  @media screen and (max-width: $screen-medium - 1px) {
-    flex: 0 0 18rem;
-  }
 }
 
 h2.services-list__title {

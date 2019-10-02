@@ -30,15 +30,6 @@
   width: 100%;
   background-color: rgba(255, 255, 255, 0.9);
   font-size: 1.75vw;
-  @media screen and (min-width: $screen-small) {
-    font-size: 1.5vw;
-  }
-  @media screen and (min-width: $screen-medium) {
-    font-size: 1vw;
-  }
-  @media screen and (min-width: $screen-large) {
-    font-size: 1vw;
-  }
 }
 #mlb2-1320882.ml-form-embedContainer .ml-form-embedWrapper {
   z-index: 1;

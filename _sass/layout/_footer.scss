@@ -12,9 +12,4 @@
   font-size: 1rem;
   letter-spacing: 0.25rem;
   @include has-nav-link;
-  @media screen and (max-width: $screen-medium - 1px) {
-    font-size: 0.8rem;
-    flex: 0 0 100%;
-    text-align: center;
-  }
 }

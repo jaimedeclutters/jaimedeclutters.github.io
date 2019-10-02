@@ -53,9 +53,6 @@ a.page-list__link {
 
 .page-content {
   font-size: 1rem;
-  @media screen and (max-width: $screen-small) {
-    font-size: 0.8rem;
-  }
   margin: 0 auto;
   h1, h2 {
     text-align: center;
@@ -63,14 +60,11 @@ a.page-list__link {
   }
   h1 {
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 3rem 0.5rem 0;
-    @media screen and (max-width: $screen-medium - 1px) {
-      font-size: 2rem;
-    }
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: 0;
     color: $text-secondary-color;
   }
