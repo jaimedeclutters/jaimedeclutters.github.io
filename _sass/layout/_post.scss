@@ -1,3 +1,8 @@
+.post-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .post__header {
   padding: 2rem 2rem 0;
   text-align: center;
@@ -6,7 +11,7 @@
   }
 
   h1.post__title {
-    margin: 1rem 0 0;
+    margin: 0.5rem 0 0;
     text-align: center;
     text-transform: uppercase;
     font-weight: 100;
@@ -15,10 +20,7 @@
   }
 }
 .post__body {
-  padding: 0em 2em 2em;
-  max-width: 960px;
-  margin: 0 auto;
-
+  padding: 0 2rem;
   h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
     text-transform: uppercase;

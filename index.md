@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome
+image: /assets/images/about/about-thin.jpg
 redirect_from:
   - /photos/index.html
   - /photos/home-tour/
