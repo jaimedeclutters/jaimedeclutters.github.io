@@ -23,6 +23,10 @@ a.post-carousel-nav, a.post-carousel-nav {
   top: 0;
   font-size: 10rem;
   line-height: 1;
+  opacity: 1;
+  transition: opacity $transition-duration;
+  animation: appear $transition-duration;
+  animation-fill-mode: backwards;
   @include is-icon-link;
   &--left {
     left: -2rem;
@@ -33,6 +37,7 @@ a.post-carousel-nav, a.post-carousel-nav {
     z-index: 10;
   }
   &.disabled {
+    animation: appear $transition-duration;
     display: none;
   }
 }

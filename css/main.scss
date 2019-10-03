@@ -17,6 +17,7 @@ $screen-large: 1024px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'normalize',
+        'effects/appear',
         'typography',
         'subscribe-form',
         'mixins/has-nav-link',
