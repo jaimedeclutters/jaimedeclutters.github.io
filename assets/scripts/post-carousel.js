@@ -22,11 +22,20 @@ function set_as_first(seat, list) {
   seats = list.querySelectorAll('li.post-carousel__item');
 
   existing_minus_one = list.querySelector('.is-previous');
-  if (existing_minus_one) {
-    existing_minus_one.classList.remove('is-previous');
+  new_minus_one = previous(seat, seats);
+
+  if (existing_minus_one === new_minus_one) {
+    // already set; go ahead and return
+    return;
   }
 
-  new_minus_one = previous(seat, seats);
+  let initial_load = false;
+
+  if (existing_minus_one) {
+    existing_minus_one.classList.remove('is-previous');
+  } else {
+    initial_load = true;
+  }
 
   load_element = seat;
   for (let i = 0; i < 3; i += 1) {
@@ -41,6 +50,11 @@ function set_as_first(seat, list) {
   for (let i = 2; i <= seats.length; i += 1) {
     next_seat = next(next_seat, seats)
     next_seat.style.order = i;
+  }
+
+  if (!initial_load) {
+    list.classList.remove('is-set');
+    setTimeout(() => list.classList.add('is-set'), 50);
   }
 }
 
@@ -59,9 +73,6 @@ function scrollCarouselLeft(carousel) {
   carousel_list.classList.add('is-reversing');
 
   set_as_first(new_first, carousel_list);
-
-  carousel_list.classList.remove('is-set');
-  setTimeout(() => carousel_list.classList.add('is-set'), 50);
 }
 
 function scrollCarouselRight(carousel) {
@@ -75,9 +86,6 @@ function scrollCarouselRight(carousel) {
   carousel_list.classList.remove('is-reversing');
 
   set_as_first(new_first, carousel_list);
-
-  carousel_list.classList.remove('is-set');
-  setTimeout(() => carousel_list.classList.add('is-set'), 50);
 }
 
 function check_for_tab_press(event) {
@@ -87,6 +95,11 @@ function check_for_tab_press(event) {
       let list_item = link.parentNode;
       let carousel_list = list_item.parentNode;
 
+      if (event.shiftKey) {
+        carousel_list.classList.add("is-reversing");
+      } else {
+        carousel_list.classList.remove("is-reversing");
+      }
       set_as_first(list_item, carousel_list);
     }
 }
