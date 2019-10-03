@@ -2,6 +2,26 @@ console.log("looking for carousels");
 
 const carousels = document.querySelectorAll("div.post-carousel");
 
+function enable_left_button(carousel) {
+  let left_button = carousel.querySelector("a.post-carousel-nav--left");
+  left_button.classList.remove("disabled");
+}
+
+function enable_right_button(carousel) {
+  let left_button = carousel.querySelector("a.post-carousel-nav--right");
+  left_button.classList.remove("disabled");
+}
+
+function disable_left_button(carousel) {
+  let left_button = carousel.querySelector("a.post-carousel-nav--left");
+  left_button.classList.add("disabled");
+}
+
+function disable_right_button(carousel) {
+  let left_button = carousel.querySelector("a.post-carousel-nav--right");
+  left_button.classList.add("disabled");
+}
+
 function previous(seat, seats) {
   let previous_seat = seat.previousElementSibling;
   if (!previous_seat) {
@@ -18,7 +38,8 @@ function next(seat, seats) {
   return next_seat;
 }
 
-function set_as_first(seat, list) {
+function set_as_first(seat, carousel) {
+  let list = carousel.querySelector('ul.post-carousel__list');
   seats = list.querySelectorAll('li.post-carousel__item');
 
   existing_minus_one = list.querySelector('.is-previous');
@@ -44,12 +65,36 @@ function set_as_first(seat, list) {
   }
 
   new_minus_one.classList.add('is-previous');
+  new_minus_one.style.display = "block";
   new_minus_one.style.order = 1;
 
-  next_seat = new_minus_one;
+  let next_seat = seat;
+  hit_end = false;
   for (let i = 2; i <= seats.length; i += 1) {
-    next_seat = next(next_seat, seats)
+    console.log(next_seat);
+
     next_seat.style.order = i;
+
+    if (hit_end) {
+      next_seat.style.display = "none";
+    }
+
+    next_seat = next_seat.nextElementSibling;
+    if (!next_seat) {
+      hit_end = true;
+      next_seat = seats[0];
+    }
+  }
+
+  enable_left_button(carousel);
+  enable_right_button(carousel);
+
+  if (seat === seats[0]) {
+    disable_left_button(carousel);
+  }
+
+  if (seat === seats[seats.length - 1]) {
+    disable_right_button(carousel);
   }
 
   if (!initial_load) {
@@ -72,7 +117,7 @@ function scrollCarouselLeft(carousel) {
 
   carousel_list.classList.add('is-reversing');
 
-  set_as_first(new_first, carousel_list);
+  set_as_first(new_first, carousel);
 }
 
 function scrollCarouselRight(carousel) {
@@ -85,7 +130,7 @@ function scrollCarouselRight(carousel) {
 
   carousel_list.classList.remove('is-reversing');
 
-  set_as_first(new_first, carousel_list);
+  set_as_first(new_first, carousel);
 }
 
 function check_for_tab_press(event) {
@@ -94,13 +139,15 @@ function check_for_tab_press(event) {
       let link = event.target;
       let list_item = link.parentNode;
       let carousel_list = list_item.parentNode;
+      let carousel_wrapper = carousel_list.parentNode;
+      let carousel = carousel_wrapper.parentNode;
 
       if (event.shiftKey) {
         carousel_list.classList.add("is-reversing");
       } else {
         carousel_list.classList.remove("is-reversing");
       }
-      set_as_first(list_item, carousel_list);
+      set_as_first(list_item, carousel);
     }
 }
 
@@ -114,7 +161,7 @@ carousels.forEach( carousel => {
   let first_seat = carousel_list.querySelector("li.post-carousel__item");
   first_seat.classList.add("post-carousel__item--first");
 
-  set_as_first(first_seat, carousel_list);
+  set_as_first(first_seat, carousel);
 
   left_button.addEventListener('click', ele => {
     let carousel = ele.target.parentNode;
