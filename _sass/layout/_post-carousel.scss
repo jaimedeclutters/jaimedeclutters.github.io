@@ -9,16 +9,93 @@
 // {% endfor %}
 // </ul>
 
-ul.post-carousel {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
+div.post-carousel {
+  margin-top: 2rem;
+  position: relative;
+}
+
+div.post-carousel__wrapper {
   overflow-x: hidden;
 }
 
+a.post-carousel-nav, a.post-carousel-nav {
+  position: absolute;
+  top: 0;
+  font-size: 10rem;
+  line-height: 1;
+  @include is-icon-link;
+  &--left {
+    left: -2rem;
+    z-index: 10;
+  }
+  &--right {
+    right: -2rem;
+    z-index: 10;
+  }
+  &.disabled {
+    display: none;
+  }
+}
+
+ul.post-carousel__list {
+  margin-top: 2rem;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: start;
+  position: relative;
+  left: calc((-100%) / 1.0);
+  transform: translateX(100%);
+  @media screen and (min-width: $screen-small) {
+    left: calc((-100%) / 2.0);
+    transform: translateX(50%);
+  }
+  @media screen and (min-width: $screen-medium) {
+    left: calc((-100%) / 3.0);
+    transform: translateX(33.333333333333333333%);
+  }
+  &.is-reversing {
+    transform: translateX(-100%);
+    @media screen and (min-width: $screen-small) {
+      transform: translateX(-50%);
+    }
+    @media screen and (min-width: $screen-medium) {
+      transform: translateX(-33.333333333333333333%);
+    }
+  }
+  &.is-set {
+    transform: none;
+    transition: transform 0.25s ease;
+  }
+}
+
 li.post-carousel__item {
-  flex: 0 0 33.3333333%;
-  padding: 0 1rem;
+  position: relative;
+  order: 2;
+  flex: 0 0 calc(100.0% - 2rem);
+  @media screen and (min-width: $screen-small) {
+    flex-basis: calc((100.0% - 4rem) / 2.0);
+  }
+  @media screen and (min-width: $screen-medium) {
+    flex-basis: calc((100.0% - 6rem) / 3.0);
+  }
+  border: 1px solid black;
+  margin: 0 1rem;
+  padding: 1rem;
+  &.is-previous {
+    order: 1;
+  }
+  &--first {
+    &::before {
+      position: absolute;
+      top: -2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      content: "Latest";
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
 }
 
 h2.post-carousel__item__title {
@@ -28,7 +105,7 @@ h2.post-carousel__item__title {
 }
 
 img.post-carousel__item__image {
-
+  max-width: 100%;
 }
 
 p.post-carousel__item__excerpt {

@@ -20,13 +20,21 @@ When life seems to be throwing too much at you and it's difficult to see the way
 
 I've done this in my own life and can help you make the progress you feel is out of reach. Whether you are looking for ideas or support in your journey, I would be honored to help you succeed.
 
-<ul class="post-carousel">
-{% for post in site.posts %}
-  <li class="post-carousel__item">
-    <img class="post-carousel__item__image" data-src="{{ post.image }}" />
-    <h2 class="post-carousel__item__title">{{ post.title }}</h2>
-    <p class="post-carousel__item__excerpt">{{ post.excerpt | strip_html }}</p>
-    <a class="post-carousel__item__link" href="{{ post.url }}">Read more</a>
-  </li>
-{% endfor %}
-</ul>
+<div class="post-carousel">
+  <a href="javascript:;" class="post-carousel-nav post-carousel-nav--left">&lsaquo;</a>
+  <a href="javascript:;" class="post-carousel-nav post-carousel-nav--right">&rsaquo;</a>
+  <div class="post-carousel__wrapper">
+    <ul class="post-carousel__list is-set">
+    {% for post in site.posts %}
+      <li class="post-carousel__item">
+        <img class="post-carousel__item__image" data-src="{{ post.image }}" />
+        <h2 class="post-carousel__item__title">{{ post.title }}</h2>
+        <p class="post-carousel__item__excerpt">{{ post.excerpt | strip_html }}</p>
+        <a class="post-carousel__item__link" href="{{ post.url }}">Read more</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<script async type="text/javascript" src="{{site.url}}/assets/scripts/post-carousel.js" />

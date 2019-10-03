@@ -1,0 +1,11 @@
+@mixin is-icon-link {
+  text-decoration: none !important;
+  color: $text-primary-color;
+  transition: color $transition-duration;
+  border-bottom: 0px;
+  &.active, &:hover, &:focus {
+    outline: none;
+    color: $text-secondary-color;
+    border-bottom: 0px;
+  }
+}
