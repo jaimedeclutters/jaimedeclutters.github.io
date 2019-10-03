@@ -18,6 +18,32 @@ function next(seat, seats) {
   return next_seat;
 }
 
+function set_as_first(seat, list) {
+  seats = list.querySelectorAll('li.post-carousel__item');
+
+  existing_minus_one = list.querySelector('.is-previous');
+  if (existing_minus_one) {
+    existing_minus_one.classList.remove('is-previous');
+  }
+
+  new_minus_one = previous(seat, seats);
+
+  load_element = seat;
+  for (let i = 0; i < 3; i += 1) {
+    load_image(load_element);
+    load_element = next(load_element, seats);
+  }
+
+  new_minus_one.classList.add('is-previous');
+  new_minus_one.style.order = 1;
+
+  next_seat = new_minus_one;
+  for (let i = 2; i <= seats.length; i += 1) {
+    next_seat = next(next_seat, seats)
+    next_seat.style.order = i;
+  }
+}
+
 function load_image(seat) {
   let image = seat.querySelector('img.post-carousel__item__image');
   image.src = image.dataset.src;
@@ -28,22 +54,11 @@ function scrollCarouselLeft(carousel) {
   let seats = carousel.querySelectorAll('li.post-carousel__item');
   let off_left = carousel.querySelector('.is-previous');
 
-  load_image(off_left);
-
-  off_left.classList.remove('is-previous');
-
-  let new_off_left = previous(off_left, seats)
+  let new_first = off_left;
 
   carousel_list.classList.add('is-reversing');
-  new_off_left.classList.add('is-previous');
-  new_off_left.style.order = 1;
 
-  next_seat = new_off_left;
-  let seat_count = seats.length;
-  for (let i = 2; i <= seat_count; i += 1) {
-    next_seat = next(next_seat, seats);
-    next_seat.style.order = i;
-  }
+  set_as_first(new_first, carousel_list);
 
   carousel_list.classList.remove('is-set');
   setTimeout(() => carousel_list.classList.add('is-set'), 50);
@@ -54,26 +69,12 @@ function scrollCarouselRight(carousel) {
   let seats = carousel.querySelectorAll('li.post-carousel__item');
   let off_left = carousel.querySelector('.is-previous');
 
-  load_element = off_left;
-  for (let i = 0; i < 4; i += 1) {
-    load_element = next(load_element, seats);
-    load_image(load_element);
-  }
-
-  off_left.classList.remove('is-previous');
-
   let new_off_left = next(off_left, seats);
+  let new_first = next(new_off_left, seats);
 
   carousel_list.classList.remove('is-reversing');
-  new_off_left.classList.add('is-previous');
-  new_off_left.style.order = 1;
 
-  next_seat = new_off_left;
-  let seat_count = seats.length;
-  for (let i = 2; i <= seat_count; i += 1) {
-    next_seat = next(next_seat, seats)
-    next_seat.style.order = i;
-  }
+  set_as_first(new_first, carousel_list);
 
   carousel_list.classList.remove('is-set');
   setTimeout(() => carousel_list.classList.add('is-set'), 50);
@@ -85,26 +86,8 @@ function check_for_tab_press(event) {
       let link = event.target;
       let list_item = link.parentNode;
       let carousel_list = list_item.parentNode;
-      let carousel_wrapper = carousel_list.parentNode;
-      let carousel = carousel_wrapper.parentNode;
-      let is_previous = carousel_list.querySelector('.is-previous');
 
-      let seats = carousel_list.querySelectorAll('li.post-carousel__item');
-      if (event.shiftKey) {
-        // Scroll if previous of current "is-previous"
-        let prev = previous(list_item, seats)
-
-        if (prev === is_previous) {
-          scrollCarouselLeft(carousel);
-        }
-      } else {
-        // Scroll if current is not the first item (aka next of is-previous
-        let first_in_list = next(is_previous, seats);
-
-        if (list_item !== first_in_list) {
-          scrollCarouselRight(carousel);
-        }
-      }
+      set_as_first(list_item, carousel_list);
     }
 }
 
@@ -113,6 +96,12 @@ carousels.forEach( carousel => {
 
   let left_button = carousel.querySelector("a.post-carousel-nav--left");
   let right_button = carousel.querySelector("a.post-carousel-nav--right");
+
+  let carousel_list = carousel.querySelector("ul.post-carousel__list");
+  let first_seat = carousel_list.querySelector("li.post-carousel__item");
+  first_seat.classList.add("post-carousel__item--first");
+
+  set_as_first(first_seat, carousel_list);
 
   left_button.addEventListener('click', ele => {
     let carousel = ele.target.parentNode;
@@ -123,15 +112,6 @@ carousels.forEach( carousel => {
     let carousel = ele.target.parentNode;
     scrollCarouselRight(carousel);
   });
-
-  let seats = carousel.querySelectorAll("li.post-carousel__item");
-  for (let i = 0; i < 3; i += 1) {
-    load_image(seats[i]);
-  };
-  seats[0].classList.add("post-carousel__item--first");
-  seats[seats.length - 1].classList.add("is-previous");
-
-  let carousel_list = carousel.querySelector("ul.post-carousel__list");
 
   carousel_list.addEventListener('keyup', check_for_tab_press);
 });
