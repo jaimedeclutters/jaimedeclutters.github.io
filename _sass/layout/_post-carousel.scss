@@ -1,0 +1,40 @@
+// <ul class="post-carousel">
+// {% for post in site.posts %}
+//   <li class="post-carousel__item">
+//     <img class="post-carousel__item__image" data-src="{{ post.image }}" />
+//     <h2 class="post-carousel__item__title">{{ post.title }}</h2>
+//     <p class="post-carousel__item__excerpt">{{ post.excerpt }}</p>
+//     <a class="post-carousel__item__link" href="{{ post.url }}">Read more</a>
+//   </li>
+// {% endfor %}
+// </ul>
+
+ul.post-carousel {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  overflow-x: hidden;
+}
+
+li.post-carousel__item {
+  flex: 0 0 33.3333333%;
+  padding: 0 1rem;
+}
+
+h2.post-carousel__item__title {
+  font-size: 1.125rem;
+  text-transform: none;
+  text-align: center;
+}
+
+img.post-carousel__item__image {
+
+}
+
+p.post-carousel__item__excerpt {
+  font-size: 1.125rem;
+}
+
+a.post-carousel__item__link {
+  font-size: 1.125rem;
+}
