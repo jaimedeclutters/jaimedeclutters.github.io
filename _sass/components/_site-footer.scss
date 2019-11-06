@@ -1,0 +1,38 @@
+// <footer class="site-footer">
+//   <ul>
+//     <li>Located in Cottage Grove, WI</li>
+//     <li>Jaime works in the Madison area</li>
+//     <li>She is also open to traveling</li>
+//   </ul>
+//   <hr />
+// </footer>
+
+footer.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 2rem 2rem 4rem;
+
+  background-color: var(--accent-color);
+  color: black;
+  ul {
+    flex: 0 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-left: 0;
+    list-style: none;
+    li {
+      flex: 0 0 100%;
+      text-align: center;
+      font-size: 1.375rem;
+      letter-spacing: 0.25rem;
+    }
+  }
+  hr {
+    margin: 1.5rem 0;
+    flex: 0 0 16rem;
+    border-color: black;
+  }
+}
