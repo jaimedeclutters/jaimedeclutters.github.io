@@ -1,5 +1,5 @@
 html {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 10.5px;
   line-height: 1.5;
   @media screen and (min-width: $screen-small) {
@@ -14,11 +14,11 @@ html {
 }
 
 body {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
 }
 h2 { font-size: 2.0rem; }

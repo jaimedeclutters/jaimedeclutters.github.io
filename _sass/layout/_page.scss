@@ -14,7 +14,7 @@
   margin: 1em 0;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.25em;
 }
 
@@ -56,7 +56,7 @@ a.page-list__link {
   margin: 0 auto;
   h1, h2 {
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
   }
   h1 {
     text-transform: uppercase;
@@ -69,7 +69,7 @@ a.page-list__link {
     color: $text-secondary-color;
   }
   ol {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.75rem;
     text-transform: uppercase;
     li {
@@ -87,7 +87,7 @@ a.page-list__link {
     margin: 1rem 0;
     color: $text-secondary-color;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1rem;
   }
 }
