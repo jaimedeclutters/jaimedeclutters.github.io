@@ -1,4 +1,18 @@
-# Build settings
+title: Jaime Declutters
+description: Removing Clutter So You Can Pursue An Awesome Life
+email: jaimedurheim@gmail.com
+logo: "/assets/logo/logo-full-435x165.png"
+
+name: Jaime Durheim
+author: Jaime Durheim
+
+timezone: America/Chicago
+
+permalink: /:categories/:slug/
+
+url: "https://www.jaimedeclutters.com"
+baseurl: ""
+
 plugins:
   - jemoji
   - jekyll-paginate
@@ -6,18 +20,3 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
-
-title: "Jaime Declutters"
-description: Removing Clutter So You Can Pursue An Awesome Life
-email: jaimedurheim@gmail.com
-logo: "/assets/images/jd_logo.jpg"
-
-name: 'Jaime Durheim'
-author: 'Jaime Durheim'
-
-timezone: America/Chicago
-
-permalink: /:categories/:slug/
-
-url: "https://www.jaimedeclutters.com" # the base hostname & protocol for your site
-baseurl: ""
