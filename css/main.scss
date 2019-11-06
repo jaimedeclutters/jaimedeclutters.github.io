@@ -15,6 +15,10 @@ $screen-small: 425px;
 $screen-medium: 768px;
 $screen-large: 1024px;
 
+:root {
+  --accent-color: #DEFAD2;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'normalize',
         'effects/appear',
@@ -33,4 +37,5 @@ $screen-large: 1024px;
         'layout/post-carousel',
         'layout/icon',
         'layout/work-with-me',
+        'components/site-header',
         'terracycle';
