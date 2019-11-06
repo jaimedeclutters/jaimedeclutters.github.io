@@ -3,13 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  {% include layout/head/analytics.html %}
+  {% include head/analytics.html %}
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/css/main.css?" | prepend: site.baseurl }}{{ site.time | date: "%s" }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  {% include layout/head/favicon.html %}
+  {% include head/favicon.html %}
 
   {% seo %}
 </head>

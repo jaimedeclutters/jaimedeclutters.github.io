@@ -27,13 +27,20 @@ $screen-large: 1024px;
         'mixins/has-nav-link',
         'mixins/has-text-link',
         'mixins/is-icon-link',
-        'layout/default',
-        'layout/main',
         'layout/page',
         'layout/post',
-        'layout/post-carousel',
         'layout/icon',
         'layout/work-with-me',
         'components/site-header',
+        'components/site-content',
         'components/site-footer',
         'terracycle';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
