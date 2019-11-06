@@ -5,21 +5,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
 
-# Site settings
 title: "Jaime Declutters"
-# fill in description to get description
-# description:
+description: Removing Clutter So You Can Pursue An Awesome Life
 email: jaimedurheim@gmail.com
-#blog logo
 logo: "/assets/images/jd_logo.jpg"
-logo_normal: "/assets/images/jd_logo_normal.jpg"
-# blog cover
-cover: "/assets/images/site-backdrop.jpg"
 
 name: 'Jaime Durheim'
 author: 'Jaime Durheim'
-author_image: "/assets/images/author.jpg"
 
 timezone: America/Chicago
 
@@ -27,43 +21,3 @@ permalink: /:categories/:slug/
 
 url: "https://www.jaimedeclutters.com" # the base hostname & protocol for your site
 baseurl: ""
-
-rss-imageW: 320
-rss-imageH: 320
-
-collections:
-  category:
-    output: true
-
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
-
-# social icons and sharing options
-social:
-#  - icon:	twitter
-#    url:	https://twitter.com/dirkfabisch
-#    desc: Follow me on twitter
-#    share_url: http://twitter.com/share
-#    share_title: ?text=
-#    share_link: "&amp;url="
-
-#  - icon:	facebook
-#    url:	https://facebook.com/JaimeDeclutters
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-#  - icon:	github
-#    url:	https://github.com/dirkfabisch
-#    desc:	Fork me on github
-#    share_url:
-#    share_title:
-#    share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
