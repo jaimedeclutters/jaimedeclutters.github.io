@@ -8,11 +8,18 @@ header.site-header {
 
   margin: 1rem 0;
 
+  background-color: var(--base-color);
+  color: var(--contrast-color);
+
+  &.over-image {
+    background-color: transparent;
+  }
+
   div.header-logo {
     flex: 0 0 100%;
     text-align: center;
     img {
-      max-height: 7rem;
+      max-height: 10rem;
       max-width: calc(100% - 3rem);
     }
 
@@ -36,23 +43,30 @@ header.site-header {
       }
 
       li {
-        flex: 0 0 12rem;
+        flex: 0 0 auto;
         margin: 1rem;
-        text-align: center;
-
-        font-size: 1rem;
-        font-weight: bold;
-
         &.active {
 
         }
-        &.header-nav-cta {
+        a.cta-button {
           border: 0.125rem solid black;
-          border-radius: 0.25rem;
+          border-radius: 1rem;
 
-          padding: 0.5rem;
+          font-size: 1.5rem;
 
-          background-color: var(--accent-color);
+          padding: 2rem 1rem;
+
+          text-decoration: none;
+          text-align: center;
+
+          background-color: var(--contrast-color);
+          color: var(--base-color);
+
+          &:hover, &:focus {
+            background-color: var(--accent-color);
+            color: var(--contrast-color);
+          }
+
         }
       }
     }
