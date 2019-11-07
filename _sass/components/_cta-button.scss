@@ -1,0 +1,23 @@
+a.cta-button {
+  border: 0.125rem solid black;
+  border-radius: 1rem;
+
+  font-size: 1.5rem;
+  letter-spacing: 0.125rem;
+
+  padding: 1.5rem;
+
+  text-decoration: none;
+  text-align: center;
+
+  background-color: var(--contrast-color);
+  color: var(--base-color);
+
+  transition: color var(--color-transition),
+              background-color var(--color-transition);
+
+  &:hover, &:focus {
+    background-color: transparent;
+    color: var(--contrast-color);
+  }
+}

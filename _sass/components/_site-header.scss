@@ -1,12 +1,18 @@
 header.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   flex: 0 0 auto;
+  z-index: 10;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
-  margin: 1rem 0;
+  margin: 2rem 0;
 
   background-color: var(--base-color);
   color: var(--contrast-color);
@@ -17,58 +23,29 @@ header.site-header {
 
   div.header-logo {
     flex: 0 0 100%;
+    margin: 0 1.75rem 2rem;
     text-align: center;
     img {
-      max-height: 10rem;
+      max-height: 12rem;
       max-width: calc(100% - 3rem);
     }
 
-    @media screen and (min-width: 425px) {
+    @media screen and (min-width: $screen-medium) {
       flex-basis: auto;
+      img {
+        max-height: 9rem;
+      }
     }
   }
 
   nav.header-nav {
+    display: none;
     flex: 1 1 auto;
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    margin: 0 1.75rem;
+    text-align: right;
 
-      list-style: none;
-      padding-left: 0;
-
-      @media screen and (min-width: $screen-small) {
-        justify-content: flex-end;
-      }
-
-      li {
-        flex: 0 0 auto;
-        margin: 1rem;
-        &.active {
-
-        }
-        a.cta-button {
-          border: 0.125rem solid black;
-          border-radius: 1rem;
-
-          font-size: 1.5rem;
-
-          padding: 2rem 1rem;
-
-          text-decoration: none;
-          text-align: center;
-
-          background-color: var(--contrast-color);
-          color: var(--base-color);
-
-          &:hover, &:focus {
-            background-color: var(--accent-color);
-            color: var(--contrast-color);
-          }
-
-        }
-      }
+    @media screen and (min-width: $screen-medium) {
+      display: block;
     }
   }
 }

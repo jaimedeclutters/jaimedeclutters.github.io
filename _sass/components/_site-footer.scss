@@ -1,10 +1,10 @@
 footer.site-footer {
   flex: 0 0 auto;
+  z-index: 10;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 2rem;
   padding: 2rem 2rem 4rem;
 
   background-color: var(--contrast-color);

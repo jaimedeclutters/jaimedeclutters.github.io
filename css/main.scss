@@ -19,6 +19,8 @@ $screen-large: 1024px;
   --base-color: white;
   --contrast-color: black;
   --accent-color: #DEFAD2;
+
+  --color-transition: 250ms ease-in-out 0ms;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -33,6 +35,9 @@ $screen-large: 1024px;
         'layout/post',
         'layout/icon',
         'layout/work-with-me',
+        'components/battle-box',
+        'components/cta-button',
+        'components/hero-box',
         'components/site-header',
         'components/site-content',
         'components/site-footer',
