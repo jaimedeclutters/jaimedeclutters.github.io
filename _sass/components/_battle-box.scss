@@ -1,0 +1,41 @@
+div.battle-box {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: flex-start;
+  justify-content: center;
+
+  overflow: hidden;
+
+  h2 {
+    flex: 0 1 60rem;
+
+    margin: 4rem 0 2rem;
+    padding: 0 1rem;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+  }
+  ul {
+    flex: 0 0 100%;
+    padding: 0 1rem;
+    list-style: none;
+    li {
+      font-size: 1.75rem;
+      letter-spacing: 0.25rem;
+    }
+  }
+  a {
+    flex: 0 0 auto;
+    margin: 2rem 0 4rem;
+  }
+  img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}

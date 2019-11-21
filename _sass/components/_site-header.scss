@@ -1,0 +1,51 @@
+header.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  flex: 0 0 auto;
+  z-index: 10;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 2rem 0;
+
+  background-color: var(--base-color);
+  color: var(--contrast-color);
+
+  &.over-image {
+    background-color: transparent;
+  }
+
+  div.header-logo {
+    flex: 0 0 100%;
+    margin: 0 1.75rem 2rem;
+    text-align: center;
+    img {
+      max-height: 12rem;
+      max-width: calc(100% - 3rem);
+    }
+
+    @media screen and (min-width: $screen-medium) {
+      flex-basis: auto;
+      img {
+        max-height: 8rem;
+      }
+    }
+  }
+
+  nav.header-nav {
+    display: none;
+    flex: 1 1 auto;
+    margin: 1rem 1rem 0;
+    text-align: right;
+
+    @media screen and (min-width: $screen-medium) {
+      display: block;
+    }
+  }
+}

@@ -1,6 +1,5 @@
 ---
 layout: default
-class: landing
 redirect_from:
   - /photos/index.html
   - /photos/home-tour/
@@ -15,11 +14,17 @@ redirect_from:
   - /page10/
 ---
 
-<h1>Create space<br><span class="subheading">in your home</span></h1>
+{% include components/hero-box.html
+           title="A Home Without Clutter"
+           subtitle="Decluttering, Organization, and Design"
+           background-image="home/kitchen-space.jpg" %}
 
-<nav class="landing-nav">
-  <ul class="landing-links">
-    <li class="landing-link landing-link--newsletter"><a href="#">Monthly Newsletter</a></li>
-  </ul>
-</nav>
-{% include subscribe-form.html %}
+{% include components/hit-points.html %}
+
+{% include components/battle-box.html %}
+
+{% include components/benefit-box.html %}
+
+{% include components/schedule-box.html %}
+
+<script src='{{site.url}}/assets/scripts/smooth-scroll.js' type="text/javascript"></script>

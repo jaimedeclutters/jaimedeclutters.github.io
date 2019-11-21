@@ -1,0 +1,69 @@
+.schedule-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem 0;
+
+  form {
+    flex: 0 1 40rem;
+    padding: 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.25rem;
+    }
+    input, textarea, button {
+      margin: 1rem 0;
+      padding: 0.5rem 1rem;
+
+      border: 0.125rem solid var(--accent-color-mid-dark);
+      border-radius: 0.5rem;
+
+      transition: color var(--color-transition),
+                  background-color var(--color-transition),
+                  border-color var(--color-transition);
+
+      font-size: 1.25rem;
+      &:hover, &:focus {
+        border-color: var(--contrast-color);
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+
+    textarea {
+      flex: 1 0 auto;
+    }
+
+    button {
+      color: var(--base-color);
+      background-color: var(--contrast-color);
+      border-color: var(--contrast-color);
+
+      &:hover, &:focus {
+        background-color: transparent;
+        color: var(--contrast-color);
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .image-container {
+    display: none;
+    flex: 0 1 20rem;
+    max-width: 20rem;
+    @media screen and (min-width: $screen-medium) {
+      display: block;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}

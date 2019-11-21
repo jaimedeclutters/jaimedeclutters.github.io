@@ -1,3 +1,11 @@
+.post-content {
+  max-width: 960px;
+  margin: 16rem auto 2rem;
+  @media screen and (min-width: $screen-medium) {
+    margin: 12rem auto 2rem;
+  }
+}
+
 .post__header {
   padding: 2rem 2rem 0;
   text-align: center;
@@ -6,33 +14,25 @@
   }
 
   h1.post__title {
-    margin: 1rem 0 0;
+    margin: 0.5rem 0 0;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 100;
-    font-size: 3rem;
-    @media screen and (max-width: $screen-medium - 1px) {
-      font-size: 2rem;
-    }
+    font-weight: 300;
+    font-size: 2.5rem;
+    letter-spacing: 0.125rem;
   }
 }
 .post__body {
-  padding: 0em 2em 2em;
-  max-width: 960px;
-  margin: 0 auto;
+  padding: 0 2rem;
   h1, h2, h3, h4, h5, h6 {
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
-    font-weight: 100;
     margin: 2rem 0 0;
   }
-  h2 { font-size: 2.0rem; }
-  h3 { font-size: 1.9rem; }
-  h4 { font-size: 1.8rem; }
-  h5 { font-size: 1.7rem; }
-  h6 { font-size: 1.6rem; }
 
-  p, ol, ul, li { font-size: 1.5rem; margin: 1rem 0; }
+  p, ol, ul, li {
+    margin: 1rem 0;
+  }
 
   img {
     display: block;

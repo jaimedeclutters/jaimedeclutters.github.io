@@ -1,8 +1,0 @@
-<nav class="site-navbar">
-  <ul class="site-navbar__nav-list">
-    {% assign current = page.url | downcase | split: '/' %}
-    {% include /layout/navbar-item.html path='blog' title='Blog' %}
-    {% include /layout/navbar-item.html path='about' title='About' %}
-    {% include /layout/navbar-item.html path='services' title='Services' %}
-  </ul>
-</nav>
