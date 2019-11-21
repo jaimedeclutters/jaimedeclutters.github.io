@@ -53,7 +53,10 @@ a.page-list__link {
 
 .page-content {
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 16rem auto 2rem;
+  @media screen and (min-width: $screen-medium) {
+    margin: 12rem auto 2rem;
+  }
   h1, h2 {
     text-align: center;
     font-weight: 300;

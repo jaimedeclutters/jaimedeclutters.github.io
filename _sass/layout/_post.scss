@@ -1,6 +1,9 @@
 .post-content {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 16rem auto 2rem;
+  @media screen and (min-width: $screen-medium) {
+    margin: 12rem auto 2rem;
+  }
 }
 
 .post__header {

@@ -18,7 +18,11 @@ $screen-large: 1024px;
 :root {
   --base-color: white;
   --contrast-color: black;
-  --accent-color: #DEFAD2;
+  --accent-color-light: whitesmoke;
+  --accent-color-mid-light: lightgray;
+  --accent-color-mid: silver;
+  --accent-color-mid-dark: darkgray;
+  --accent-color-dark: gray;
 
   --color-transition: 250ms ease-in-out 0ms;
 }
@@ -36,8 +40,11 @@ $screen-large: 1024px;
         'layout/icon',
         'layout/work-with-me',
         'components/battle-box',
+        'components/benefit-box',
         'components/cta-button',
         'components/hero-box',
+        'components/hit-points',
+        'components/schedule-box',
         'components/site-header',
         'components/site-content',
         'components/site-footer',

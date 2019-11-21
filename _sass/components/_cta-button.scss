@@ -5,7 +5,8 @@ a.cta-button {
   font-size: 1.5rem;
   letter-spacing: 0.125rem;
 
-  padding: 1.5rem;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
 
   text-decoration: none;
   text-align: center;
@@ -17,6 +18,7 @@ a.cta-button {
               background-color var(--color-transition);
 
   &:hover, &:focus {
+    outline: none;
     background-color: transparent;
     color: var(--contrast-color);
   }

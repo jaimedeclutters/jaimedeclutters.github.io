@@ -1,0 +1,28 @@
+ul.hit-points {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex: 0 0 100%;
+    @media screen and (min-width: $screen-medium) {
+      flex: 0 0 calc(100% / 3.0);
+    }
+    padding: 1.5rem 0;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: bold;
+
+    &:nth-child(1) {
+      background-color: var(--accent-color-mid-light);
+    }
+    &:nth-child(2) {
+      background-color: var(--accent-color-mid);
+    }
+    &:nth-child(3) {
+      background-color: var(--accent-color-mid-dark);
+    }
+  }
+}

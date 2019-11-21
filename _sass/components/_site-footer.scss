@@ -5,8 +5,30 @@ footer.site-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem 2rem 4rem;
+  padding: 2rem 2rem 0.5rem;
 
   background-color: var(--contrast-color);
   color: var(--base-color);
+  a {
+
+    color: var(--base-color);
+    text-decoration: none;
+    &:hover, &:focus {
+      outline: none;
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    flex: 0 0 100%;
+    font-size: 1rem;
+  }
+  ul {
+    flex: 0 0 100%;
+    padding: 0;
+    list-style: none;
+    li {
+      font-size: 1rem;
+    }
+  }
 }

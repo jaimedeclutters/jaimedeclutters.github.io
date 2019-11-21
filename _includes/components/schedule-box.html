@@ -1,0 +1,16 @@
+<div class="schedule-box" id="schedule-consultation">
+  <form action="https://formspree.io/hello@jaimedeclutters.com" method="POST">
+    <h2>Schedule a Free Consultation</h2>
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="tel" name="phone" placeholder="Phone" required>
+    <input type="email" name="_replyto" placeholder="Email" required>
+    <textarea name="message" placeholder="How can I help?" required></textarea>
+    <input type="hidden" name="_next" value="{{ "/thanks/" | prepend: site.baseurl }}" />
+    <input type="hidden" name="_subject" value="Request for Free Consultation | Jaime Declutters" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <button type="submit">Schedule Now</button>
+  </form>
+  <div class="image-container">
+    <img src="{{site.url}}/assets/images/home/jaime-doorway.jpg" />
+  </div>
+</div>

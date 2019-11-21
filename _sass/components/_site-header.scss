@@ -10,7 +10,7 @@ header.site-header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
   margin: 2rem 0;
 
@@ -33,7 +33,7 @@ header.site-header {
     @media screen and (min-width: $screen-medium) {
       flex-basis: auto;
       img {
-        max-height: 9rem;
+        max-height: 8rem;
       }
     }
   }
@@ -41,7 +41,7 @@ header.site-header {
   nav.header-nav {
     display: none;
     flex: 1 1 auto;
-    margin: 0 1.75rem;
+    margin: 1rem 1rem 0;
     text-align: right;
 
     @media screen and (min-width: $screen-medium) {
