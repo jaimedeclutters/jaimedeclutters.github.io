@@ -1,9 +1,24 @@
 <footer class="site-footer">
-  <p><a href="{{site.url}}#schedule-consultation">Schedule a Free Consultation</a></p>
-
-  <ul>
-    <li><a href="{{site.url}}/blog">Blog</a></li>
-    <li><a href="{{site.url}}/about">About</a></li>
-  </ul>
-  <p>© 2016 - {{ 'now' | date: "%Y" }}</p>
+  <div class="logo">
+    <a href="{{site.url}}">
+      <img src="{{site.url}}/assets/images/logo/logo-white-full-437x181.png" />
+    </a>
+  </div>
+  <div class="links">
+    <ul>
+      <li><a class="smooth-scroller" href="{{site.url}}#schedule-consultation">Schedule a Free Consultation</a></li>
+      <li><a href="{{site.url}}/blog">Blog</a></li>
+      <li><a href="{{site.url}}/about">About</a></li>
+    </ul>
+  </div>
+  <div class="contact">
+    <ul>
+      <li>Location: Cottage Grove, WI</li>
+      <li>Email: <a href="mailto:hello@jaimedeclutters.com">hello@jaimedeclutters.com</a></li>
+      <li>Phone: <a href="tel:9209884545">(920) 988-4545</a></li>
+    </ul>
+  </div>
+  <div class="copyright">
+    <p>© 2016 - {{ 'now' | date: "%Y" }}</p>
+  </div>
 </footer>

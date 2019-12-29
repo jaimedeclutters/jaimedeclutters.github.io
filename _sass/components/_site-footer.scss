@@ -4,11 +4,32 @@ footer.site-footer {
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 2rem 2rem 0.5rem;
+  justify-content: space-between;
+  padding: 2rem 2rem 1rem;
 
   background-color: var(--contrast-color);
   color: var(--base-color);
+  .logo {
+    flex: 0 0 100%;
+    margin: 1rem 0;
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 14rem;
+    }
+
+    @media screen and (min-width: $screen-medium) {
+      flex-basis: auto;
+    }
+  }
+  .links, .contact {
+    flex: 0 0 auto;
+    margin: 1rem;
+  }
+  .copyright {
+    flex: 0 0 100%;
+    text-align: center;
+  }
   a {
 
     color: var(--base-color);
