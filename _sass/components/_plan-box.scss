@@ -48,10 +48,14 @@ div.plan-box {
         }
       }
     }
+    a {
+      margin-bottom: 2rem;
+    }
   }
   div.image {
     display: none;
     img {
+      display: block;
       max-width: 100%;
     }
     @media screen and (min-width: $screen-medium) {

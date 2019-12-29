@@ -1,0 +1,37 @@
+<div class="possibility-box" id="possibility-box">
+  <img src="{{site.url}}/assets/images/home/murphy-bed-up.jpg" />
+  <div class="possibility-box__content">
+    <h2>A Clutter-Free Home You Love is Possible</h2>
+    <p>Inviting someone into your home can be embarrassing, but you don't have to feel that way with me. It's a joy to get to know you, sift through the piles, and create a spacious home you will enjoy.</p>
+    <a href="#" class="expand-link show">Continue Reading &rsaquo;</a>
+    <div class="possibility-box__expand">
+      <p>During the free in-home consultation I provide a quote for the entire project. You'll know exactly what the cost will be and what the result will look like before you hire me.</p>
+      <p>You can tackle the clutter by yourself, but you don't have to. I make decluttering stress-free and fun. I'll even save you time by tackling most of it on my own, only removing items with your approval.</p>
+      <p>Jaime Declutters is an investment that will save you stress, time, and money in the future. You will have a home you love, that is easy to maintain, and fits your lifestyle for years to come!</p>
+      {% include components/cta-button.html %}
+      <a href="#possibility-box" class="collapse-link smooth-scroaller">Collapse &lsaquo;</a>
+    </div>
+  </div>
+</div>
+
+<script async type="text/javascript">
+  const expandLink = document.querySelector('.possibility-box a.expand-link');
+  const collapseLink = document.querySelector('.possibility-box a.collapse-link');
+
+  expandLink.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    const expandBox = document.querySelector('.possibility-box .possibility-box__expand');
+
+    expandLink.classList.remove('show');
+    expandBox.classList.add('show');
+  })
+
+  collapseLink.addEventListener('click', (e) => {
+    const expandBox = document.querySelector('.possibility-box .possibility-box__expand');
+
+    expandLink.classList.add('show');
+    expandBox.classList.remove('show');
+  })
+
+</script>
