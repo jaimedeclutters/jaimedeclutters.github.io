@@ -1,0 +1,52 @@
+div.philosophy-box {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: flex-start;
+  justify-content: center;
+
+  h2 {
+    flex: 0 0 100%;
+
+    margin: 3rem 0;
+    padding: 0 1rem;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+  }
+  ul {
+    flex: 0 0 100%;
+    max-width: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 0;
+    li {
+      flex: 0 0 20%;
+      min-width: 15rem;
+      margin: 1rem 2rem;
+      text-align: left;
+
+    }
+  }
+  p {
+    flex: 0 0 100%;
+    padding: 0 20%;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+  }
+  .cta-container {
+    flex: 0 0 100%;
+    margin: 1rem 0 2rem;
+  }
+  img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+  }
+}

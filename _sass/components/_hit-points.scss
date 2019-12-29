@@ -13,7 +13,7 @@ ul.hit-points {
     text-align: center;
     text-transform: uppercase;
     font-size: 2.25rem;
-    font-weight: bold;
+    letter-spacing: 0.5rem;
 
     &:nth-child(1) {
       background-color: var(--accent-color-mid-light);
