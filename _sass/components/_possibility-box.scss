@@ -21,26 +21,25 @@
       text-align: center;
     }
 
-    a {
+    a.expand-link, a.collapse-link {
       display: block;
       margin: 1rem 0;
 
+      color: black;
+
+      &:hover { color: var(--accent-color-dark) }
+
       &.expand-link {
         display: none;
-        &.show {
-          display: block;
-        }
+        &.show { display: block }
       }
     }
-    p {
-      font-size: 1rem;
-    }
+    p { font-size: 1rem }
     .possibility-box__expand {
       display: none;
-      &.show {
-        display: block;
-      }
+      &.show { display: block }
     }
+    .cta-container { margin: 2rem 0 }
   }
   img {
     position: absolute;
