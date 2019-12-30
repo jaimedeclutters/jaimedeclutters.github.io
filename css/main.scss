@@ -18,11 +18,13 @@ $screen-large: 1024px;
 :root {
   --base-color: white;
   --contrast-color: black;
+  --accent-color-extra-light: white;
   --accent-color-light: whitesmoke;
-  --accent-color-mid-light: lightgray;
-  --accent-color-mid: silver;
-  --accent-color-mid-dark: darkgray;
-  --accent-color-dark: gray;
+  --accent-color-mid-light: gainsboro;
+  --accent-color-mid: lightgray;
+  --accent-color-mid-dark: silver;
+  --accent-color-dark: darkgray;
+  --accent-color-extra-dark: gray;
 
   --color-transition: 250ms ease-in-out 0ms;
 }

@@ -16,13 +16,13 @@ ul.hit-points {
     letter-spacing: 0.5rem;
 
     &:nth-child(1) {
-      background-color: var(--accent-color-mid-light);
+      background-color: var(--accent-color-light);
     }
     &:nth-child(2) {
-      background-color: var(--accent-color-mid);
+      background-color: var(--accent-color-mid-light);
     }
     &:nth-child(3) {
-      background-color: var(--accent-color-mid-dark);
+      background-color: var(--accent-color-mid);
     }
   }
 }
