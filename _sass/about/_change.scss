@@ -1,0 +1,46 @@
+.about-change {
+  display: flex;
+  align-items: stretch;
+  .content {
+    flex: 0 0 100%;
+    padding: 0 2rem;
+    h2 {
+      text-align: center;
+      text-transform: none;
+      letter-spacing: 0.5rem;
+      font-weight: bold;
+      padding: 0 2rem 2rem;
+    }
+    p {
+      letter-spacing: 0.25rem;
+    }
+  }
+  .image-container {
+    display: none;
+    flex: 0 0 100%;
+    text-align: right;
+    img {
+      object-fit: cover;
+      object-position: center top;
+      max-width: 100%;
+      min-height: 90vh;
+      max-height: 42rem;
+    }
+  }
+  .cta-container {
+    margin: 2rem 0;
+  }
+  @media screen and (min-width: $screen-medium) {
+    .content {
+      flex: 0 0 70%;
+      h2 {
+        text-align: left;
+        padding: 0 25% 2rem 0;
+      }
+    }
+    .image-container {
+      flex: 0 0 30%;
+      display: block;
+    }
+  }
+}

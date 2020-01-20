@@ -34,7 +34,7 @@
     }
   }
   .description-footer {
-    margin: 0 0 6rem;
+    margin: 0 0 4rem;
     display: flex;
     flex-wrap: wrap;
     .cta-container, .image-container {
@@ -51,7 +51,7 @@
     }
 
     @media screen and (min-width: $screen-medium) {
-      margin: 2rem 0 8rem;
+      margin: 2rem 0 4rem;
       .cta-container {
         flex: 0 0 calc(100% * 2.0 / 3.0);
         padding: 4rem;
