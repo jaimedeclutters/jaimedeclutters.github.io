@@ -4,7 +4,10 @@
       <img src="{{site.url}}/assets/images/logo/logo-full-437x181.png" alt="Jaime Declutters Logo" />
     </a>
   </div>
+
   <nav class="header-nav">
+    {% if page.cta-header %}
     <a class="cta-button smooth-scroller" href="{{site.url}}#schedule-consultation">Schedule a Free Consultation</a>
+    {% endif %}
   </nav>
 </header>
