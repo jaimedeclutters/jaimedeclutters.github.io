@@ -1,5 +1,6 @@
 .about-change {
   display: flex;
+  justify-content: stretch;
   align-items: stretch;
   .content {
     flex: 0 0 100%;
@@ -22,9 +23,7 @@
     img {
       object-fit: cover;
       object-position: center top;
-      max-width: 100%;
-      min-height: 90vh;
-      max-height: 42rem;
+      width: 100%;
     }
   }
   .cta-container {
@@ -32,15 +31,31 @@
   }
   @media screen and (min-width: $screen-medium) {
     .content {
-      flex: 0 0 70%;
+      flex: 0 0 60%;
+      padding: 0 3.33rem;
       h2 {
         text-align: left;
-        padding: 0 25% 2rem 0;
+        padding: 0;
       }
     }
     .image-container {
-      flex: 0 0 30%;
       display: block;
+      flex: 0 0 40%;
+      img {
+        min-height: calc(1631px - 100vw);
+      }
+    }
+  }
+  @media screen and (min-width: $screen-large) {
+    .content {
+      flex: 0 0 70%;
+      padding: 0 6.67vw;
+    }
+    .image-container {
+      flex: 0 0 30%;
+      img {
+        min-height: 46rem;
+      }
     }
   }
 }
