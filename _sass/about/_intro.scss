@@ -21,11 +21,6 @@
 
     margin: 4rem 0;
     text-align: right;
-    img.hexagons {
-      transform: translateX(3rem);
-      max-height: 12rem;
-      max-width: 100%;
-    }
   }
   .cta-button {
     display: inline-block;
@@ -35,12 +30,12 @@
   @media screen and (min-width: $screen-medium) {
     flex-wrap: nowrap;
     min-height: 100vh;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
     div.content {
       flex: 0 0 50%;
       p {
-        margin-top: 16rem;
+        margin-top: 14rem;
         text-align: left;
       }
     }

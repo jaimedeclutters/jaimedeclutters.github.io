@@ -1,11 +1,10 @@
 .about-connection {
   position: relative;
-  margin: 8rem 0 0;
+  margin: 4rem 0 0;
   .content {
     padding: 0 2rem;
     h2 {
       text-align: center;
-      text-transform: none;
       letter-spacing: 0.5rem;
       font-weight: bold;
     }
@@ -22,8 +21,6 @@
 
         h3 {
           flex: 0 0 40%;
-          color: #17568D;
-          text-transform: none;
           letter-spacing: 0.25rem;
         }
         p {
