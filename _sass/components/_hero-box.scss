@@ -32,6 +32,9 @@ div.hero-box {
     height: 100%;
     object-fit: cover;
     object-position: center top;
+    &.about {
+      object-position: center 66.666666667%;
+    }
   }
   h1 {
     flex: 0 0 100%;

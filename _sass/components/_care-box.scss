@@ -17,7 +17,7 @@
     z-index: 5;
   }
 
-  div {
+  div.description {
     flex: 0 0 100%;
     text-align: center;
     z-index: 10;
@@ -34,31 +34,16 @@
       letter-spacing: 0.25rem;
     }
   }
-  ul {
+  div.quote {
     z-index: 10;
     flex: 0 0 100%;
-    padding: 2rem 0;
+    padding: 2rem;
+    background-color: white;
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 0;
-    li {
-      text-align: center;
-      display: inline-block;
-      margin: 1rem auto;
-      letter-spacing: 0.25rem;
-    }
+    font-size: 1.8rem;
 
     @media screen and (min-width: $screen-medium) {
       flex: 0 0 60%;
-      padding: 2rem 0 2rem 4rem;
-
-      li {
-        text-align: left;
-        display: list-item;
-        margin: 1rem 0;
-      }
     }
   }
   img {

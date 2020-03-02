@@ -34,4 +34,14 @@
       }
     }
   }
+
+  .image-box {
+    flex: 0 0 32rem;
+    margin: 1rem;
+    display: block;
+    background: url('/assets/images/home/jaime-porch.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 32rem;
+  }
 }
