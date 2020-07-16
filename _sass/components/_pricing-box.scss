@@ -7,18 +7,17 @@
   align-items: stretch;
 
   .pricing-box {
-    flex: 0 0 32rem;
+    flex: 0 1 64rem;
+    min-width: 32rem;
     margin: 1rem;
     padding: 1rem 2rem 2rem;
     background-color: white;
 
     h2 {
       margin: 0;
-
       font-weight: bold;
       letter-spacing: 0.25rem;
       text-align: center;
-
     }
     .price {
       margin: 1.5rem 0;
@@ -28,10 +27,18 @@
       text-transform: uppercase;
     }
     ul {
-      margin: 1.5rem 0 2rem;
+      margin: 1.5rem auto;
+      max-width: 52rem;
       li {
         margin: 1rem 0;
       }
+    }
+
+    .pricing-box__footer {
+      margin: 1rem 0;
+      text-align: center;
+      font-size: 1.25rem;
+      font-style: italic;
     }
   }
 

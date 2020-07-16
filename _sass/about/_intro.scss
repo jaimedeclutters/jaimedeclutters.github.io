@@ -4,23 +4,13 @@
   div.content {
     flex: 0 0 100%;
     padding: 0 7.5vw;
+    text-align: center;
     p {
-      margin-top: 20rem;
+      margin-top: 6rem;
       font-size: 2rem;
       letter-spacing: 0.25rem;
       text-align: center;
     }
-  }
-  img.side-image {
-    display: none;
-    flex: 0 0 100%;
-  }
-  .image-container {
-    display: block;
-    flex: 0 0 100%;
-
-    margin: 4rem 0;
-    text-align: right;
   }
   .cta-button {
     display: inline-block;
@@ -29,28 +19,13 @@
 
   @media screen and (min-width: $screen-medium) {
     flex-wrap: nowrap;
-    min-height: 100vh;
     margin-bottom: 2rem;
 
     div.content {
-      flex: 0 0 50%;
+      padding: 0 20vw;
       p {
-        margin-top: 14rem;
-        text-align: left;
+        margin-top: 8rem;
       }
-    }
-    img.side-image {
-      display: block;
-      flex: 0 0 50%;
-      object-fit: cover;
-      object-position: left top;
-      max-width: 100%;
-      min-height: 100vh;
-      max-height: 42rem;
-      overflow: hidden;
-    }
-    .image-container {
-      display: none;
     }
   }
 }
