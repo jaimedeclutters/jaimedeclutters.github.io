@@ -13,13 +13,6 @@ permalink: /:categories/:slug/
 url: "https://www.jaimedeclutters.com"
 baseurl: ""
 
-defaults:
-  -
-    scope:
-      path: "/assets/pdfs/*.pdf"
-    values:
-      sitemap: false
-
 plugins:
   - jemoji
   - jekyll-paginate
